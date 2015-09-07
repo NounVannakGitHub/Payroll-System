@@ -24,6 +24,7 @@ Partial Class Form1
     Private Sub InitializeComponent()
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.FileToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ButtonX1 = New DevComponents.DotNetBar.ButtonX()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -42,11 +43,22 @@ Partial Class Form1
         Me.FileToolStripMenuItem.Size = New System.Drawing.Size(37, 20)
         Me.FileToolStripMenuItem.Text = "File"
         '
+        'ButtonX1
+        '
+        Me.ButtonX1.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton
+        Me.ButtonX1.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground
+        Me.ButtonX1.Location = New System.Drawing.Point(276, 107)
+        Me.ButtonX1.Name = "ButtonX1"
+        Me.ButtonX1.Size = New System.Drawing.Size(234, 69)
+        Me.ButtonX1.TabIndex = 1
+        Me.ButtonX1.Text = "ButtonX1"
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1051, 525)
+        Me.Controls.Add(Me.ButtonX1)
         Me.Controls.Add(Me.MenuStrip1)
         Me.MainMenuStrip = Me.MenuStrip1
         Me.Name = "Form1"
@@ -59,5 +71,6 @@ Partial Class Form1
     End Sub
     Friend WithEvents MenuStrip1 As System.Windows.Forms.MenuStrip
     Friend WithEvents FileToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents ButtonX1 As DevComponents.DotNetBar.ButtonX
 
 End Class
