@@ -3,7 +3,7 @@
     Private _highSchoolStartYear As String
     Private _highSchoolEndyear As String
     Private _grade As String
-
+    ''test comment
     Public Property HighSchoolName As String
         Get
             Return _highSchoolName

@@ -51,3 +51,7 @@ D:\My Project\Assignment\Payroll Management System\Payroll-System\bin\Debug\Payr
 D:\My Project\Assignment\Payroll Management System\Payroll-System\obj\Debug\Payroll Management System.exe
 D:\My Project\Assignment\Payroll Management System\Payroll-System\obj\Debug\Payroll Management System.xml
 D:\My Project\Assignment\Payroll Management System\Payroll-System\obj\Debug\Payroll Management System.pdb
+D:\My Project\GitHub\Payroll-System\bin\Debug\Payroll Management System.exe.config
+D:\My Project\GitHub\Payroll-System\obj\Debug\Payroll Management System.exe
+D:\My Project\GitHub\Payroll-System\obj\Debug\Payroll Management System.xml
+D:\My Project\GitHub\Payroll-System\obj\Debug\Payroll Management System.pdb
