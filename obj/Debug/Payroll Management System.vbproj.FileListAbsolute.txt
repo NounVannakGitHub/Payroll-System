@@ -1,0 +1,53 @@
+D:\My Project\Payroll Management System\bin\Debug\Payroll Management System.exe.config
+\\KHOMSOVON\Httrack website copier 3.44.1\Payroll Management System\bin\Debug\Payroll Management System.exe.config
+\\KHOMSOVON\Httrack website copier 3.44.1\Payroll Management System\bin\Debug\Payroll Management System.exe
+\\KHOMSOVON\Httrack website copier 3.44.1\Payroll Management System\bin\Debug\Payroll Management System.pdb
+\\KHOMSOVON\Httrack website copier 3.44.1\Payroll Management System\bin\Debug\Payroll Management System.xml
+\\KHOMSOVON\Httrack website copier 3.44.1\Payroll Management System\obj\Debug\Payroll_Management_System.Form1.resources
+\\KHOMSOVON\Httrack website copier 3.44.1\Payroll Management System\obj\Debug\Payroll_Management_System.frmMenu.resources
+\\KHOMSOVON\Httrack website copier 3.44.1\Payroll Management System\obj\Debug\Payroll_Management_System.Resources.resources
+\\KHOMSOVON\Httrack website copier 3.44.1\Payroll Management System\obj\Debug\Payroll Management System.vbproj.GenerateResource.Cache
+\\KHOMSOVON\Httrack website copier 3.44.1\Payroll Management System\obj\Debug\Payroll Management System.exe
+\\KHOMSOVON\Httrack website copier 3.44.1\Payroll Management System\obj\Debug\Payroll Management System.xml
+\\KHOMSOVON\Httrack website copier 3.44.1\Payroll Management System\obj\Debug\Payroll Management System.pdb
+\\KHOMSOVON\Httrack website copier 3.44.1\Payroll Management System\bin\Debug\DevComponents.DotNetBar2.DLL
+\\KHOMSOVON\Httrack website copier 3.44.1\Payroll Management System\obj\Debug\Payroll_Management_System.frmEmployee.resources
+\\KHOMSOVON\Httrack website copier 3.44.1\Payroll Management System\obj\Debug\Payroll Management System.vbprojResolveAssemblyReference.cache
+\\KHOMSOVON\Httrack website copier 3.44.1\Payroll Management System\obj\Debug\Payroll_Management_System.frmAttendance.resources
+D:\Payroll Management System\bin\Debug\Payroll Management System.exe.config
+D:\Payroll Management System\obj\Debug\Payroll Management System.exe
+D:\Payroll Management System\obj\Debug\Payroll Management System.xml
+D:\Payroll Management System\obj\Debug\Payroll Management System.pdb
+\\BONNEANG\Payroll Management System\bin\Debug\Payroll Management System.exe.config
+\\BONNEANG\Payroll Management System\obj\Debug\Payroll Management System.exe
+\\BONNEANG\Payroll Management System\obj\Debug\Payroll Management System.xml
+\\BONNEANG\Payroll Management System\obj\Debug\Payroll Management System.pdb
+\\BONNEANG\Payroll Management System\bin\Debug\Payroll Management System.exe
+\\BONNEANG\Payroll Management System\bin\Debug\Payroll Management System.pdb
+\\BONNEANG\Payroll Management System\bin\Debug\Payroll Management System.xml
+\\BONNEANG\Payroll Management System\obj\Debug\Payroll Management System.vbprojResolveAssemblyReference.cache
+\\BONNEANG\Payroll Management System\obj\Debug\Payroll_Management_System.Form1.resources
+\\BONNEANG\Payroll Management System\obj\Debug\Payroll_Management_System.frmAttendance.resources
+\\BONNEANG\Payroll Management System\obj\Debug\Payroll_Management_System.frmEmployee.resources
+\\BONNEANG\Payroll Management System\obj\Debug\Payroll_Management_System.frmMenu.resources
+\\BONNEANG\Payroll Management System\obj\Debug\Payroll_Management_System.Resources.resources
+\\BONNEANG\Payroll Management System\obj\Debug\Payroll Management System.vbproj.GenerateResource.Cache
+D:\Payroll Management System\obj\Debug\Payroll Management System.vbprojResolveAssemblyReference.cache
+D:\Payroll Management System\obj\Debug\Payroll_Management_System.Form1.resources
+D:\Payroll Management System\obj\Debug\Payroll_Management_System.frmAttendance.resources
+D:\Payroll Management System\obj\Debug\Payroll_Management_System.frmEmployee.resources
+D:\Payroll Management System\obj\Debug\Payroll_Management_System.frmMenu.resources
+D:\Payroll Management System\obj\Debug\Payroll_Management_System.Resources.resources
+D:\Payroll Management System\obj\Debug\Payroll Management System.vbproj.GenerateResource.Cache
+D:\Payroll Management System\bin\Debug\Payroll Management System.exe
+D:\Payroll Management System\bin\Debug\Payroll Management System.pdb
+D:\Payroll Management System\bin\Debug\Payroll Management System.xml
+D:\Payroll Management System\bin\Debug\DevComponents.DotNetBar2.DLL
+D:\My Project\Assignment\Payroll Management System\bin\Debug\Payroll Management System.exe.config
+D:\My Project\Assignment\Payroll Management System\obj\Debug\Payroll Management System.exe
+D:\My Project\Assignment\Payroll Management System\obj\Debug\Payroll Management System.xml
+D:\My Project\Assignment\Payroll Management System\obj\Debug\Payroll Management System.pdb
+D:\My Project\Assignment\Payroll Management System\Payroll-System\bin\Debug\Payroll Management System.exe.config
+D:\My Project\Assignment\Payroll Management System\Payroll-System\obj\Debug\Payroll Management System.exe
+D:\My Project\Assignment\Payroll Management System\Payroll-System\obj\Debug\Payroll Management System.xml
+D:\My Project\Assignment\Payroll Management System\Payroll-System\obj\Debug\Payroll Management System.pdb
