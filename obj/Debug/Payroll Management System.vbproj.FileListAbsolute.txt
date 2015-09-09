@@ -55,3 +55,23 @@ D:\My Project\GitHub\Payroll-System\bin\Debug\Payroll Management System.exe.conf
 D:\My Project\GitHub\Payroll-System\obj\Debug\Payroll Management System.exe
 D:\My Project\GitHub\Payroll-System\obj\Debug\Payroll Management System.xml
 D:\My Project\GitHub\Payroll-System\obj\Debug\Payroll Management System.pdb
+D:\My Project\GitHub\Payroll-System\bin\Debug\Payroll Management System.exe
+D:\My Project\GitHub\Payroll-System\bin\Debug\Payroll Management System.pdb
+D:\My Project\GitHub\Payroll-System\bin\Debug\Payroll Management System.xml
+D:\My Project\GitHub\Payroll-System\obj\Debug\Payroll Management System.vbprojResolveAssemblyReference.cache
+D:\My Project\GitHub\Payroll-System\obj\Debug\Payroll_Management_System.Form1.resources
+D:\My Project\GitHub\Payroll-System\obj\Debug\Payroll_Management_System.frmAttendance.resources
+D:\My Project\GitHub\Payroll-System\obj\Debug\Payroll_Management_System.frmEmployee.resources
+D:\My Project\GitHub\Payroll-System\obj\Debug\Payroll_Management_System.frmMenu.resources
+D:\My Project\GitHub\Payroll-System\obj\Debug\Payroll_Management_System.frmRegister.resources
+D:\My Project\GitHub\Payroll-System\obj\Debug\Payroll_Management_System.Resources.resources
+D:\My Project\GitHub\Payroll-System\obj\Debug\Payroll Management System.vbproj.GenerateResource.Cache
+D:\My Project\GitHub\Payroll-System\bin\Debug\km\Payroll Management System.resources.dll
+D:\My Project\GitHub\Payroll-System\obj\Debug\Payroll_Management_System.frmRegister.km.resources
+D:\My Project\GitHub\Payroll-System\obj\Debug\km\Payroll Management System.resources.dll
+D:\My Project\GitHub\Payroll-System\bin\Debug\cy-GB\Payroll Management System.resources.dll
+D:\My Project\GitHub\Payroll-System\bin\Debug\km-KH\Payroll Management System.resources.dll
+D:\My Project\GitHub\Payroll-System\obj\Debug\Payroll_Management_System.frmRegister.cy-GB.resources
+D:\My Project\GitHub\Payroll-System\obj\Debug\Payroll_Management_System.frmRegister.km-KH.resources
+D:\My Project\GitHub\Payroll-System\obj\Debug\cy-GB\Payroll Management System.resources.dll
+D:\My Project\GitHub\Payroll-System\obj\Debug\km-KH\Payroll Management System.resources.dll

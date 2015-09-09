@@ -99,11 +99,20 @@
     <Compile Include="frmMenu.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmRegister.Designer.vb">
+      <DependentUpon>frmRegister.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmRegister.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="IAttendence.vb" />
     <Compile Include="IContact.vb" />
     <Compile Include="IDatabaseProcess.vb" />
     <Compile Include="ILeave.vb" />
+    <Compile Include="ILicense.vb" />
     <Compile Include="IPreAttendance.vb" />
+    <Compile Include="License.vb" />
+    <Compile Include="LicenseImpl.vb" />
     <Compile Include="PayrollUtils.vb" />
     <Compile Include="SpousesAddress.vb" />
     <Compile Include="Attendance.vb" />
@@ -170,6 +179,18 @@
     <EmbeddedResource Include="frmMenu.resx">
       <DependentUpon>frmMenu.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmRegister.cy-GB.resx">
+      <DependentUpon>frmRegister.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRegister.km-KH.resx">
+      <DependentUpon>frmRegister.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRegister.km.resx">
+      <DependentUpon>frmRegister.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRegister.resx">
+      <DependentUpon>frmRegister.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
@@ -200,6 +221,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\1441551327_vector_66_04.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="payroll picture\License.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
