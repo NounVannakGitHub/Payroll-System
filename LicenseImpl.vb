@@ -37,4 +37,8 @@ Public Class LicenseImpl
         End If
         Return obj
     End Function
+
+    Public Sub Insert(license As License) Implements ILicense.Insert
+
+    End Sub
 End Class

@@ -8,5 +8,8 @@
             MessageBox.Show("Your language don't have in this system.")
         End If
     End Sub
-
+    Function GetCurrentDateAndTime() As String
+        Dim nowDate As DateTime
+        Return nowDate.Date.ToString
+    End Function
 End Module
