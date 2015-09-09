@@ -9,7 +9,7 @@ Public Class LicenseImpl
         Dim licKey As String = GetLicense.Item(1)
         If licenseKey.Equals(licKey) And licenseName.Equals(licName) Then
             isLicense = True
-        ElseIf licenseKey.Equals(licKey) Or licenseName.Equals(licName) Then
+        ElseIf licenseKey.Equals(licKey) Then
             isLicense = True
         Else
             isLicense = False
