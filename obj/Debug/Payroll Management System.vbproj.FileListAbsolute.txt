@@ -75,3 +75,29 @@ D:\My Project\GitHub\Payroll-System\obj\Debug\Payroll_Management_System.frmRegis
 D:\My Project\GitHub\Payroll-System\obj\Debug\Payroll_Management_System.frmRegister.km-KH.resources
 D:\My Project\GitHub\Payroll-System\obj\Debug\cy-GB\Payroll Management System.resources.dll
 D:\My Project\GitHub\Payroll-System\obj\Debug\km-KH\Payroll Management System.resources.dll
+C:\Users\SOVON\Documents\GitHub\Payroll-System\bin\Debug\Payroll Management System.exe.config
+C:\Users\SOVON\Documents\GitHub\Payroll-System\obj\Debug\Payroll Management System.exe
+C:\Users\SOVON\Documents\GitHub\Payroll-System\obj\Debug\Payroll Management System.xml
+C:\Users\SOVON\Documents\GitHub\Payroll-System\obj\Debug\Payroll Management System.pdb
+C:\Users\SOVON\Documents\GitHub\Payroll-System\bin\Debug\Payroll Management System.exe
+C:\Users\SOVON\Documents\GitHub\Payroll-System\bin\Debug\Payroll Management System.pdb
+C:\Users\SOVON\Documents\GitHub\Payroll-System\bin\Debug\Payroll Management System.xml
+C:\Users\SOVON\Documents\GitHub\Payroll-System\bin\Debug\cy-GB\Payroll Management System.resources.dll
+C:\Users\SOVON\Documents\GitHub\Payroll-System\bin\Debug\km-KH\Payroll Management System.resources.dll
+C:\Users\SOVON\Documents\GitHub\Payroll-System\bin\Debug\km\Payroll Management System.resources.dll
+C:\Users\SOVON\Documents\GitHub\Payroll-System\obj\Debug\Payroll Management System.vbprojResolveAssemblyReference.cache
+C:\Users\SOVON\Documents\GitHub\Payroll-System\obj\Debug\Payroll_Management_System.frmAddEmployee.resources
+C:\Users\SOVON\Documents\GitHub\Payroll-System\obj\Debug\Payroll_Management_System.frmAttendance.resources
+C:\Users\SOVON\Documents\GitHub\Payroll-System\obj\Debug\Payroll_Management_System.frmBenefitAndDeductionType.resources
+C:\Users\SOVON\Documents\GitHub\Payroll-System\obj\Debug\Payroll_Management_System.frmEditEmployee.resources
+C:\Users\SOVON\Documents\GitHub\Payroll-System\obj\Debug\Payroll_Management_System.frmEmployeeInformation.resources
+C:\Users\SOVON\Documents\GitHub\Payroll-System\obj\Debug\Payroll_Management_System.frmMenu.resources
+C:\Users\SOVON\Documents\GitHub\Payroll-System\obj\Debug\Payroll_Management_System.frmRegister.resources
+C:\Users\SOVON\Documents\GitHub\Payroll-System\obj\Debug\Payroll_Management_System.Resources.resources
+C:\Users\SOVON\Documents\GitHub\Payroll-System\obj\Debug\Payroll_Management_System.frmRegister.cy-GB.resources
+C:\Users\SOVON\Documents\GitHub\Payroll-System\obj\Debug\Payroll_Management_System.frmRegister.km-KH.resources
+C:\Users\SOVON\Documents\GitHub\Payroll-System\obj\Debug\Payroll_Management_System.frmRegister.km.resources
+C:\Users\SOVON\Documents\GitHub\Payroll-System\obj\Debug\Payroll Management System.vbproj.GenerateResource.Cache
+C:\Users\SOVON\Documents\GitHub\Payroll-System\obj\Debug\cy-GB\Payroll Management System.resources.dll
+C:\Users\SOVON\Documents\GitHub\Payroll-System\obj\Debug\km-KH\Payroll Management System.resources.dll
+C:\Users\SOVON\Documents\GitHub\Payroll-System\obj\Debug\km\Payroll Management System.resources.dll
