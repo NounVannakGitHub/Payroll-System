@@ -1,0 +1,822 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="TextBoxX5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Khmer OS Metal Chrieng, 11.25pt</value>
+  </data>
+  <data name="TextBoxX5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>295, 241</value>
+  </data>
+  <data name="TextBoxX5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 41</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="TextBoxX5.TabIndex" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="&gt;&gt;TextBoxX5.Name" xml:space="preserve">
+    <value>TextBoxX5</value>
+  </data>
+  <data name="&gt;&gt;TextBoxX5.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.TextBoxX, DevComponents.DotNetBar2, Version=8.1.0.7, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="&gt;&gt;TextBoxX5.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;TextBoxX5.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnCancel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Khmer OS Metal Chrieng, 11.25pt</value>
+  </data>
+  <data name="btnCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>257, 452</value>
+  </data>
+  <data name="btnCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 33</value>
+  </data>
+  <data name="btnCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>បិទ</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Name" xml:space="preserve">
+    <value>btnCancel</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonX, DevComponents.DotNetBar2, Version=8.1.0.7, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnSave.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Khmer OS Metal Chrieng, 11.25pt</value>
+  </data>
+  <data name="btnSave.Location" type="System.Drawing.Point, System.Drawing">
+    <value>138, 452</value>
+  </data>
+  <data name="btnSave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 33</value>
+  </data>
+  <data name="btnSave.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="btnSave.Text" xml:space="preserve">
+    <value>រក្សាទុក</value>
+  </data>
+  <data name="&gt;&gt;btnSave.Name" xml:space="preserve">
+    <value>btnSave</value>
+  </data>
+  <data name="&gt;&gt;btnSave.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonX, DevComponents.DotNetBar2, Version=8.1.0.7, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="&gt;&gt;btnSave.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;btnSave.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ButtonX1.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="ButtonX1.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="ButtonX1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>404, 161</value>
+  </data>
+  <data name="ButtonX1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 39</value>
+  </data>
+  <data name="ButtonX1.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="&gt;&gt;ButtonX1.Name" xml:space="preserve">
+    <value>ButtonX1</value>
+  </data>
+  <data name="&gt;&gt;ButtonX1.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonX, DevComponents.DotNetBar2, Version=8.1.0.7, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="&gt;&gt;ButtonX1.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;ButtonX1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="PictureBox1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="PictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>404, 32</value>
+  </data>
+  <data name="PictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 123</value>
+  </data>
+  <data name="PictureBox1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="PictureBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="&gt;&gt;PictureBox1.Name" xml:space="preserve">
+    <value>PictureBox1</value>
+  </data>
+  <data name="&gt;&gt;PictureBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PictureBox1.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;PictureBox1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="LabelX9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Khmer OS Metal Chrieng, 11.25pt</value>
+  </data>
+  <data name="LabelX9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 401</value>
+  </data>
+  <data name="LabelX9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 41</value>
+  </data>
+  <data name="LabelX9.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="LabelX9.Text" xml:space="preserve">
+    <value>ថ្ងៃចូលធ្វើការ</value>
+  </data>
+  <data name="&gt;&gt;LabelX9.Name" xml:space="preserve">
+    <value>LabelX9</value>
+  </data>
+  <data name="&gt;&gt;LabelX9.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=8.1.0.7, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="&gt;&gt;LabelX9.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;LabelX9.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="DateTimeInput1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Khmer OS Metal Chrieng, 11.25pt</value>
+  </data>
+  <data name="DateTimeInput1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>138, 401</value>
+  </data>
+  <data name="DateTimeInput1.MonthCalendar.AnnuallyMarkedDates" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAPAQAAAAAAAAANCw==</value>
+  </data>
+  <data name="DateTimeInput1.MonthCalendar.MarkedDates" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAPAQAAAAAAAAANCw==</value>
+  </data>
+  <data name="DateTimeInput1.MonthCalendar.MonthlyMarkedDates" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAPAQAAAAAAAAANCw==</value>
+  </data>
+  <data name="DateTimeInput1.MonthCalendar.WeeklyMarkedDays" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>AAEAAAD/////AQAAAAAAAAAHAQAAAAABAAAAAAAAAAMQU3lzdGVtLkRheU9mV2Vlaws=</value>
+  </data>
+  <data name="DateTimeInput1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>234, 41</value>
+  </data>
+  <data name="DateTimeInput1.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="&gt;&gt;DateTimeInput1.Name" xml:space="preserve">
+    <value>DateTimeInput1</value>
+  </data>
+  <data name="&gt;&gt;DateTimeInput1.Type" xml:space="preserve">
+    <value>DevComponents.Editors.DateTimeAdv.DateTimeInput, DevComponents.DotNetBar2, Version=8.1.0.7, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="&gt;&gt;DateTimeInput1.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;DateTimeInput1.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="LabelX8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Khmer OS Metal Chrieng, 11.25pt</value>
+  </data>
+  <data name="LabelX8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 346</value>
+  </data>
+  <data name="LabelX8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 39</value>
+  </data>
+  <data name="LabelX8.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="LabelX8.Text" xml:space="preserve">
+    <value>សញ្ជាតិ</value>
+  </data>
+  <data name="&gt;&gt;LabelX8.Name" xml:space="preserve">
+    <value>LabelX8</value>
+  </data>
+  <data name="&gt;&gt;LabelX8.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=8.1.0.7, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="&gt;&gt;LabelX8.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;LabelX8.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="TextBoxX6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Khmer OS Metal Chrieng, 11.25pt</value>
+  </data>
+  <data name="TextBoxX6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>138, 346</value>
+  </data>
+  <data name="TextBoxX6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>234, 41</value>
+  </data>
+  <data name="TextBoxX6.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="&gt;&gt;TextBoxX6.Name" xml:space="preserve">
+    <value>TextBoxX6</value>
+  </data>
+  <data name="&gt;&gt;TextBoxX6.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.TextBoxX, DevComponents.DotNetBar2, Version=8.1.0.7, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="&gt;&gt;TextBoxX6.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;TextBoxX6.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="LabelX7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Khmer OS Metal Chrieng, 11.25pt</value>
+  </data>
+  <data name="LabelX7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 295</value>
+  </data>
+  <data name="LabelX7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 41</value>
+  </data>
+  <data name="LabelX7.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="LabelX7.Text" xml:space="preserve">
+    <value>ស្ថានភាព</value>
+  </data>
+  <data name="&gt;&gt;LabelX7.Name" xml:space="preserve">
+    <value>LabelX7</value>
+  </data>
+  <data name="&gt;&gt;LabelX7.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=8.1.0.7, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="&gt;&gt;LabelX7.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;LabelX7.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="ComboBoxEx2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Khmer OS Metal Chrieng, 11.25pt</value>
+  </data>
+  <data name="ComboBoxEx2.ItemHeight" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="st_single.Text" xml:space="preserve">
+    <value>Single</value>
+  </data>
+  <data name="st_married.Text" xml:space="preserve">
+    <value>រៀបការ</value>
+  </data>
+  <data name="st_devide.Text" xml:space="preserve">
+    <value>លែងលះ</value>
+  </data>
+  <data name="ComboBoxEx2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>138, 295</value>
+  </data>
+  <data name="ComboBoxEx2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>234, 41</value>
+  </data>
+  <data name="ComboBoxEx2.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="&gt;&gt;ComboBoxEx2.Name" xml:space="preserve">
+    <value>ComboBoxEx2</value>
+  </data>
+  <data name="&gt;&gt;ComboBoxEx2.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.ComboBoxEx, DevComponents.DotNetBar2, Version=8.1.0.7, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="&gt;&gt;ComboBoxEx2.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;ComboBoxEx2.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="LabelX6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Khmer OS Metal Chrieng, 11.25pt</value>
+  </data>
+  <data name="LabelX6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>246, 241</value>
+  </data>
+  <data name="LabelX6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 41</value>
+  </data>
+  <data name="LabelX6.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="LabelX6.Text" xml:space="preserve">
+    <value>អាយុ</value>
+  </data>
+  <data name="&gt;&gt;LabelX6.Name" xml:space="preserve">
+    <value>LabelX6</value>
+  </data>
+  <data name="&gt;&gt;LabelX6.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=8.1.0.7, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="&gt;&gt;LabelX6.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;LabelX6.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="LabelX5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Khmer OS Metal Chrieng, 11.25pt</value>
+  </data>
+  <data name="LabelX5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 240</value>
+  </data>
+  <data name="LabelX5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 41</value>
+  </data>
+  <data name="LabelX5.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="LabelX5.Text" xml:space="preserve">
+    <value>ភេទ</value>
+  </data>
+  <data name="&gt;&gt;LabelX5.Name" xml:space="preserve">
+    <value>LabelX5</value>
+  </data>
+  <data name="&gt;&gt;LabelX5.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=8.1.0.7, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="&gt;&gt;LabelX5.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;LabelX5.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="ComboBoxEx1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Khmer OS Metal Chrieng, 11.25pt</value>
+  </data>
+  <data name="ComboBoxEx1.ItemHeight" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="male.Text" xml:space="preserve">
+    <value>ប្រុស</value>
+  </data>
+  <data name="female.Text" xml:space="preserve">
+    <value>ស្រី</value>
+  </data>
+  <data name="ComboBoxEx1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>138, 240</value>
+  </data>
+  <data name="ComboBoxEx1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 41</value>
+  </data>
+  <data name="ComboBoxEx1.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;ComboBoxEx1.Name" xml:space="preserve">
+    <value>ComboBoxEx1</value>
+  </data>
+  <data name="&gt;&gt;ComboBoxEx1.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.ComboBoxEx, DevComponents.DotNetBar2, Version=8.1.0.7, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="&gt;&gt;ComboBoxEx1.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;ComboBoxEx1.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="LabelX4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Khmer OS Metal Chrieng, 11.25pt</value>
+  </data>
+  <data name="LabelX4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 190</value>
+  </data>
+  <data name="LabelX4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 41</value>
+  </data>
+  <data name="LabelX4.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="LabelX4.Text" xml:space="preserve">
+    <value>ឈ្មោះឡាតាំង</value>
+  </data>
+  <data name="&gt;&gt;LabelX4.Name" xml:space="preserve">
+    <value>LabelX4</value>
+  </data>
+  <data name="&gt;&gt;LabelX4.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=8.1.0.7, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="&gt;&gt;LabelX4.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;LabelX4.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="TextBoxX4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Khmer OS Metal Chrieng, 11.25pt</value>
+  </data>
+  <data name="TextBoxX4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>138, 186</value>
+  </data>
+  <data name="TextBoxX4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>234, 41</value>
+  </data>
+  <data name="TextBoxX4.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="&gt;&gt;TextBoxX4.Name" xml:space="preserve">
+    <value>TextBoxX4</value>
+  </data>
+  <data name="&gt;&gt;TextBoxX4.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.TextBoxX, DevComponents.DotNetBar2, Version=8.1.0.7, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="&gt;&gt;TextBoxX4.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;TextBoxX4.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="LabelX3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Khmer OS Metal Chrieng, 11.25pt</value>
+  </data>
+  <data name="LabelX3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 133</value>
+  </data>
+  <data name="LabelX3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 41</value>
+  </data>
+  <data name="LabelX3.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="LabelX3.Text" xml:space="preserve">
+    <value>នាមខ្លូន</value>
+  </data>
+  <data name="&gt;&gt;LabelX3.Name" xml:space="preserve">
+    <value>LabelX3</value>
+  </data>
+  <data name="&gt;&gt;LabelX3.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=8.1.0.7, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="&gt;&gt;LabelX3.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;LabelX3.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="TextBoxX3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Khmer OS Metal Chrieng, 11.25pt</value>
+  </data>
+  <data name="TextBoxX3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>138, 133</value>
+  </data>
+  <data name="TextBoxX3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>234, 41</value>
+  </data>
+  <data name="TextBoxX3.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;TextBoxX3.Name" xml:space="preserve">
+    <value>TextBoxX3</value>
+  </data>
+  <data name="&gt;&gt;TextBoxX3.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.TextBoxX, DevComponents.DotNetBar2, Version=8.1.0.7, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="&gt;&gt;TextBoxX3.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;TextBoxX3.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="LabelX2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Khmer OS Metal Chrieng, 11.25pt</value>
+  </data>
+  <data name="LabelX2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 82</value>
+  </data>
+  <data name="LabelX2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 41</value>
+  </data>
+  <data name="LabelX2.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="LabelX2.Text" xml:space="preserve">
+    <value>នាមត្រកូល</value>
+  </data>
+  <data name="&gt;&gt;LabelX2.Name" xml:space="preserve">
+    <value>LabelX2</value>
+  </data>
+  <data name="&gt;&gt;LabelX2.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=8.1.0.7, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="&gt;&gt;LabelX2.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;LabelX2.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="TextBoxX2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Khmer OS Metal Chrieng, 11.25pt</value>
+  </data>
+  <data name="TextBoxX2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>138, 82</value>
+  </data>
+  <data name="TextBoxX2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>234, 41</value>
+  </data>
+  <data name="TextBoxX2.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;TextBoxX2.Name" xml:space="preserve">
+    <value>TextBoxX2</value>
+  </data>
+  <data name="&gt;&gt;TextBoxX2.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.TextBoxX, DevComponents.DotNetBar2, Version=8.1.0.7, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="&gt;&gt;TextBoxX2.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;TextBoxX2.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="LabelX1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Khmer OS Metal Chrieng, 11.25pt</value>
+  </data>
+  <data name="LabelX1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 32</value>
+  </data>
+  <data name="LabelX1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 41</value>
+  </data>
+  <data name="LabelX1.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="LabelX1.Text" xml:space="preserve">
+    <value>លេខសំគាល់</value>
+  </data>
+  <data name="&gt;&gt;LabelX1.Name" xml:space="preserve">
+    <value>LabelX1</value>
+  </data>
+  <data name="&gt;&gt;LabelX1.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.LabelX, DevComponents.DotNetBar2, Version=8.1.0.7, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="&gt;&gt;LabelX1.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;LabelX1.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="TextBoxX1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Khmer OS Metal Chrieng, 11.25pt</value>
+  </data>
+  <data name="TextBoxX1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>138, 32</value>
+  </data>
+  <data name="TextBoxX1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>234, 41</value>
+  </data>
+  <data name="TextBoxX1.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;TextBoxX1.Name" xml:space="preserve">
+    <value>TextBoxX1</value>
+  </data>
+  <data name="&gt;&gt;TextBoxX1.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.Controls.TextBoxX, DevComponents.DotNetBar2, Version=8.1.0.7, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="&gt;&gt;TextBoxX1.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;TextBoxX1.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="GroupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 76</value>
+  </data>
+  <data name="GroupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>529, 503</value>
+  </data>
+  <data name="GroupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;GroupBox1.Name" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;GroupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GroupBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GroupBox1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="PanelEx1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="PanelEx1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Khmer OS Muol Light, 11.25pt</value>
+  </data>
+  <data name="PanelEx1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="PanelEx1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>564, 68</value>
+  </data>
+  <data name="PanelEx1.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="PanelEx1.Text" xml:space="preserve">
+    <value>កែប្រែព័ត៍មានបុគ្គលិក</value>
+  </data>
+  <data name="&gt;&gt;PanelEx1.Name" xml:space="preserve">
+    <value>PanelEx1</value>
+  </data>
+  <data name="&gt;&gt;PanelEx1.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.PanelEx, DevComponents.DotNetBar2, Version=8.1.0.7, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="&gt;&gt;PanelEx1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;PanelEx1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>564, 595</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="&gt;&gt;st_single.Name" xml:space="preserve">
+    <value>st_single</value>
+  </data>
+  <data name="&gt;&gt;st_single.Type" xml:space="preserve">
+    <value>DevComponents.Editors.ComboItem, DevComponents.DotNetBar2, Version=8.1.0.7, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="&gt;&gt;st_married.Name" xml:space="preserve">
+    <value>st_married</value>
+  </data>
+  <data name="&gt;&gt;st_married.Type" xml:space="preserve">
+    <value>DevComponents.Editors.ComboItem, DevComponents.DotNetBar2, Version=8.1.0.7, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="&gt;&gt;st_devide.Name" xml:space="preserve">
+    <value>st_devide</value>
+  </data>
+  <data name="&gt;&gt;st_devide.Type" xml:space="preserve">
+    <value>DevComponents.Editors.ComboItem, DevComponents.DotNetBar2, Version=8.1.0.7, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="&gt;&gt;male.Name" xml:space="preserve">
+    <value>male</value>
+  </data>
+  <data name="&gt;&gt;male.Type" xml:space="preserve">
+    <value>DevComponents.Editors.ComboItem, DevComponents.DotNetBar2, Version=8.1.0.7, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="&gt;&gt;female.Name" xml:space="preserve">
+    <value>female</value>
+  </data>
+  <data name="&gt;&gt;female.Type" xml:space="preserve">
+    <value>DevComponents.Editors.ComboItem, DevComponents.DotNetBar2, Version=8.1.0.7, Culture=neutral, PublicKeyToken=5fd520d36328f741</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>editEmployee</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

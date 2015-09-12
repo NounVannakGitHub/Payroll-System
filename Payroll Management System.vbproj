@@ -81,16 +81,34 @@
     <Compile Include="ContactEmployeeImpl.vb" />
     <Compile Include="ContactParentImpl.vb" />
     <Compile Include="ContactSpousesImpl.vb" />
+    <Compile Include="frmAddEmployee.Designer.vb">
+      <DependentUpon>frmAddEmployee.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddEmployee.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmAttendance.Designer.vb">
       <DependentUpon>frmAttendance.vb</DependentUpon>
     </Compile>
     <Compile Include="frmAttendance.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmEmployee.Designer.vb">
-      <DependentUpon>frmEmployee.vb</DependentUpon>
+    <Compile Include="frmBenefitAndDeductionType.Designer.vb">
+      <DependentUpon>frmBenefitAndDeductionType.vb</DependentUpon>
     </Compile>
-    <Compile Include="frmEmployee.vb">
+    <Compile Include="frmBenefitAndDeductionType.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEditEmployee.Designer.vb">
+      <DependentUpon>frmEditEmployee.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmEditEmployee.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEmployeeInformation.Designer.vb">
+      <DependentUpon>frmEmployeeInformation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmEmployeeInformation.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmMenu.Designer.vb">
@@ -126,13 +144,6 @@
     <Compile Include="EmployeeAddress.vb" />
     <Compile Include="Family.vb" />
     <Compile Include="FamilyAddress.vb" />
-    <Compile Include="Form1.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form1.Designer.vb">
-      <DependentUpon>Form1.vb</DependentUpon>
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="HighSchool.vb" />
     <Compile Include="Holiday.vb" />
     <Compile Include="IAddress.vb" />
@@ -167,14 +178,20 @@
     <Compile Include="University.vb" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <EmbeddedResource Include="frmAddEmployee.resx">
+      <DependentUpon>frmAddEmployee.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmAttendance.resx">
       <DependentUpon>frmAttendance.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmEmployee.resx">
-      <DependentUpon>frmEmployee.vb</DependentUpon>
+    <EmbeddedResource Include="frmBenefitAndDeductionType.resx">
+      <DependentUpon>frmBenefitAndDeductionType.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditEmployee.resx">
+      <DependentUpon>frmEditEmployee.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEmployeeInformation.resx">
+      <DependentUpon>frmEmployeeInformation.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmMenu.resx">
       <DependentUpon>frmMenu.vb</DependentUpon>
