@@ -53,4 +53,43 @@ Module PayrollUtils
         End If
         Return src
     End Function
+
+    Sub LoadServer(ByVal comboBox As ComboBox)
+        Dim Server As String = String.Empty
+        Dim instance As Sql.SqlDataSourceEnumerator = Sql.SqlDataSourceEnumerator.Instance
+        Dim table As System.Data.DataTable = instance.GetDataSources()
+        For Each row As System.Data.DataRow In table.Rows
+            Server = String.Empty
+            Server = row("ServerName")
+            If row("InstanceName").ToString.Length > 0 Then
+                Server = Server & "\" & row("InstanceName")
+            End If
+            comboBox.Items.Add(Server)
+        Next
+        comboBox.SelectedIndex = comboBox.FindStringExact(Environment.MachineName)
+    End Sub
+
+    Sub LoadDatabase(ByVal server As String, ByVal comboBox As ComboBox)
+        Dim con As New SqlClient.SqlConnection("Data Source=" & server & ";Integrated Security=True")
+        con.Open()
+        Dim cmd As New SqlClient.SqlCommand("sp_databases", con)
+        cmd.CommandType = CommandType.StoredProcedure
+        Dim read As SqlClient.SqlDataReader = cmd.ExecuteReader()
+        While (read.Read())
+            comboBox.Items.Add(read("DATABASE_NAME"))
+        End While
+    End Sub
+
+    Sub ShowPassword(ByVal checkBox As CheckBox, ByVal textBox As TextBox)
+        If checkBox.Checked = True Then
+            textBox.UseSystemPasswordChar = False
+        Else
+            textBox.UseSystemPasswordChar = True
+        End If
+    End Sub
+
+    Sub SetConnectionString(ByVal serverName As String, ByVal database As String, ByVal username As String, ByVal password As String)
+        ''Data Source=ServerName;Initial Catalog=DatabaseName;User ID=UserName;Password=Password
+        My.Settings.MyConnectionString() = "Data Source=" & serverName & ";Initial Catalog=" & database & ";User ID=" & username & ";Password=" & password
+    End Sub
 End Module
