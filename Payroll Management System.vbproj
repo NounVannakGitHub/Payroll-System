@@ -76,6 +76,7 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="SalaryTax.vb" />
     <Compile Include="AnnualLeave.vb" />
     <Compile Include="ConnectionSingleton.vb" />
     <Compile Include="ContactEmployeeImpl.vb" />
@@ -175,6 +176,7 @@
     <Compile Include="Spouses.vb" />
     <Compile Include="Preattendance.vb" />
     <Compile Include="Tax.vb" />
+    <Compile Include="TaxForSalary.vb" />
     <Compile Include="University.vb" />
   </ItemGroup>
   <ItemGroup>

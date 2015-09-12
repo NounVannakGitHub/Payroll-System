@@ -40,4 +40,17 @@ Module PayrollUtils
         Return fileName
     End Function
 
+    Sub SaveBackgroundImage(ByVal path As String, ByVal content As String)
+        System.IO.File.WriteAllText(Application.StartupPath & path, content)
+    End Sub
+
+    Function LoadBackgroundImage(ByVal path As String) As String
+        Dim src As String = ""
+        If System.IO.File.Exists(path) Then
+            src = System.IO.File.ReadAllText(Application.StartupPath & path)
+        Else
+            MessageBox.Show("Your path not exits")
+        End If
+        Return src
+    End Function
 End Module
