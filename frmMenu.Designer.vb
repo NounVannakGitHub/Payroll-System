@@ -29,9 +29,10 @@ Partial Class frmMenu
         Me.AdminToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AddEmployeeToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.BenefitDeductionTypeToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.toolAttendance = New System.Windows.Forms.ToolStripMenuItem()
         Me.AttendanceToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.TransactionToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.BonusToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.toolBonus = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -65,7 +66,7 @@ Partial Class frmMenu
         '
         'AdminToolStripMenuItem
         '
-        Me.AdminToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AddEmployeeToolStripMenuItem, Me.BenefitDeductionTypeToolStripMenuItem})
+        Me.AdminToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AddEmployeeToolStripMenuItem, Me.BenefitDeductionTypeToolStripMenuItem, Me.toolAttendance})
         Me.AdminToolStripMenuItem.Name = "AdminToolStripMenuItem"
         Me.AdminToolStripMenuItem.Size = New System.Drawing.Size(71, 20)
         Me.AdminToolStripMenuItem.Text = "Maintains"
@@ -82,6 +83,12 @@ Partial Class frmMenu
         Me.BenefitDeductionTypeToolStripMenuItem.Size = New System.Drawing.Size(200, 22)
         Me.BenefitDeductionTypeToolStripMenuItem.Text = "Benefit/Deduction Type"
         '
+        'toolAttendance
+        '
+        Me.toolAttendance.Name = "toolAttendance"
+        Me.toolAttendance.Size = New System.Drawing.Size(200, 22)
+        Me.toolAttendance.Text = "Attendance"
+        '
         'AttendanceToolStripMenuItem
         '
         Me.AttendanceToolStripMenuItem.Name = "AttendanceToolStripMenuItem"
@@ -90,16 +97,16 @@ Partial Class frmMenu
         '
         'TransactionToolStripMenuItem
         '
-        Me.TransactionToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.BonusToolStripMenuItem})
+        Me.TransactionToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.toolBonus})
         Me.TransactionToolStripMenuItem.Name = "TransactionToolStripMenuItem"
         Me.TransactionToolStripMenuItem.Size = New System.Drawing.Size(81, 20)
         Me.TransactionToolStripMenuItem.Text = "Transaction"
         '
-        'BonusToolStripMenuItem
+        'toolBonus
         '
-        Me.BonusToolStripMenuItem.Name = "BonusToolStripMenuItem"
-        Me.BonusToolStripMenuItem.Size = New System.Drawing.Size(107, 22)
-        Me.BonusToolStripMenuItem.Text = "Bonus"
+        Me.toolBonus.Name = "toolBonus"
+        Me.toolBonus.Size = New System.Drawing.Size(152, 22)
+        Me.toolBonus.Text = "Bonus"
         '
         'frmMenu
         '
@@ -130,6 +137,7 @@ Partial Class frmMenu
     Friend WithEvents AddEmployeeToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents AttendanceToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents TransactionToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents BonusToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents toolBonus As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents BenefitDeductionTypeToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents toolAttendance As System.Windows.Forms.ToolStripMenuItem
 End Class

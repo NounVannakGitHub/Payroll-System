@@ -101,3 +101,12 @@ C:\Users\SOVON\Documents\GitHub\Payroll-System\obj\Debug\Payroll Management Syst
 C:\Users\SOVON\Documents\GitHub\Payroll-System\obj\Debug\cy-GB\Payroll Management System.resources.dll
 C:\Users\SOVON\Documents\GitHub\Payroll-System\obj\Debug\km-KH\Payroll Management System.resources.dll
 C:\Users\SOVON\Documents\GitHub\Payroll-System\obj\Debug\km\Payroll Management System.resources.dll
+C:\Users\SOVON\Documents\GitHub\Payroll-System\obj\Debug\Payroll_Management_System.frmBenefitType.resources
+C:\Users\SOVON\Documents\GitHub\Payroll-System\obj\Debug\Payroll_Management_System.frmEditBenefitType.resources
+C:\Users\SOVON\Documents\GitHub\Payroll-System\obj\Debug\Payroll_Management_System.frmAddDeductionType.resources
+C:\Users\SOVON\Documents\GitHub\Payroll-System\obj\Debug\Payroll_Management_System.frmEditDeductionType.resources
+C:\Users\SOVON\Documents\GitHub\Payroll-System\obj\Debug\Payroll_Management_System.frmAddAttendance.resources
+C:\Users\SOVON\Documents\GitHub\Payroll-System\obj\Debug\Payroll_Management_System.frmEditAttendance.resources
+C:\Users\SOVON\Documents\GitHub\Payroll-System\obj\Debug\Payroll_Management_System.frmBonusInfo.resources
+C:\Users\SOVON\Documents\GitHub\Payroll-System\obj\Debug\Payroll_Management_System.frmAddbonus.resources
+C:\Users\SOVON\Documents\GitHub\Payroll-System\obj\Debug\Payroll_Management_System.frmEditBonus.resources
