@@ -80,21 +80,6 @@ Partial Class frmNewEmployee
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.PictureBox5 = New System.Windows.Forms.PictureBox()
-        Me.GroupPanel5 = New DevComponents.DotNetBar.Controls.GroupPanel()
-        Me.chbPrimary = New DevComponents.DotNetBar.Controls.CheckBoxX()
-        Me.chbSecondary = New DevComponents.DotNetBar.Controls.CheckBoxX()
-        Me.chbHigtSchool = New DevComponents.DotNetBar.Controls.CheckBoxX()
-        Me.chbPhD = New DevComponents.DotNetBar.Controls.CheckBoxX()
-        Me.chbMaster = New DevComponents.DotNetBar.Controls.CheckBoxX()
-        Me.chbBachelor = New DevComponents.DotNetBar.Controls.CheckBoxX()
-        Me.GroupPanel7 = New DevComponents.DotNetBar.Controls.GroupPanel()
-        Me.GroupPanel8 = New DevComponents.DotNetBar.Controls.GroupPanel()
-        Me.gpChild = New DevComponents.DotNetBar.Controls.GroupPanel()
-        Me.GroupPanel6 = New DevComponents.DotNetBar.Controls.GroupPanel()
-        Me.gpSpousesAddress = New DevComponents.DotNetBar.Controls.GroupPanel()
-        Me.gpChildAddress = New DevComponents.DotNetBar.Controls.GroupPanel()
-        Me.GroupPanel9 = New DevComponents.DotNetBar.Controls.GroupPanel()
-        Me.GroupPanel10 = New DevComponents.DotNetBar.Controls.GroupPanel()
         Me.PanelEx1.SuspendLayout()
         CType(Me.dtDOB, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupPanel1.SuspendLayout()
@@ -106,7 +91,6 @@ Partial Class frmNewEmployee
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.GroupPanel5.SuspendLayout()
         Me.SuspendLayout()
         '
         'PanelEx1
@@ -828,7 +812,7 @@ Partial Class frmNewEmployee
         Me.txtPhone.Margin = New System.Windows.Forms.Padding(3, 6, 3, 6)
         Me.txtPhone.Name = "txtPhone"
         Me.txtPhone.Size = New System.Drawing.Size(194, 35)
-        Me.txtPhone.TabIndex = 22
+        Me.txtPhone.TabIndex = 16
         '
         'txtLine
         '
@@ -841,7 +825,7 @@ Partial Class frmNewEmployee
         Me.txtLine.Margin = New System.Windows.Forms.Padding(3, 6, 3, 6)
         Me.txtLine.Name = "txtLine"
         Me.txtLine.Size = New System.Drawing.Size(194, 35)
-        Me.txtLine.TabIndex = 25
+        Me.txtLine.TabIndex = 17
         '
         'txtFacebook
         '
@@ -854,7 +838,7 @@ Partial Class frmNewEmployee
         Me.txtFacebook.Margin = New System.Windows.Forms.Padding(3, 6, 3, 6)
         Me.txtFacebook.Name = "txtFacebook"
         Me.txtFacebook.Size = New System.Drawing.Size(194, 35)
-        Me.txtFacebook.TabIndex = 24
+        Me.txtFacebook.TabIndex = 18
         '
         'txtEmail
         '
@@ -867,7 +851,7 @@ Partial Class frmNewEmployee
         Me.txtEmail.Margin = New System.Windows.Forms.Padding(3, 6, 3, 6)
         Me.txtEmail.Name = "txtEmail"
         Me.txtEmail.Size = New System.Drawing.Size(194, 35)
-        Me.txtEmail.TabIndex = 23
+        Me.txtEmail.TabIndex = 19
         '
         'PictureBox4
         '
@@ -916,7 +900,6 @@ Partial Class frmNewEmployee
         'PictureBox5
         '
         Me.PictureBox5.BackColor = System.Drawing.Color.Transparent
-        Me.PictureBox5.Cursor = System.Windows.Forms.Cursors.Hand
         Me.PictureBox5.Image = Global.Payroll_Management_System.My.Resources.Resources._1442135746_close_red
         Me.PictureBox5.Location = New System.Drawing.Point(1219, 3)
         Me.PictureBox5.Name = "PictureBox5"
@@ -925,357 +908,11 @@ Partial Class frmNewEmployee
         Me.PictureBox5.TabIndex = 22
         Me.PictureBox5.TabStop = False
         '
-        'GroupPanel5
-        '
-        Me.GroupPanel5.CanvasColor = System.Drawing.SystemColors.Control
-        Me.GroupPanel5.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007
-        Me.GroupPanel5.Controls.Add(Me.chbPhD)
-        Me.GroupPanel5.Controls.Add(Me.chbMaster)
-        Me.GroupPanel5.Controls.Add(Me.chbBachelor)
-        Me.GroupPanel5.Controls.Add(Me.chbHigtSchool)
-        Me.GroupPanel5.Controls.Add(Me.chbSecondary)
-        Me.GroupPanel5.Controls.Add(Me.chbPrimary)
-        Me.GroupPanel5.Location = New System.Drawing.Point(916, 301)
-        Me.GroupPanel5.Name = "GroupPanel5"
-        Me.GroupPanel5.Size = New System.Drawing.Size(310, 114)
-        '
-        '
-        '
-        Me.GroupPanel5.Style.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2
-        Me.GroupPanel5.Style.BackColorGradientAngle = 90
-        Me.GroupPanel5.Style.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground
-        Me.GroupPanel5.Style.BorderBottom = DevComponents.DotNetBar.eStyleBorderType.Solid
-        Me.GroupPanel5.Style.BorderBottomWidth = 1
-        Me.GroupPanel5.Style.BorderColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBorder
-        Me.GroupPanel5.Style.BorderLeft = DevComponents.DotNetBar.eStyleBorderType.Solid
-        Me.GroupPanel5.Style.BorderLeftWidth = 1
-        Me.GroupPanel5.Style.BorderRight = DevComponents.DotNetBar.eStyleBorderType.Solid
-        Me.GroupPanel5.Style.BorderRightWidth = 1
-        Me.GroupPanel5.Style.BorderTop = DevComponents.DotNetBar.eStyleBorderType.Solid
-        Me.GroupPanel5.Style.BorderTopWidth = 1
-        Me.GroupPanel5.Style.CornerDiameter = 4
-        Me.GroupPanel5.Style.CornerType = DevComponents.DotNetBar.eCornerType.Rounded
-        Me.GroupPanel5.Style.TextAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Center
-        Me.GroupPanel5.Style.TextColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelText
-        Me.GroupPanel5.Style.TextLineAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Near
-        Me.GroupPanel5.TabIndex = 23
-        Me.GroupPanel5.Text = "Education Background"
-        '
-        'chbPrimary
-        '
-        Me.chbPrimary.BackColor = System.Drawing.Color.Transparent
-        Me.chbPrimary.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.chbPrimary.Location = New System.Drawing.Point(3, 3)
-        Me.chbPrimary.Name = "chbPrimary"
-        Me.chbPrimary.Size = New System.Drawing.Size(75, 23)
-        Me.chbPrimary.TabIndex = 36
-        Me.chbPrimary.Text = "Primary"
-        '
-        'chbSecondary
-        '
-        Me.chbSecondary.BackColor = System.Drawing.Color.Transparent
-        Me.chbSecondary.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.chbSecondary.Location = New System.Drawing.Point(107, 3)
-        Me.chbSecondary.Name = "chbSecondary"
-        Me.chbSecondary.Size = New System.Drawing.Size(86, 23)
-        Me.chbSecondary.TabIndex = 36
-        Me.chbSecondary.Text = "Secondary"
-        '
-        'chbHigtSchool
-        '
-        Me.chbHigtSchool.BackColor = System.Drawing.Color.Transparent
-        Me.chbHigtSchool.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.chbHigtSchool.Location = New System.Drawing.Point(215, 3)
-        Me.chbHigtSchool.Name = "chbHigtSchool"
-        Me.chbHigtSchool.Size = New System.Drawing.Size(86, 23)
-        Me.chbHigtSchool.TabIndex = 36
-        Me.chbHigtSchool.Text = "High School"
-        '
-        'chbPhD
-        '
-        Me.chbPhD.BackColor = System.Drawing.Color.Transparent
-        Me.chbPhD.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.chbPhD.Location = New System.Drawing.Point(215, 39)
-        Me.chbPhD.Name = "chbPhD"
-        Me.chbPhD.Size = New System.Drawing.Size(86, 23)
-        Me.chbPhD.TabIndex = 37
-        Me.chbPhD.Text = "PhD."
-        '
-        'chbMaster
-        '
-        Me.chbMaster.BackColor = System.Drawing.Color.Transparent
-        Me.chbMaster.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.chbMaster.Location = New System.Drawing.Point(107, 39)
-        Me.chbMaster.Name = "chbMaster"
-        Me.chbMaster.Size = New System.Drawing.Size(86, 23)
-        Me.chbMaster.TabIndex = 38
-        Me.chbMaster.Text = "Master"
-        '
-        'chbBachelor
-        '
-        Me.chbBachelor.BackColor = System.Drawing.Color.Transparent
-        Me.chbBachelor.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.chbBachelor.Location = New System.Drawing.Point(3, 39)
-        Me.chbBachelor.Name = "chbBachelor"
-        Me.chbBachelor.Size = New System.Drawing.Size(75, 23)
-        Me.chbBachelor.TabIndex = 39
-        Me.chbBachelor.Text = "Bachelor"
-        '
-        'GroupPanel7
-        '
-        Me.GroupPanel7.CanvasColor = System.Drawing.SystemColors.Control
-        Me.GroupPanel7.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007
-        Me.GroupPanel7.Location = New System.Drawing.Point(340, 420)
-        Me.GroupPanel7.Name = "GroupPanel7"
-        Me.GroupPanel7.Size = New System.Drawing.Size(281, 330)
-        '
-        '
-        '
-        Me.GroupPanel7.Style.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2
-        Me.GroupPanel7.Style.BackColorGradientAngle = 90
-        Me.GroupPanel7.Style.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground
-        Me.GroupPanel7.Style.BorderBottom = DevComponents.DotNetBar.eStyleBorderType.Solid
-        Me.GroupPanel7.Style.BorderBottomWidth = 1
-        Me.GroupPanel7.Style.BorderColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBorder
-        Me.GroupPanel7.Style.BorderLeft = DevComponents.DotNetBar.eStyleBorderType.Solid
-        Me.GroupPanel7.Style.BorderLeftWidth = 1
-        Me.GroupPanel7.Style.BorderRight = DevComponents.DotNetBar.eStyleBorderType.Solid
-        Me.GroupPanel7.Style.BorderRightWidth = 1
-        Me.GroupPanel7.Style.BorderTop = DevComponents.DotNetBar.eStyleBorderType.Solid
-        Me.GroupPanel7.Style.BorderTopWidth = 1
-        Me.GroupPanel7.Style.CornerDiameter = 4
-        Me.GroupPanel7.Style.CornerType = DevComponents.DotNetBar.eCornerType.Rounded
-        Me.GroupPanel7.Style.TextAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Center
-        Me.GroupPanel7.Style.TextColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelText
-        Me.GroupPanel7.Style.TextLineAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Near
-        Me.GroupPanel7.TabIndex = 36
-        Me.GroupPanel7.Text = "Parent Information"
-        '
-        'GroupPanel8
-        '
-        Me.GroupPanel8.CanvasColor = System.Drawing.SystemColors.Control
-        Me.GroupPanel8.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007
-        Me.GroupPanel8.Location = New System.Drawing.Point(627, 420)
-        Me.GroupPanel8.Name = "GroupPanel8"
-        Me.GroupPanel8.Size = New System.Drawing.Size(281, 330)
-        '
-        '
-        '
-        Me.GroupPanel8.Style.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2
-        Me.GroupPanel8.Style.BackColorGradientAngle = 90
-        Me.GroupPanel8.Style.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground
-        Me.GroupPanel8.Style.BorderBottom = DevComponents.DotNetBar.eStyleBorderType.Solid
-        Me.GroupPanel8.Style.BorderBottomWidth = 1
-        Me.GroupPanel8.Style.BorderColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBorder
-        Me.GroupPanel8.Style.BorderLeft = DevComponents.DotNetBar.eStyleBorderType.Solid
-        Me.GroupPanel8.Style.BorderLeftWidth = 1
-        Me.GroupPanel8.Style.BorderRight = DevComponents.DotNetBar.eStyleBorderType.Solid
-        Me.GroupPanel8.Style.BorderRightWidth = 1
-        Me.GroupPanel8.Style.BorderTop = DevComponents.DotNetBar.eStyleBorderType.Solid
-        Me.GroupPanel8.Style.BorderTopWidth = 1
-        Me.GroupPanel8.Style.CornerDiameter = 4
-        Me.GroupPanel8.Style.CornerType = DevComponents.DotNetBar.eCornerType.Rounded
-        Me.GroupPanel8.Style.TextAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Center
-        Me.GroupPanel8.Style.TextColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelText
-        Me.GroupPanel8.Style.TextLineAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Near
-        Me.GroupPanel8.TabIndex = 36
-        Me.GroupPanel8.Text = "Spouses Information"
-        '
-        'gpChild
-        '
-        Me.gpChild.CanvasColor = System.Drawing.SystemColors.Control
-        Me.gpChild.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007
-        Me.gpChild.Location = New System.Drawing.Point(914, 420)
-        Me.gpChild.Name = "gpChild"
-        Me.gpChild.Size = New System.Drawing.Size(312, 329)
-        '
-        '
-        '
-        Me.gpChild.Style.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2
-        Me.gpChild.Style.BackColorGradientAngle = 90
-        Me.gpChild.Style.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground
-        Me.gpChild.Style.BorderBottom = DevComponents.DotNetBar.eStyleBorderType.Solid
-        Me.gpChild.Style.BorderBottomWidth = 1
-        Me.gpChild.Style.BorderColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBorder
-        Me.gpChild.Style.BorderLeft = DevComponents.DotNetBar.eStyleBorderType.Solid
-        Me.gpChild.Style.BorderLeftWidth = 1
-        Me.gpChild.Style.BorderRight = DevComponents.DotNetBar.eStyleBorderType.Solid
-        Me.gpChild.Style.BorderRightWidth = 1
-        Me.gpChild.Style.BorderTop = DevComponents.DotNetBar.eStyleBorderType.Solid
-        Me.gpChild.Style.BorderTopWidth = 1
-        Me.gpChild.Style.CornerDiameter = 4
-        Me.gpChild.Style.CornerType = DevComponents.DotNetBar.eCornerType.Rounded
-        Me.gpChild.Style.TextAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Center
-        Me.gpChild.Style.TextColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelText
-        Me.gpChild.Style.TextLineAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Near
-        Me.gpChild.TabIndex = 36
-        Me.gpChild.Text = "Child Information"
-        '
-        'GroupPanel6
-        '
-        Me.GroupPanel6.CanvasColor = System.Drawing.SystemColors.Control
-        Me.GroupPanel6.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007
-        Me.GroupPanel6.Location = New System.Drawing.Point(340, 756)
-        Me.GroupPanel6.Name = "GroupPanel6"
-        Me.GroupPanel6.Size = New System.Drawing.Size(281, 330)
-        '
-        '
-        '
-        Me.GroupPanel6.Style.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2
-        Me.GroupPanel6.Style.BackColorGradientAngle = 90
-        Me.GroupPanel6.Style.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground
-        Me.GroupPanel6.Style.BorderBottom = DevComponents.DotNetBar.eStyleBorderType.Solid
-        Me.GroupPanel6.Style.BorderBottomWidth = 1
-        Me.GroupPanel6.Style.BorderColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBorder
-        Me.GroupPanel6.Style.BorderLeft = DevComponents.DotNetBar.eStyleBorderType.Solid
-        Me.GroupPanel6.Style.BorderLeftWidth = 1
-        Me.GroupPanel6.Style.BorderRight = DevComponents.DotNetBar.eStyleBorderType.Solid
-        Me.GroupPanel6.Style.BorderRightWidth = 1
-        Me.GroupPanel6.Style.BorderTop = DevComponents.DotNetBar.eStyleBorderType.Solid
-        Me.GroupPanel6.Style.BorderTopWidth = 1
-        Me.GroupPanel6.Style.CornerDiameter = 4
-        Me.GroupPanel6.Style.CornerType = DevComponents.DotNetBar.eCornerType.Rounded
-        Me.GroupPanel6.Style.TextAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Center
-        Me.GroupPanel6.Style.TextColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelText
-        Me.GroupPanel6.Style.TextLineAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Near
-        Me.GroupPanel6.TabIndex = 36
-        Me.GroupPanel6.Text = "Parent Information"
-        '
-        'gpSpousesAddress
-        '
-        Me.gpSpousesAddress.CanvasColor = System.Drawing.SystemColors.Control
-        Me.gpSpousesAddress.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007
-        Me.gpSpousesAddress.Location = New System.Drawing.Point(628, 756)
-        Me.gpSpousesAddress.Name = "gpSpousesAddress"
-        Me.gpSpousesAddress.Size = New System.Drawing.Size(281, 330)
-        '
-        '
-        '
-        Me.gpSpousesAddress.Style.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2
-        Me.gpSpousesAddress.Style.BackColorGradientAngle = 90
-        Me.gpSpousesAddress.Style.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground
-        Me.gpSpousesAddress.Style.BorderBottom = DevComponents.DotNetBar.eStyleBorderType.Solid
-        Me.gpSpousesAddress.Style.BorderBottomWidth = 1
-        Me.gpSpousesAddress.Style.BorderColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBorder
-        Me.gpSpousesAddress.Style.BorderLeft = DevComponents.DotNetBar.eStyleBorderType.Solid
-        Me.gpSpousesAddress.Style.BorderLeftWidth = 1
-        Me.gpSpousesAddress.Style.BorderRight = DevComponents.DotNetBar.eStyleBorderType.Solid
-        Me.gpSpousesAddress.Style.BorderRightWidth = 1
-        Me.gpSpousesAddress.Style.BorderTop = DevComponents.DotNetBar.eStyleBorderType.Solid
-        Me.gpSpousesAddress.Style.BorderTopWidth = 1
-        Me.gpSpousesAddress.Style.CornerDiameter = 4
-        Me.gpSpousesAddress.Style.CornerType = DevComponents.DotNetBar.eCornerType.Rounded
-        Me.gpSpousesAddress.Style.TextAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Center
-        Me.gpSpousesAddress.Style.TextColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelText
-        Me.gpSpousesAddress.Style.TextLineAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Near
-        Me.gpSpousesAddress.TabIndex = 36
-        Me.gpSpousesAddress.Text = "Spouses Address"
-        '
-        'gpChildAddress
-        '
-        Me.gpChildAddress.CanvasColor = System.Drawing.SystemColors.Control
-        Me.gpChildAddress.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007
-        Me.gpChildAddress.Location = New System.Drawing.Point(915, 755)
-        Me.gpChildAddress.Name = "gpChildAddress"
-        Me.gpChildAddress.Size = New System.Drawing.Size(311, 331)
-        '
-        '
-        '
-        Me.gpChildAddress.Style.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2
-        Me.gpChildAddress.Style.BackColorGradientAngle = 90
-        Me.gpChildAddress.Style.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground
-        Me.gpChildAddress.Style.BorderBottom = DevComponents.DotNetBar.eStyleBorderType.Solid
-        Me.gpChildAddress.Style.BorderBottomWidth = 1
-        Me.gpChildAddress.Style.BorderColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBorder
-        Me.gpChildAddress.Style.BorderLeft = DevComponents.DotNetBar.eStyleBorderType.Solid
-        Me.gpChildAddress.Style.BorderLeftWidth = 1
-        Me.gpChildAddress.Style.BorderRight = DevComponents.DotNetBar.eStyleBorderType.Solid
-        Me.gpChildAddress.Style.BorderRightWidth = 1
-        Me.gpChildAddress.Style.BorderTop = DevComponents.DotNetBar.eStyleBorderType.Solid
-        Me.gpChildAddress.Style.BorderTopWidth = 1
-        Me.gpChildAddress.Style.CornerDiameter = 4
-        Me.gpChildAddress.Style.CornerType = DevComponents.DotNetBar.eCornerType.Rounded
-        Me.gpChildAddress.Style.TextAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Center
-        Me.gpChildAddress.Style.TextColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelText
-        Me.gpChildAddress.Style.TextLineAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Near
-        Me.gpChildAddress.TabIndex = 37
-        Me.gpChildAddress.Text = "Child Address"
-        '
-        'GroupPanel9
-        '
-        Me.GroupPanel9.CanvasColor = System.Drawing.SystemColors.Control
-        Me.GroupPanel9.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007
-        Me.GroupPanel9.Location = New System.Drawing.Point(9, 756)
-        Me.GroupPanel9.Name = "GroupPanel9"
-        Me.GroupPanel9.Size = New System.Drawing.Size(325, 330)
-        '
-        '
-        '
-        Me.GroupPanel9.Style.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2
-        Me.GroupPanel9.Style.BackColorGradientAngle = 90
-        Me.GroupPanel9.Style.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground
-        Me.GroupPanel9.Style.BorderBottom = DevComponents.DotNetBar.eStyleBorderType.Solid
-        Me.GroupPanel9.Style.BorderBottomWidth = 1
-        Me.GroupPanel9.Style.BorderColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBorder
-        Me.GroupPanel9.Style.BorderLeft = DevComponents.DotNetBar.eStyleBorderType.Solid
-        Me.GroupPanel9.Style.BorderLeftWidth = 1
-        Me.GroupPanel9.Style.BorderRight = DevComponents.DotNetBar.eStyleBorderType.Solid
-        Me.GroupPanel9.Style.BorderRightWidth = 1
-        Me.GroupPanel9.Style.BorderTop = DevComponents.DotNetBar.eStyleBorderType.Solid
-        Me.GroupPanel9.Style.BorderTopWidth = 1
-        Me.GroupPanel9.Style.CornerDiameter = 4
-        Me.GroupPanel9.Style.CornerType = DevComponents.DotNetBar.eCornerType.Rounded
-        Me.GroupPanel9.Style.TextAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Center
-        Me.GroupPanel9.Style.TextColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelText
-        Me.GroupPanel9.Style.TextLineAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Near
-        Me.GroupPanel9.TabIndex = 38
-        Me.GroupPanel9.Text = "GroupPanel9"
-        '
-        'GroupPanel10
-        '
-        Me.GroupPanel10.CanvasColor = System.Drawing.SystemColors.Control
-        Me.GroupPanel10.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007
-        Me.GroupPanel10.Location = New System.Drawing.Point(9, 420)
-        Me.GroupPanel10.Name = "GroupPanel10"
-        Me.GroupPanel10.Size = New System.Drawing.Size(325, 330)
-        '
-        '
-        '
-        Me.GroupPanel10.Style.BackColor2SchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2
-        Me.GroupPanel10.Style.BackColorGradientAngle = 90
-        Me.GroupPanel10.Style.BackColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground
-        Me.GroupPanel10.Style.BorderBottom = DevComponents.DotNetBar.eStyleBorderType.Solid
-        Me.GroupPanel10.Style.BorderBottomWidth = 1
-        Me.GroupPanel10.Style.BorderColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBorder
-        Me.GroupPanel10.Style.BorderLeft = DevComponents.DotNetBar.eStyleBorderType.Solid
-        Me.GroupPanel10.Style.BorderLeftWidth = 1
-        Me.GroupPanel10.Style.BorderRight = DevComponents.DotNetBar.eStyleBorderType.Solid
-        Me.GroupPanel10.Style.BorderRightWidth = 1
-        Me.GroupPanel10.Style.BorderTop = DevComponents.DotNetBar.eStyleBorderType.Solid
-        Me.GroupPanel10.Style.BorderTopWidth = 1
-        Me.GroupPanel10.Style.CornerDiameter = 4
-        Me.GroupPanel10.Style.CornerType = DevComponents.DotNetBar.eCornerType.Rounded
-        Me.GroupPanel10.Style.TextAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Center
-        Me.GroupPanel10.Style.TextColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelText
-        Me.GroupPanel10.Style.TextLineAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Near
-        Me.GroupPanel10.TabIndex = 39
-        Me.GroupPanel10.Text = "GroupPanel10"
-        '
         'frmNewEmployee
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 27.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.AutoScroll = True
         Me.ClientSize = New System.Drawing.Size(1284, 762)
-        Me.Controls.Add(Me.GroupPanel10)
-        Me.Controls.Add(Me.GroupPanel9)
-        Me.Controls.Add(Me.gpChildAddress)
-        Me.Controls.Add(Me.gpChild)
-        Me.Controls.Add(Me.gpSpousesAddress)
-        Me.Controls.Add(Me.GroupPanel8)
-        Me.Controls.Add(Me.GroupPanel6)
-        Me.Controls.Add(Me.GroupPanel7)
-        Me.Controls.Add(Me.GroupPanel5)
         Me.Controls.Add(Me.GroupPanel4)
         Me.Controls.Add(Me.GroupPanel3)
         Me.Controls.Add(Me.GroupPanel2)
@@ -1299,7 +936,6 @@ Partial Class frmNewEmployee
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.GroupPanel5.ResumeLayout(False)
         Me.ResumeLayout(False)
 
     End Sub
@@ -1361,19 +997,4 @@ Partial Class frmNewEmployee
     Friend WithEvents PictureBox3 As System.Windows.Forms.PictureBox
     Friend WithEvents PictureBox4 As System.Windows.Forms.PictureBox
     Friend WithEvents PictureBox5 As System.Windows.Forms.PictureBox
-    Friend WithEvents GroupPanel5 As DevComponents.DotNetBar.Controls.GroupPanel
-    Friend WithEvents chbPrimary As DevComponents.DotNetBar.Controls.CheckBoxX
-    Friend WithEvents chbSecondary As DevComponents.DotNetBar.Controls.CheckBoxX
-    Friend WithEvents chbHigtSchool As DevComponents.DotNetBar.Controls.CheckBoxX
-    Friend WithEvents chbPhD As DevComponents.DotNetBar.Controls.CheckBoxX
-    Friend WithEvents chbMaster As DevComponents.DotNetBar.Controls.CheckBoxX
-    Friend WithEvents chbBachelor As DevComponents.DotNetBar.Controls.CheckBoxX
-    Friend WithEvents GroupPanel7 As DevComponents.DotNetBar.Controls.GroupPanel
-    Friend WithEvents GroupPanel8 As DevComponents.DotNetBar.Controls.GroupPanel
-    Friend WithEvents gpChild As DevComponents.DotNetBar.Controls.GroupPanel
-    Friend WithEvents GroupPanel6 As DevComponents.DotNetBar.Controls.GroupPanel
-    Friend WithEvents gpSpousesAddress As DevComponents.DotNetBar.Controls.GroupPanel
-    Friend WithEvents gpChildAddress As DevComponents.DotNetBar.Controls.GroupPanel
-    Friend WithEvents GroupPanel9 As DevComponents.DotNetBar.Controls.GroupPanel
-    Friend WithEvents GroupPanel10 As DevComponents.DotNetBar.Controls.GroupPanel
 End Class
