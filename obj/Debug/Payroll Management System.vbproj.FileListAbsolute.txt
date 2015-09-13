@@ -115,8 +115,6 @@ D:\My Project\GitHub\Payroll-System\obj\Debug\Payroll_Management_System.frmBenef
 D:\My Project\GitHub\Payroll-System\obj\Debug\Payroll_Management_System.frmEditEmployee.resources
 D:\My Project\GitHub\Payroll-System\obj\Debug\Payroll_Management_System.frmEmployeeInformation.resources
 D:\My Project\GitHub\Payroll-System\obj\Debug\Payroll_Management_System.frmConnect.resources
-<<<<<<< HEAD
 >>>>>>> origin/payroll
-=======
 D:\My Project\GitHub\Payroll-System\obj\Debug\Payroll_Management_System.frmNewEmployee.resources
->>>>>>> origin/payroll
+C:\Users\SOVON\Documents\GitHub\Payroll-System\obj\Debug\Payroll_Management_System.frmNewEmployee.resources

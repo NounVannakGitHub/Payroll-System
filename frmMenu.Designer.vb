@@ -22,6 +22,7 @@ Partial Class frmMenu
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmMenu))
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.FileToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.LogoutToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -33,12 +34,15 @@ Partial Class frmMenu
         Me.AttendanceToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.TransactionToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.toolBonus = New System.Windows.Forms.ToolStripMenuItem()
+        Me.UserManagemantToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.WindowsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.HelpToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
         'MenuStrip1
         '
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.FileToolStripMenuItem, Me.AdminToolStripMenuItem, Me.AttendanceToolStripMenuItem, Me.TransactionToolStripMenuItem})
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.FileToolStripMenuItem, Me.AdminToolStripMenuItem, Me.TransactionToolStripMenuItem, Me.AttendanceToolStripMenuItem, Me.WindowsToolStripMenuItem, Me.HelpToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Size = New System.Drawing.Size(1264, 24)
@@ -47,21 +51,23 @@ Partial Class frmMenu
         '
         'FileToolStripMenuItem
         '
-        Me.FileToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.LogoutToolStripMenuItem, Me.ExitToolStripMenuItem})
+        Me.FileToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.UserManagemantToolStripMenuItem, Me.LogoutToolStripMenuItem, Me.ExitToolStripMenuItem})
         Me.FileToolStripMenuItem.Name = "FileToolStripMenuItem"
         Me.FileToolStripMenuItem.Size = New System.Drawing.Size(37, 20)
         Me.FileToolStripMenuItem.Text = "File"
         '
         'LogoutToolStripMenuItem
         '
+        Me.LogoutToolStripMenuItem.Image = CType(resources.GetObject("LogoutToolStripMenuItem.Image"), System.Drawing.Image)
         Me.LogoutToolStripMenuItem.Name = "LogoutToolStripMenuItem"
-        Me.LogoutToolStripMenuItem.Size = New System.Drawing.Size(112, 22)
+        Me.LogoutToolStripMenuItem.Size = New System.Drawing.Size(171, 22)
         Me.LogoutToolStripMenuItem.Text = "Logout"
         '
         'ExitToolStripMenuItem
         '
+        Me.ExitToolStripMenuItem.Image = CType(resources.GetObject("ExitToolStripMenuItem.Image"), System.Drawing.Image)
         Me.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem"
-        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(112, 22)
+        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(171, 22)
         Me.ExitToolStripMenuItem.Text = "Exit"
         '
         'AdminToolStripMenuItem
@@ -73,18 +79,21 @@ Partial Class frmMenu
         '
         'AddEmployeeToolStripMenuItem
         '
+        Me.AddEmployeeToolStripMenuItem.Image = CType(resources.GetObject("AddEmployeeToolStripMenuItem.Image"), System.Drawing.Image)
         Me.AddEmployeeToolStripMenuItem.Name = "AddEmployeeToolStripMenuItem"
         Me.AddEmployeeToolStripMenuItem.Size = New System.Drawing.Size(200, 22)
         Me.AddEmployeeToolStripMenuItem.Text = "Employee Setup"
         '
         'BenefitDeductionTypeToolStripMenuItem
         '
+        Me.BenefitDeductionTypeToolStripMenuItem.Image = CType(resources.GetObject("BenefitDeductionTypeToolStripMenuItem.Image"), System.Drawing.Image)
         Me.BenefitDeductionTypeToolStripMenuItem.Name = "BenefitDeductionTypeToolStripMenuItem"
         Me.BenefitDeductionTypeToolStripMenuItem.Size = New System.Drawing.Size(200, 22)
         Me.BenefitDeductionTypeToolStripMenuItem.Text = "Benefit/Deduction Type"
         '
         'toolAttendance
         '
+        Me.toolAttendance.Image = CType(resources.GetObject("toolAttendance.Image"), System.Drawing.Image)
         Me.toolAttendance.Name = "toolAttendance"
         Me.toolAttendance.Size = New System.Drawing.Size(200, 22)
         Me.toolAttendance.Text = "Attendance"
@@ -92,8 +101,8 @@ Partial Class frmMenu
         'AttendanceToolStripMenuItem
         '
         Me.AttendanceToolStripMenuItem.Name = "AttendanceToolStripMenuItem"
-        Me.AttendanceToolStripMenuItem.Size = New System.Drawing.Size(80, 20)
-        Me.AttendanceToolStripMenuItem.Text = "Attendance"
+        Me.AttendanceToolStripMenuItem.Size = New System.Drawing.Size(54, 20)
+        Me.AttendanceToolStripMenuItem.Text = "Report"
         '
         'TransactionToolStripMenuItem
         '
@@ -108,6 +117,25 @@ Partial Class frmMenu
         Me.toolBonus.Size = New System.Drawing.Size(152, 22)
         Me.toolBonus.Text = "Bonus"
         '
+        'UserManagemantToolStripMenuItem
+        '
+        Me.UserManagemantToolStripMenuItem.Image = CType(resources.GetObject("UserManagemantToolStripMenuItem.Image"), System.Drawing.Image)
+        Me.UserManagemantToolStripMenuItem.Name = "UserManagemantToolStripMenuItem"
+        Me.UserManagemantToolStripMenuItem.Size = New System.Drawing.Size(171, 22)
+        Me.UserManagemantToolStripMenuItem.Text = "User Managemant"
+        '
+        'WindowsToolStripMenuItem
+        '
+        Me.WindowsToolStripMenuItem.Name = "WindowsToolStripMenuItem"
+        Me.WindowsToolStripMenuItem.Size = New System.Drawing.Size(68, 20)
+        Me.WindowsToolStripMenuItem.Text = "Windows"
+        '
+        'HelpToolStripMenuItem
+        '
+        Me.HelpToolStripMenuItem.Name = "HelpToolStripMenuItem"
+        Me.HelpToolStripMenuItem.Size = New System.Drawing.Size(44, 20)
+        Me.HelpToolStripMenuItem.Text = "Help"
+        '
         'frmMenu
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 34.0!)
@@ -116,6 +144,7 @@ Partial Class frmMenu
         Me.ClientSize = New System.Drawing.Size(1264, 749)
         Me.Controls.Add(Me.MenuStrip1)
         Me.Font = New System.Drawing.Font("Khmer OS Metal Chrieng", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.IsMdiContainer = True
         Me.MainMenuStrip = Me.MenuStrip1
         Me.Margin = New System.Windows.Forms.Padding(4, 8, 4, 8)
@@ -140,4 +169,7 @@ Partial Class frmMenu
     Friend WithEvents toolBonus As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents BenefitDeductionTypeToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents toolAttendance As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents UserManagemantToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents WindowsToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents HelpToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
 End Class

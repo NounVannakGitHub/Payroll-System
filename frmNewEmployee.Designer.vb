@@ -23,6 +23,7 @@ Partial Class frmNewEmployee
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.PanelEx1 = New DevComponents.DotNetBar.PanelEx()
+        Me.PictureBox5 = New System.Windows.Forms.PictureBox()
         Me.LabelX1 = New DevComponents.DotNetBar.LabelX()
         Me.txtId = New DevComponents.DotNetBar.Controls.TextBoxX()
         Me.cboGender = New DevComponents.DotNetBar.Controls.ComboBoxEx()
@@ -34,53 +35,53 @@ Partial Class frmNewEmployee
         Me.txtLatangName = New DevComponents.DotNetBar.Controls.TextBoxX()
         Me.LabelX4 = New DevComponents.DotNetBar.LabelX()
         Me.GroupPanel1 = New DevComponents.DotNetBar.Controls.GroupPanel()
+        Me.LabelX21 = New DevComponents.DotNetBar.LabelX()
+        Me.cboStatus = New DevComponents.DotNetBar.Controls.ComboBoxEx()
         Me.LabelX6 = New DevComponents.DotNetBar.LabelX()
         Me.LabelX5 = New DevComponents.DotNetBar.LabelX()
         Me.GroupPanel2 = New DevComponents.DotNetBar.Controls.GroupPanel()
-        Me.txtHome = New DevComponents.DotNetBar.Controls.TextBoxX()
-        Me.LabelX7 = New DevComponents.DotNetBar.LabelX()
-        Me.txtStreet = New DevComponents.DotNetBar.Controls.TextBoxX()
-        Me.LabelX8 = New DevComponents.DotNetBar.LabelX()
-        Me.txtGroup = New DevComponents.DotNetBar.Controls.TextBoxX()
-        Me.LabelX9 = New DevComponents.DotNetBar.LabelX()
-        Me.LabelX10 = New DevComponents.DotNetBar.LabelX()
-        Me.cboCity = New DevComponents.DotNetBar.Controls.ComboBoxEx()
-        Me.LabelX11 = New DevComponents.DotNetBar.LabelX()
-        Me.cboDistrict = New DevComponents.DotNetBar.Controls.ComboBoxEx()
-        Me.LabelX12 = New DevComponents.DotNetBar.LabelX()
-        Me.cboCommune = New DevComponents.DotNetBar.Controls.ComboBoxEx()
         Me.LabelX13 = New DevComponents.DotNetBar.LabelX()
         Me.cboVillage = New DevComponents.DotNetBar.Controls.ComboBoxEx()
+        Me.LabelX12 = New DevComponents.DotNetBar.LabelX()
+        Me.cboCommune = New DevComponents.DotNetBar.Controls.ComboBoxEx()
+        Me.LabelX11 = New DevComponents.DotNetBar.LabelX()
+        Me.cboDistrict = New DevComponents.DotNetBar.Controls.ComboBoxEx()
+        Me.LabelX10 = New DevComponents.DotNetBar.LabelX()
+        Me.txtGroup = New DevComponents.DotNetBar.Controls.TextBoxX()
+        Me.cboCity = New DevComponents.DotNetBar.Controls.ComboBoxEx()
+        Me.LabelX9 = New DevComponents.DotNetBar.LabelX()
+        Me.txtStreet = New DevComponents.DotNetBar.Controls.TextBoxX()
+        Me.LabelX8 = New DevComponents.DotNetBar.LabelX()
+        Me.txtHome = New DevComponents.DotNetBar.Controls.TextBoxX()
+        Me.LabelX7 = New DevComponents.DotNetBar.LabelX()
         Me.GroupPanel3 = New DevComponents.DotNetBar.Controls.GroupPanel()
+        Me.LabelX23 = New DevComponents.DotNetBar.LabelX()
+        Me.LabelX22 = New DevComponents.DotNetBar.LabelX()
+        Me.cboPOBVillage = New DevComponents.DotNetBar.Controls.ComboBoxEx()
         Me.LabelX14 = New DevComponents.DotNetBar.LabelX()
+        Me.cboPOBCommune = New DevComponents.DotNetBar.Controls.ComboBoxEx()
         Me.LabelX15 = New DevComponents.DotNetBar.LabelX()
-        Me.LabelX21 = New DevComponents.DotNetBar.LabelX()
-        Me.cboStatus = New DevComponents.DotNetBar.Controls.ComboBoxEx()
         Me.LabelX16 = New DevComponents.DotNetBar.LabelX()
         Me.cboPOBDistrict = New DevComponents.DotNetBar.Controls.ComboBoxEx()
-        Me.LabelX17 = New DevComponents.DotNetBar.LabelX()
-        Me.txtPOBGroup = New DevComponents.DotNetBar.Controls.TextBoxX()
-        Me.cboPOBCity = New DevComponents.DotNetBar.Controls.ComboBoxEx()
-        Me.LabelX18 = New DevComponents.DotNetBar.LabelX()
-        Me.txtPOBStreet = New DevComponents.DotNetBar.Controls.TextBoxX()
-        Me.LabelX19 = New DevComponents.DotNetBar.LabelX()
-        Me.txtPOBHome = New DevComponents.DotNetBar.Controls.TextBoxX()
         Me.LabelX20 = New DevComponents.DotNetBar.LabelX()
-        Me.cboPOBCommune = New DevComponents.DotNetBar.Controls.ComboBoxEx()
-        Me.cboPOBVillage = New DevComponents.DotNetBar.Controls.ComboBoxEx()
-        Me.LabelX22 = New DevComponents.DotNetBar.LabelX()
-        Me.LabelX23 = New DevComponents.DotNetBar.LabelX()
+        Me.LabelX17 = New DevComponents.DotNetBar.LabelX()
+        Me.txtPOBHome = New DevComponents.DotNetBar.Controls.TextBoxX()
+        Me.txtPOBGroup = New DevComponents.DotNetBar.Controls.TextBoxX()
+        Me.LabelX19 = New DevComponents.DotNetBar.LabelX()
+        Me.cboPOBCity = New DevComponents.DotNetBar.Controls.ComboBoxEx()
+        Me.txtPOBStreet = New DevComponents.DotNetBar.Controls.TextBoxX()
+        Me.LabelX18 = New DevComponents.DotNetBar.LabelX()
         Me.GroupPanel4 = New DevComponents.DotNetBar.Controls.GroupPanel()
-        Me.txtPhone = New DevComponents.DotNetBar.Controls.TextBoxX()
-        Me.txtLine = New DevComponents.DotNetBar.Controls.TextBoxX()
-        Me.txtFacebook = New DevComponents.DotNetBar.Controls.TextBoxX()
-        Me.txtEmail = New DevComponents.DotNetBar.Controls.TextBoxX()
         Me.PictureBox4 = New System.Windows.Forms.PictureBox()
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox5 = New System.Windows.Forms.PictureBox()
+        Me.txtEmail = New DevComponents.DotNetBar.Controls.TextBoxX()
+        Me.txtFacebook = New DevComponents.DotNetBar.Controls.TextBoxX()
+        Me.txtLine = New DevComponents.DotNetBar.Controls.TextBoxX()
+        Me.txtPhone = New DevComponents.DotNetBar.Controls.TextBoxX()
         Me.PanelEx1.SuspendLayout()
+        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.dtDOB, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupPanel1.SuspendLayout()
         Me.GroupPanel2.SuspendLayout()
@@ -90,7 +91,6 @@ Partial Class frmNewEmployee
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'PanelEx1
@@ -110,6 +110,17 @@ Partial Class frmNewEmployee
         Me.PanelEx1.Style.GradientAngle = 90
         Me.PanelEx1.TabIndex = 0
         Me.PanelEx1.Text = "Employee Personal Information"
+        '
+        'PictureBox5
+        '
+        Me.PictureBox5.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox5.Image = Global.Payroll_Management_System.My.Resources.Resources._1442135746_close_red
+        Me.PictureBox5.Location = New System.Drawing.Point(1219, 3)
+        Me.PictureBox5.Name = "PictureBox5"
+        Me.PictureBox5.Size = New System.Drawing.Size(42, 35)
+        Me.PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox5.TabIndex = 22
+        Me.PictureBox5.TabStop = False
         '
         'LabelX1
         '
@@ -289,6 +300,29 @@ Partial Class frmNewEmployee
         Me.GroupPanel1.TabIndex = 11
         Me.GroupPanel1.Text = "Personal"
         '
+        'LabelX21
+        '
+        Me.LabelX21.BackColor = System.Drawing.Color.Transparent
+        Me.LabelX21.Location = New System.Drawing.Point(12, 289)
+        Me.LabelX21.Margin = New System.Windows.Forms.Padding(3, 6, 3, 6)
+        Me.LabelX21.Name = "LabelX21"
+        Me.LabelX21.Size = New System.Drawing.Size(87, 29)
+        Me.LabelX21.TabIndex = 15
+        Me.LabelX21.Text = "Status:"
+        '
+        'cboStatus
+        '
+        Me.cboStatus.DisplayMember = "Text"
+        Me.cboStatus.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed
+        Me.cboStatus.Font = New System.Drawing.Font("Khmer OS Metal Chrieng", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cboStatus.FormattingEnabled = True
+        Me.cboStatus.ItemHeight = 29
+        Me.cboStatus.Location = New System.Drawing.Point(106, 289)
+        Me.cboStatus.Margin = New System.Windows.Forms.Padding(3, 6, 3, 6)
+        Me.cboStatus.Name = "cboStatus"
+        Me.cboStatus.Size = New System.Drawing.Size(193, 35)
+        Me.cboStatus.TabIndex = 7
+        '
         'LabelX6
         '
         Me.LabelX6.BackColor = System.Drawing.Color.Transparent
@@ -354,116 +388,28 @@ Partial Class frmNewEmployee
         Me.GroupPanel2.TabIndex = 12
         Me.GroupPanel2.Text = "Address"
         '
-        'txtHome
+        'LabelX13
         '
-        Me.txtHome.Font = New System.Drawing.Font("Khmer OS Metal Chrieng", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtHome.Location = New System.Drawing.Point(73, 27)
-        Me.txtHome.Margin = New System.Windows.Forms.Padding(3, 6, 3, 6)
-        Me.txtHome.Name = "txtHome"
-        Me.txtHome.Size = New System.Drawing.Size(194, 35)
-        Me.txtHome.TabIndex = 8
+        Me.LabelX13.BackColor = System.Drawing.Color.Transparent
+        Me.LabelX13.Location = New System.Drawing.Point(3, 289)
+        Me.LabelX13.Margin = New System.Windows.Forms.Padding(3, 6, 3, 6)
+        Me.LabelX13.Name = "LabelX13"
+        Me.LabelX13.Size = New System.Drawing.Size(63, 35)
+        Me.LabelX13.TabIndex = 24
+        Me.LabelX13.Text = "Village:"
         '
-        'LabelX7
+        'cboVillage
         '
-        Me.LabelX7.BackColor = System.Drawing.Color.Transparent
-        Me.LabelX7.Location = New System.Drawing.Point(3, 27)
-        Me.LabelX7.Margin = New System.Windows.Forms.Padding(3, 6, 3, 6)
-        Me.LabelX7.Name = "LabelX7"
-        Me.LabelX7.Size = New System.Drawing.Size(64, 35)
-        Me.LabelX7.TabIndex = 13
-        Me.LabelX7.Text = "Home:"
-        '
-        'txtStreet
-        '
-        '
-        '
-        '
-        Me.txtStreet.Border.Class = "TextBoxBorder"
-        Me.txtStreet.Font = New System.Drawing.Font("Khmer OS Metal Chrieng", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtStreet.Location = New System.Drawing.Point(73, 71)
-        Me.txtStreet.Margin = New System.Windows.Forms.Padding(3, 6, 3, 6)
-        Me.txtStreet.Name = "txtStreet"
-        Me.txtStreet.Size = New System.Drawing.Size(194, 35)
-        Me.txtStreet.TabIndex = 9
-        '
-        'LabelX8
-        '
-        Me.LabelX8.BackColor = System.Drawing.Color.Transparent
-        Me.LabelX8.Location = New System.Drawing.Point(3, 71)
-        Me.LabelX8.Margin = New System.Windows.Forms.Padding(3, 6, 3, 6)
-        Me.LabelX8.Name = "LabelX8"
-        Me.LabelX8.Size = New System.Drawing.Size(64, 35)
-        Me.LabelX8.TabIndex = 15
-        Me.LabelX8.Text = "Street:"
-        '
-        'txtGroup
-        '
-        '
-        '
-        '
-        Me.txtGroup.Border.Class = "TextBoxBorder"
-        Me.txtGroup.Font = New System.Drawing.Font("Khmer OS Metal Chrieng", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtGroup.Location = New System.Drawing.Point(73, 115)
-        Me.txtGroup.Margin = New System.Windows.Forms.Padding(3, 6, 3, 6)
-        Me.txtGroup.Name = "txtGroup"
-        Me.txtGroup.Size = New System.Drawing.Size(194, 35)
-        Me.txtGroup.TabIndex = 10
-        '
-        'LabelX9
-        '
-        Me.LabelX9.BackColor = System.Drawing.Color.Transparent
-        Me.LabelX9.Location = New System.Drawing.Point(3, 115)
-        Me.LabelX9.Margin = New System.Windows.Forms.Padding(3, 6, 3, 6)
-        Me.LabelX9.Name = "LabelX9"
-        Me.LabelX9.Size = New System.Drawing.Size(64, 35)
-        Me.LabelX9.TabIndex = 17
-        Me.LabelX9.Text = "Group:"
-        '
-        'LabelX10
-        '
-        Me.LabelX10.BackColor = System.Drawing.Color.Transparent
-        Me.LabelX10.Location = New System.Drawing.Point(3, 158)
-        Me.LabelX10.Margin = New System.Windows.Forms.Padding(3, 6, 3, 6)
-        Me.LabelX10.Name = "LabelX10"
-        Me.LabelX10.Size = New System.Drawing.Size(49, 35)
-        Me.LabelX10.TabIndex = 15
-        Me.LabelX10.Text = "City:"
-        '
-        'cboCity
-        '
-        Me.cboCity.DisplayMember = "Text"
-        Me.cboCity.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed
-        Me.cboCity.Font = New System.Drawing.Font("Khmer OS Metal Chrieng", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cboCity.FormattingEnabled = True
-        Me.cboCity.ItemHeight = 29
-        Me.cboCity.Location = New System.Drawing.Point(73, 158)
-        Me.cboCity.Margin = New System.Windows.Forms.Padding(3, 6, 3, 6)
-        Me.cboCity.Name = "cboCity"
-        Me.cboCity.Size = New System.Drawing.Size(193, 35)
-        Me.cboCity.TabIndex = 11
-        '
-        'LabelX11
-        '
-        Me.LabelX11.BackColor = System.Drawing.Color.Transparent
-        Me.LabelX11.Location = New System.Drawing.Point(3, 203)
-        Me.LabelX11.Margin = New System.Windows.Forms.Padding(3, 6, 3, 6)
-        Me.LabelX11.Name = "LabelX11"
-        Me.LabelX11.Size = New System.Drawing.Size(63, 35)
-        Me.LabelX11.TabIndex = 20
-        Me.LabelX11.Text = "District:"
-        '
-        'cboDistrict
-        '
-        Me.cboDistrict.DisplayMember = "Text"
-        Me.cboDistrict.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed
-        Me.cboDistrict.Font = New System.Drawing.Font("Khmer OS Metal Chrieng", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cboDistrict.FormattingEnabled = True
-        Me.cboDistrict.ItemHeight = 29
-        Me.cboDistrict.Location = New System.Drawing.Point(73, 203)
-        Me.cboDistrict.Margin = New System.Windows.Forms.Padding(3, 6, 3, 6)
-        Me.cboDistrict.Name = "cboDistrict"
-        Me.cboDistrict.Size = New System.Drawing.Size(193, 35)
-        Me.cboDistrict.TabIndex = 12
+        Me.cboVillage.DisplayMember = "Text"
+        Me.cboVillage.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed
+        Me.cboVillage.Font = New System.Drawing.Font("Khmer OS Metal Chrieng", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cboVillage.FormattingEnabled = True
+        Me.cboVillage.ItemHeight = 29
+        Me.cboVillage.Location = New System.Drawing.Point(73, 289)
+        Me.cboVillage.Margin = New System.Windows.Forms.Padding(3, 6, 3, 6)
+        Me.cboVillage.Name = "cboVillage"
+        Me.cboVillage.Size = New System.Drawing.Size(193, 35)
+        Me.cboVillage.TabIndex = 14
         '
         'LabelX12
         '
@@ -488,28 +434,116 @@ Partial Class frmNewEmployee
         Me.cboCommune.Size = New System.Drawing.Size(193, 35)
         Me.cboCommune.TabIndex = 13
         '
-        'LabelX13
+        'LabelX11
         '
-        Me.LabelX13.BackColor = System.Drawing.Color.Transparent
-        Me.LabelX13.Location = New System.Drawing.Point(3, 289)
-        Me.LabelX13.Margin = New System.Windows.Forms.Padding(3, 6, 3, 6)
-        Me.LabelX13.Name = "LabelX13"
-        Me.LabelX13.Size = New System.Drawing.Size(63, 35)
-        Me.LabelX13.TabIndex = 24
-        Me.LabelX13.Text = "Village:"
+        Me.LabelX11.BackColor = System.Drawing.Color.Transparent
+        Me.LabelX11.Location = New System.Drawing.Point(3, 203)
+        Me.LabelX11.Margin = New System.Windows.Forms.Padding(3, 6, 3, 6)
+        Me.LabelX11.Name = "LabelX11"
+        Me.LabelX11.Size = New System.Drawing.Size(63, 35)
+        Me.LabelX11.TabIndex = 20
+        Me.LabelX11.Text = "District:"
         '
-        'cboVillage
+        'cboDistrict
         '
-        Me.cboVillage.DisplayMember = "Text"
-        Me.cboVillage.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed
-        Me.cboVillage.Font = New System.Drawing.Font("Khmer OS Metal Chrieng", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cboVillage.FormattingEnabled = True
-        Me.cboVillage.ItemHeight = 29
-        Me.cboVillage.Location = New System.Drawing.Point(73, 289)
-        Me.cboVillage.Margin = New System.Windows.Forms.Padding(3, 6, 3, 6)
-        Me.cboVillage.Name = "cboVillage"
-        Me.cboVillage.Size = New System.Drawing.Size(193, 35)
-        Me.cboVillage.TabIndex = 14
+        Me.cboDistrict.DisplayMember = "Text"
+        Me.cboDistrict.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed
+        Me.cboDistrict.Font = New System.Drawing.Font("Khmer OS Metal Chrieng", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cboDistrict.FormattingEnabled = True
+        Me.cboDistrict.ItemHeight = 29
+        Me.cboDistrict.Location = New System.Drawing.Point(73, 203)
+        Me.cboDistrict.Margin = New System.Windows.Forms.Padding(3, 6, 3, 6)
+        Me.cboDistrict.Name = "cboDistrict"
+        Me.cboDistrict.Size = New System.Drawing.Size(193, 35)
+        Me.cboDistrict.TabIndex = 12
+        '
+        'LabelX10
+        '
+        Me.LabelX10.BackColor = System.Drawing.Color.Transparent
+        Me.LabelX10.Location = New System.Drawing.Point(3, 158)
+        Me.LabelX10.Margin = New System.Windows.Forms.Padding(3, 6, 3, 6)
+        Me.LabelX10.Name = "LabelX10"
+        Me.LabelX10.Size = New System.Drawing.Size(49, 35)
+        Me.LabelX10.TabIndex = 15
+        Me.LabelX10.Text = "City:"
+        '
+        'txtGroup
+        '
+        '
+        '
+        '
+        Me.txtGroup.Border.Class = "TextBoxBorder"
+        Me.txtGroup.Font = New System.Drawing.Font("Khmer OS Metal Chrieng", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtGroup.Location = New System.Drawing.Point(73, 115)
+        Me.txtGroup.Margin = New System.Windows.Forms.Padding(3, 6, 3, 6)
+        Me.txtGroup.Name = "txtGroup"
+        Me.txtGroup.Size = New System.Drawing.Size(194, 35)
+        Me.txtGroup.TabIndex = 10
+        '
+        'cboCity
+        '
+        Me.cboCity.DisplayMember = "Text"
+        Me.cboCity.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed
+        Me.cboCity.Font = New System.Drawing.Font("Khmer OS Metal Chrieng", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cboCity.FormattingEnabled = True
+        Me.cboCity.ItemHeight = 29
+        Me.cboCity.Location = New System.Drawing.Point(73, 158)
+        Me.cboCity.Margin = New System.Windows.Forms.Padding(3, 6, 3, 6)
+        Me.cboCity.Name = "cboCity"
+        Me.cboCity.Size = New System.Drawing.Size(193, 35)
+        Me.cboCity.TabIndex = 11
+        '
+        'LabelX9
+        '
+        Me.LabelX9.BackColor = System.Drawing.Color.Transparent
+        Me.LabelX9.Location = New System.Drawing.Point(3, 115)
+        Me.LabelX9.Margin = New System.Windows.Forms.Padding(3, 6, 3, 6)
+        Me.LabelX9.Name = "LabelX9"
+        Me.LabelX9.Size = New System.Drawing.Size(64, 35)
+        Me.LabelX9.TabIndex = 17
+        Me.LabelX9.Text = "Group:"
+        '
+        'txtStreet
+        '
+        '
+        '
+        '
+        Me.txtStreet.Border.Class = "TextBoxBorder"
+        Me.txtStreet.Font = New System.Drawing.Font("Khmer OS Metal Chrieng", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtStreet.Location = New System.Drawing.Point(73, 71)
+        Me.txtStreet.Margin = New System.Windows.Forms.Padding(3, 6, 3, 6)
+        Me.txtStreet.Name = "txtStreet"
+        Me.txtStreet.Size = New System.Drawing.Size(194, 35)
+        Me.txtStreet.TabIndex = 9
+        '
+        'LabelX8
+        '
+        Me.LabelX8.BackColor = System.Drawing.Color.Transparent
+        Me.LabelX8.Location = New System.Drawing.Point(3, 71)
+        Me.LabelX8.Margin = New System.Windows.Forms.Padding(3, 6, 3, 6)
+        Me.LabelX8.Name = "LabelX8"
+        Me.LabelX8.Size = New System.Drawing.Size(64, 35)
+        Me.LabelX8.TabIndex = 15
+        Me.LabelX8.Text = "Street:"
+        '
+        'txtHome
+        '
+        Me.txtHome.Font = New System.Drawing.Font("Khmer OS Metal Chrieng", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtHome.Location = New System.Drawing.Point(73, 27)
+        Me.txtHome.Margin = New System.Windows.Forms.Padding(3, 6, 3, 6)
+        Me.txtHome.Name = "txtHome"
+        Me.txtHome.Size = New System.Drawing.Size(194, 35)
+        Me.txtHome.TabIndex = 8
+        '
+        'LabelX7
+        '
+        Me.LabelX7.BackColor = System.Drawing.Color.Transparent
+        Me.LabelX7.Location = New System.Drawing.Point(3, 27)
+        Me.LabelX7.Margin = New System.Windows.Forms.Padding(3, 6, 3, 6)
+        Me.LabelX7.Name = "LabelX7"
+        Me.LabelX7.Size = New System.Drawing.Size(64, 35)
+        Me.LabelX7.TabIndex = 13
+        Me.LabelX7.Text = "Home:"
         '
         'GroupPanel3
         '
@@ -559,6 +593,39 @@ Partial Class frmNewEmployee
         Me.GroupPanel3.TabIndex = 13
         Me.GroupPanel3.Text = "Place of Birth"
         '
+        'LabelX23
+        '
+        Me.LabelX23.BackColor = System.Drawing.Color.Transparent
+        Me.LabelX23.Location = New System.Drawing.Point(7, 289)
+        Me.LabelX23.Margin = New System.Windows.Forms.Padding(3, 6, 3, 6)
+        Me.LabelX23.Name = "LabelX23"
+        Me.LabelX23.Size = New System.Drawing.Size(63, 33)
+        Me.LabelX23.TabIndex = 34
+        Me.LabelX23.Text = "Village:"
+        '
+        'LabelX22
+        '
+        Me.LabelX22.BackColor = System.Drawing.Color.Transparent
+        Me.LabelX22.Location = New System.Drawing.Point(7, 246)
+        Me.LabelX22.Margin = New System.Windows.Forms.Padding(3, 6, 3, 6)
+        Me.LabelX22.Name = "LabelX22"
+        Me.LabelX22.Size = New System.Drawing.Size(63, 33)
+        Me.LabelX22.TabIndex = 33
+        Me.LabelX22.Text = "Commune:"
+        '
+        'cboPOBVillage
+        '
+        Me.cboPOBVillage.DisplayMember = "Text"
+        Me.cboPOBVillage.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed
+        Me.cboPOBVillage.Font = New System.Drawing.Font("Khmer OS Metal Chrieng", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cboPOBVillage.FormattingEnabled = True
+        Me.cboPOBVillage.ItemHeight = 29
+        Me.cboPOBVillage.Location = New System.Drawing.Point(72, 289)
+        Me.cboPOBVillage.Margin = New System.Windows.Forms.Padding(3, 6, 3, 6)
+        Me.cboPOBVillage.Name = "cboPOBVillage"
+        Me.cboPOBVillage.Size = New System.Drawing.Size(193, 35)
+        Me.cboPOBVillage.TabIndex = 21
+        '
         'LabelX14
         '
         Me.LabelX14.BackColor = System.Drawing.Color.Transparent
@@ -569,6 +636,19 @@ Partial Class frmNewEmployee
         Me.LabelX14.TabIndex = 24
         Me.LabelX14.Text = "Village:"
         '
+        'cboPOBCommune
+        '
+        Me.cboPOBCommune.DisplayMember = "Text"
+        Me.cboPOBCommune.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed
+        Me.cboPOBCommune.Font = New System.Drawing.Font("Khmer OS Metal Chrieng", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cboPOBCommune.FormattingEnabled = True
+        Me.cboPOBCommune.ItemHeight = 29
+        Me.cboPOBCommune.Location = New System.Drawing.Point(72, 246)
+        Me.cboPOBCommune.Margin = New System.Windows.Forms.Padding(3, 6, 3, 6)
+        Me.cboPOBCommune.Name = "cboPOBCommune"
+        Me.cboPOBCommune.Size = New System.Drawing.Size(193, 35)
+        Me.cboPOBCommune.TabIndex = 20
+        '
         'LabelX15
         '
         Me.LabelX15.BackColor = System.Drawing.Color.Transparent
@@ -578,29 +658,6 @@ Partial Class frmNewEmployee
         Me.LabelX15.Size = New System.Drawing.Size(63, 48)
         Me.LabelX15.TabIndex = 22
         Me.LabelX15.Text = "Commune:"
-        '
-        'LabelX21
-        '
-        Me.LabelX21.BackColor = System.Drawing.Color.Transparent
-        Me.LabelX21.Location = New System.Drawing.Point(12, 289)
-        Me.LabelX21.Margin = New System.Windows.Forms.Padding(3, 6, 3, 6)
-        Me.LabelX21.Name = "LabelX21"
-        Me.LabelX21.Size = New System.Drawing.Size(87, 29)
-        Me.LabelX21.TabIndex = 15
-        Me.LabelX21.Text = "Status:"
-        '
-        'cboStatus
-        '
-        Me.cboStatus.DisplayMember = "Text"
-        Me.cboStatus.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed
-        Me.cboStatus.Font = New System.Drawing.Font("Khmer OS Metal Chrieng", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cboStatus.FormattingEnabled = True
-        Me.cboStatus.ItemHeight = 29
-        Me.cboStatus.Location = New System.Drawing.Point(106, 289)
-        Me.cboStatus.Margin = New System.Windows.Forms.Padding(3, 6, 3, 6)
-        Me.cboStatus.Name = "cboStatus"
-        Me.cboStatus.Size = New System.Drawing.Size(193, 35)
-        Me.cboStatus.TabIndex = 7
         '
         'LabelX16
         '
@@ -625,6 +682,16 @@ Partial Class frmNewEmployee
         Me.cboPOBDistrict.Size = New System.Drawing.Size(193, 35)
         Me.cboPOBDistrict.TabIndex = 19
         '
+        'LabelX20
+        '
+        Me.LabelX20.BackColor = System.Drawing.Color.Transparent
+        Me.LabelX20.Location = New System.Drawing.Point(9, 27)
+        Me.LabelX20.Margin = New System.Windows.Forms.Padding(3, 6, 3, 6)
+        Me.LabelX20.Name = "LabelX20"
+        Me.LabelX20.Size = New System.Drawing.Size(55, 33)
+        Me.LabelX20.TabIndex = 21
+        Me.LabelX20.Text = "Home:"
+        '
         'LabelX17
         '
         Me.LabelX17.BackColor = System.Drawing.Color.Transparent
@@ -634,65 +701,6 @@ Partial Class frmNewEmployee
         Me.LabelX17.Size = New System.Drawing.Size(49, 35)
         Me.LabelX17.TabIndex = 24
         Me.LabelX17.Text = "City:"
-        '
-        'txtPOBGroup
-        '
-        '
-        '
-        '
-        Me.txtPOBGroup.Border.Class = "TextBoxBorder"
-        Me.txtPOBGroup.Font = New System.Drawing.Font("Khmer OS Metal Chrieng", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtPOBGroup.Location = New System.Drawing.Point(70, 115)
-        Me.txtPOBGroup.Margin = New System.Windows.Forms.Padding(3, 6, 3, 6)
-        Me.txtPOBGroup.Name = "txtPOBGroup"
-        Me.txtPOBGroup.Size = New System.Drawing.Size(194, 35)
-        Me.txtPOBGroup.TabIndex = 17
-        '
-        'cboPOBCity
-        '
-        Me.cboPOBCity.DisplayMember = "Text"
-        Me.cboPOBCity.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed
-        Me.cboPOBCity.Font = New System.Drawing.Font("Khmer OS Metal Chrieng", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cboPOBCity.FormattingEnabled = True
-        Me.cboPOBCity.ItemHeight = 29
-        Me.cboPOBCity.Location = New System.Drawing.Point(72, 158)
-        Me.cboPOBCity.Margin = New System.Windows.Forms.Padding(3, 6, 3, 6)
-        Me.cboPOBCity.Name = "cboPOBCity"
-        Me.cboPOBCity.Size = New System.Drawing.Size(193, 35)
-        Me.cboPOBCity.TabIndex = 18
-        '
-        'LabelX18
-        '
-        Me.LabelX18.BackColor = System.Drawing.Color.Transparent
-        Me.LabelX18.Location = New System.Drawing.Point(9, 117)
-        Me.LabelX18.Margin = New System.Windows.Forms.Padding(3, 6, 3, 6)
-        Me.LabelX18.Name = "LabelX18"
-        Me.LabelX18.Size = New System.Drawing.Size(87, 33)
-        Me.LabelX18.TabIndex = 27
-        Me.LabelX18.Text = "Group:"
-        '
-        'txtPOBStreet
-        '
-        '
-        '
-        '
-        Me.txtPOBStreet.Border.Class = "TextBoxBorder"
-        Me.txtPOBStreet.Font = New System.Drawing.Font("Khmer OS Metal Chrieng", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtPOBStreet.Location = New System.Drawing.Point(70, 70)
-        Me.txtPOBStreet.Margin = New System.Windows.Forms.Padding(3, 6, 3, 6)
-        Me.txtPOBStreet.Name = "txtPOBStreet"
-        Me.txtPOBStreet.Size = New System.Drawing.Size(194, 35)
-        Me.txtPOBStreet.TabIndex = 16
-        '
-        'LabelX19
-        '
-        Me.LabelX19.BackColor = System.Drawing.Color.Transparent
-        Me.LabelX19.Location = New System.Drawing.Point(7, 70)
-        Me.LabelX19.Margin = New System.Windows.Forms.Padding(3, 6, 3, 6)
-        Me.LabelX19.Name = "LabelX19"
-        Me.LabelX19.Size = New System.Drawing.Size(57, 35)
-        Me.LabelX19.TabIndex = 25
-        Me.LabelX19.Text = "Street:"
         '
         'txtPOBHome
         '
@@ -707,61 +715,64 @@ Partial Class frmNewEmployee
         Me.txtPOBHome.Size = New System.Drawing.Size(194, 35)
         Me.txtPOBHome.TabIndex = 15
         '
-        'LabelX20
+        'txtPOBGroup
         '
-        Me.LabelX20.BackColor = System.Drawing.Color.Transparent
-        Me.LabelX20.Location = New System.Drawing.Point(9, 27)
-        Me.LabelX20.Margin = New System.Windows.Forms.Padding(3, 6, 3, 6)
-        Me.LabelX20.Name = "LabelX20"
-        Me.LabelX20.Size = New System.Drawing.Size(55, 33)
-        Me.LabelX20.TabIndex = 21
-        Me.LabelX20.Text = "Home:"
         '
-        'cboPOBCommune
         '
-        Me.cboPOBCommune.DisplayMember = "Text"
-        Me.cboPOBCommune.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed
-        Me.cboPOBCommune.Font = New System.Drawing.Font("Khmer OS Metal Chrieng", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cboPOBCommune.FormattingEnabled = True
-        Me.cboPOBCommune.ItemHeight = 29
-        Me.cboPOBCommune.Location = New System.Drawing.Point(72, 246)
-        Me.cboPOBCommune.Margin = New System.Windows.Forms.Padding(3, 6, 3, 6)
-        Me.cboPOBCommune.Name = "cboPOBCommune"
-        Me.cboPOBCommune.Size = New System.Drawing.Size(193, 35)
-        Me.cboPOBCommune.TabIndex = 20
         '
-        'cboPOBVillage
+        Me.txtPOBGroup.Border.Class = "TextBoxBorder"
+        Me.txtPOBGroup.Font = New System.Drawing.Font("Khmer OS Metal Chrieng", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtPOBGroup.Location = New System.Drawing.Point(70, 115)
+        Me.txtPOBGroup.Margin = New System.Windows.Forms.Padding(3, 6, 3, 6)
+        Me.txtPOBGroup.Name = "txtPOBGroup"
+        Me.txtPOBGroup.Size = New System.Drawing.Size(194, 35)
+        Me.txtPOBGroup.TabIndex = 17
         '
-        Me.cboPOBVillage.DisplayMember = "Text"
-        Me.cboPOBVillage.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed
-        Me.cboPOBVillage.Font = New System.Drawing.Font("Khmer OS Metal Chrieng", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cboPOBVillage.FormattingEnabled = True
-        Me.cboPOBVillage.ItemHeight = 29
-        Me.cboPOBVillage.Location = New System.Drawing.Point(72, 289)
-        Me.cboPOBVillage.Margin = New System.Windows.Forms.Padding(3, 6, 3, 6)
-        Me.cboPOBVillage.Name = "cboPOBVillage"
-        Me.cboPOBVillage.Size = New System.Drawing.Size(193, 35)
-        Me.cboPOBVillage.TabIndex = 21
+        'LabelX19
         '
-        'LabelX22
+        Me.LabelX19.BackColor = System.Drawing.Color.Transparent
+        Me.LabelX19.Location = New System.Drawing.Point(7, 70)
+        Me.LabelX19.Margin = New System.Windows.Forms.Padding(3, 6, 3, 6)
+        Me.LabelX19.Name = "LabelX19"
+        Me.LabelX19.Size = New System.Drawing.Size(57, 35)
+        Me.LabelX19.TabIndex = 25
+        Me.LabelX19.Text = "Street:"
         '
-        Me.LabelX22.BackColor = System.Drawing.Color.Transparent
-        Me.LabelX22.Location = New System.Drawing.Point(7, 246)
-        Me.LabelX22.Margin = New System.Windows.Forms.Padding(3, 6, 3, 6)
-        Me.LabelX22.Name = "LabelX22"
-        Me.LabelX22.Size = New System.Drawing.Size(63, 33)
-        Me.LabelX22.TabIndex = 33
-        Me.LabelX22.Text = "Commune:"
+        'cboPOBCity
         '
-        'LabelX23
+        Me.cboPOBCity.DisplayMember = "Text"
+        Me.cboPOBCity.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed
+        Me.cboPOBCity.Font = New System.Drawing.Font("Khmer OS Metal Chrieng", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cboPOBCity.FormattingEnabled = True
+        Me.cboPOBCity.ItemHeight = 29
+        Me.cboPOBCity.Location = New System.Drawing.Point(72, 158)
+        Me.cboPOBCity.Margin = New System.Windows.Forms.Padding(3, 6, 3, 6)
+        Me.cboPOBCity.Name = "cboPOBCity"
+        Me.cboPOBCity.Size = New System.Drawing.Size(193, 35)
+        Me.cboPOBCity.TabIndex = 18
         '
-        Me.LabelX23.BackColor = System.Drawing.Color.Transparent
-        Me.LabelX23.Location = New System.Drawing.Point(7, 289)
-        Me.LabelX23.Margin = New System.Windows.Forms.Padding(3, 6, 3, 6)
-        Me.LabelX23.Name = "LabelX23"
-        Me.LabelX23.Size = New System.Drawing.Size(63, 33)
-        Me.LabelX23.TabIndex = 34
-        Me.LabelX23.Text = "Village:"
+        'txtPOBStreet
+        '
+        '
+        '
+        '
+        Me.txtPOBStreet.Border.Class = "TextBoxBorder"
+        Me.txtPOBStreet.Font = New System.Drawing.Font("Khmer OS Metal Chrieng", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtPOBStreet.Location = New System.Drawing.Point(70, 70)
+        Me.txtPOBStreet.Margin = New System.Windows.Forms.Padding(3, 6, 3, 6)
+        Me.txtPOBStreet.Name = "txtPOBStreet"
+        Me.txtPOBStreet.Size = New System.Drawing.Size(194, 35)
+        Me.txtPOBStreet.TabIndex = 16
+        '
+        'LabelX18
+        '
+        Me.LabelX18.BackColor = System.Drawing.Color.Transparent
+        Me.LabelX18.Location = New System.Drawing.Point(9, 117)
+        Me.LabelX18.Margin = New System.Windows.Forms.Padding(3, 6, 3, 6)
+        Me.LabelX18.Name = "LabelX18"
+        Me.LabelX18.Size = New System.Drawing.Size(87, 33)
+        Me.LabelX18.TabIndex = 27
+        Me.LabelX18.Text = "Group:"
         '
         'GroupPanel4
         '
@@ -800,58 +811,6 @@ Partial Class frmNewEmployee
         Me.GroupPanel4.Style.TextLineAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Near
         Me.GroupPanel4.TabIndex = 35
         Me.GroupPanel4.Text = "Contact"
-        '
-        'txtPhone
-        '
-        '
-        '
-        '
-        Me.txtPhone.Border.Class = "TextBoxBorder"
-        Me.txtPhone.Font = New System.Drawing.Font("Khmer OS Metal Chrieng", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtPhone.Location = New System.Drawing.Point(88, 25)
-        Me.txtPhone.Margin = New System.Windows.Forms.Padding(3, 6, 3, 6)
-        Me.txtPhone.Name = "txtPhone"
-        Me.txtPhone.Size = New System.Drawing.Size(194, 35)
-        Me.txtPhone.TabIndex = 16
-        '
-        'txtLine
-        '
-        '
-        '
-        '
-        Me.txtLine.Border.Class = "TextBoxBorder"
-        Me.txtLine.Font = New System.Drawing.Font("Khmer OS Metal Chrieng", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtLine.Location = New System.Drawing.Point(88, 156)
-        Me.txtLine.Margin = New System.Windows.Forms.Padding(3, 6, 3, 6)
-        Me.txtLine.Name = "txtLine"
-        Me.txtLine.Size = New System.Drawing.Size(194, 35)
-        Me.txtLine.TabIndex = 17
-        '
-        'txtFacebook
-        '
-        '
-        '
-        '
-        Me.txtFacebook.Border.Class = "TextBoxBorder"
-        Me.txtFacebook.Font = New System.Drawing.Font("Khmer OS Metal Chrieng", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtFacebook.Location = New System.Drawing.Point(88, 113)
-        Me.txtFacebook.Margin = New System.Windows.Forms.Padding(3, 6, 3, 6)
-        Me.txtFacebook.Name = "txtFacebook"
-        Me.txtFacebook.Size = New System.Drawing.Size(194, 35)
-        Me.txtFacebook.TabIndex = 18
-        '
-        'txtEmail
-        '
-        '
-        '
-        '
-        Me.txtEmail.Border.Class = "TextBoxBorder"
-        Me.txtEmail.Font = New System.Drawing.Font("Khmer OS Metal Chrieng", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtEmail.Location = New System.Drawing.Point(88, 69)
-        Me.txtEmail.Margin = New System.Windows.Forms.Padding(3, 6, 3, 6)
-        Me.txtEmail.Name = "txtEmail"
-        Me.txtEmail.Size = New System.Drawing.Size(194, 35)
-        Me.txtEmail.TabIndex = 19
         '
         'PictureBox4
         '
@@ -897,22 +856,63 @@ Partial Class frmNewEmployee
         Me.PictureBox1.TabIndex = 21
         Me.PictureBox1.TabStop = False
         '
-        'PictureBox5
+        'txtEmail
         '
-        Me.PictureBox5.BackColor = System.Drawing.Color.Transparent
-        Me.PictureBox5.Image = Global.Payroll_Management_System.My.Resources.Resources._1442135746_close_red
-        Me.PictureBox5.Location = New System.Drawing.Point(1219, 3)
-        Me.PictureBox5.Name = "PictureBox5"
-        Me.PictureBox5.Size = New System.Drawing.Size(42, 35)
-        Me.PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.PictureBox5.TabIndex = 22
-        Me.PictureBox5.TabStop = False
+        '
+        '
+        '
+        Me.txtEmail.Border.Class = "TextBoxBorder"
+        Me.txtEmail.Font = New System.Drawing.Font("Khmer OS Metal Chrieng", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtEmail.Location = New System.Drawing.Point(88, 69)
+        Me.txtEmail.Margin = New System.Windows.Forms.Padding(3, 6, 3, 6)
+        Me.txtEmail.Name = "txtEmail"
+        Me.txtEmail.Size = New System.Drawing.Size(194, 35)
+        Me.txtEmail.TabIndex = 19
+        '
+        'txtFacebook
+        '
+        '
+        '
+        '
+        Me.txtFacebook.Border.Class = "TextBoxBorder"
+        Me.txtFacebook.Font = New System.Drawing.Font("Khmer OS Metal Chrieng", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtFacebook.Location = New System.Drawing.Point(88, 113)
+        Me.txtFacebook.Margin = New System.Windows.Forms.Padding(3, 6, 3, 6)
+        Me.txtFacebook.Name = "txtFacebook"
+        Me.txtFacebook.Size = New System.Drawing.Size(194, 35)
+        Me.txtFacebook.TabIndex = 18
+        '
+        'txtLine
+        '
+        '
+        '
+        '
+        Me.txtLine.Border.Class = "TextBoxBorder"
+        Me.txtLine.Font = New System.Drawing.Font("Khmer OS Metal Chrieng", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtLine.Location = New System.Drawing.Point(88, 156)
+        Me.txtLine.Margin = New System.Windows.Forms.Padding(3, 6, 3, 6)
+        Me.txtLine.Name = "txtLine"
+        Me.txtLine.Size = New System.Drawing.Size(194, 35)
+        Me.txtLine.TabIndex = 17
+        '
+        'txtPhone
+        '
+        '
+        '
+        '
+        Me.txtPhone.Border.Class = "TextBoxBorder"
+        Me.txtPhone.Font = New System.Drawing.Font("Khmer OS Metal Chrieng", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtPhone.Location = New System.Drawing.Point(88, 25)
+        Me.txtPhone.Margin = New System.Windows.Forms.Padding(3, 6, 3, 6)
+        Me.txtPhone.Name = "txtPhone"
+        Me.txtPhone.Size = New System.Drawing.Size(194, 35)
+        Me.txtPhone.TabIndex = 16
         '
         'frmNewEmployee
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 27.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1284, 762)
+        Me.ClientSize = New System.Drawing.Size(1284, 749)
         Me.Controls.Add(Me.GroupPanel4)
         Me.Controls.Add(Me.GroupPanel3)
         Me.Controls.Add(Me.GroupPanel2)
@@ -926,6 +926,7 @@ Partial Class frmNewEmployee
         Me.Text = "Enter Information of Employee"
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Me.PanelEx1.ResumeLayout(False)
+        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.dtDOB, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupPanel1.ResumeLayout(False)
         Me.GroupPanel2.ResumeLayout(False)
@@ -935,7 +936,6 @@ Partial Class frmNewEmployee
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub

@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{803F7BA2-A39D-453E-A850-61517CC78049}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <StartupObject>Payroll_Management_System.frmNewEmployee</StartupObject>
+    <StartupObject>Payroll_Management_System.frmMenu</StartupObject>
     <RootNamespace>Payroll_Management_System</RootNamespace>
     <AssemblyName>Payroll Management System</AssemblyName>
     <FileAlignment>512</FileAlignment>
@@ -142,12 +142,6 @@
     <Compile Include="frmAttendance.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmBenefitAndDeductionType.Designer.vb">
-      <DependentUpon>frmBenefitAndDeductionType.vb</DependentUpon>
-    </Compile>
-    <Compile Include="frmBenefitAndDeductionType.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="frmBenefitType.Designer.vb">
       <DependentUpon>frmBenefitType.vb</DependentUpon>
     </Compile>
@@ -280,9 +274,6 @@
     <EmbeddedResource Include="frmAttendance.resx">
       <DependentUpon>frmAttendance.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmBenefitAndDeductionType.resx">
-      <DependentUpon>frmBenefitAndDeductionType.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="frmBenefitType.resx">
       <DependentUpon>frmBenefitType.vb</DependentUpon>
     </EmbeddedResource>
@@ -300,7 +291,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmEditDeductionType.resx">
       <DependentUpon>frmEditDeductionType.vb</DependentUpon>
-
     </EmbeddedResource>
     <EmbeddedResource Include="frmEditEmployee.resx">
       <DependentUpon>frmEditEmployee.vb</DependentUpon>
