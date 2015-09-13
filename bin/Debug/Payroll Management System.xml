@@ -39,6 +39,14 @@ PayrollManagementSystem
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
+</member><member name="P:Payroll_Management_System.My.Resources.Resources._1442163358_phone">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Payroll_Management_System.My.Resources.Resources._1442163442_email_envelope">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
 </member><member name="P:Payroll_Management_System.My.Resources.Resources.avatar">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.

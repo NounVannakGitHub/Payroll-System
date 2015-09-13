@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{803F7BA2-A39D-453E-A850-61517CC78049}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <StartupObject>Payroll_Management_System.frmConnect</StartupObject>
+    <StartupObject>Payroll_Management_System.frmNewEmployee</StartupObject>
     <RootNamespace>Payroll_Management_System</RootNamespace>
     <AssemblyName>Payroll Management System</AssemblyName>
     <FileAlignment>512</FileAlignment>
@@ -104,6 +104,18 @@
       <DependentUpon>frmNewEmployee.vb</DependentUpon>
     </Compile>
     <Compile Include="frmNewEmployee.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSchool.Designer.vb">
+      <DependentUpon>frmSchool.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSchool.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUniversity.Designer.vb">
+      <DependentUpon>frmUniversity.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmUniversity.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="SalaryTax.vb" />
@@ -247,6 +259,12 @@
     <EmbeddedResource Include="frmRegister.resx">
       <DependentUpon>frmRegister.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmSchool.resx">
+      <DependentUpon>frmSchool.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUniversity.resx">
+      <DependentUpon>frmUniversity.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
@@ -324,6 +342,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="payroll picture\1442135746_close_red.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="payroll picture\1442163358_phone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="payroll picture\1442163442_email-envelope.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

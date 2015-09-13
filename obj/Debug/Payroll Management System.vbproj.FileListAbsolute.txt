@@ -109,3 +109,5 @@ C:\Users\HP\Desktop\Payroll-System-722bfb0ee3d06aefaeff7138c22e6f972b70e4b8\bin\
 C:\Users\HP\Desktop\Payroll-System-722bfb0ee3d06aefaeff7138c22e6f972b70e4b8\obj\Debug\Payroll Management System.exe
 C:\Users\HP\Desktop\Payroll-System-722bfb0ee3d06aefaeff7138c22e6f972b70e4b8\obj\Debug\Payroll Management System.xml
 C:\Users\HP\Desktop\Payroll-System-722bfb0ee3d06aefaeff7138c22e6f972b70e4b8\obj\Debug\Payroll Management System.pdb
+D:\My Project\GitHub\Payroll-System\obj\Debug\Payroll_Management_System.frmSchool.resources
+D:\My Project\GitHub\Payroll-System\obj\Debug\Payroll_Management_System.frmUniversity.resources
