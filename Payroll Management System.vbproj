@@ -283,7 +283,7 @@
     <EmbeddedResource Include="frmBenefitAndDeductionType.resx">
       <DependentUpon>frmBenefitAndDeductionType.vb</DependentUpon>
     </EmbeddedResource>
-''<<<<<<< HEAD
+<!--- <<<<<<< HEAD -->
     <EmbeddedResource Include="frmBenefitType.resx">
       <DependentUpon>frmBenefitType.vb</DependentUpon>
     </EmbeddedResource>
@@ -301,10 +301,10 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmEditDeductionType.resx">
       <DependentUpon>frmEditDeductionType.vb</DependentUpon>
-''=======
+<!--- ======= -->
     <EmbeddedResource Include="frmConnect.resx">
       <DependentUpon>frmConnect.vb</DependentUpon>
-''>>>>>>> origin/payroll
+<!--- >>>>>>> origin/payroll -->
     </EmbeddedResource>
     <EmbeddedResource Include="frmEditEmployee.resx">
       <DependentUpon>frmEditEmployee.vb</DependentUpon>
