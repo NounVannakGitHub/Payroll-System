@@ -1,11 +1,11 @@
 ﻿Public Class frmMenu
-    Private Sub BonusToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles toolBonus.Click
-        With frmBonusInfo
-            .MdiParent = Me
-            .Dock = DockStyle.Fill
-            .Show()
-            .Activate()
-        End With
+    Private Sub BonusToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles BonusToolStripMenuItem.Click
+        'With frmBonus
+        '    .MdiParent = Me
+        '    .Dock = DockStyle.Fill
+        '    .Show()
+        '    .Activate()
+        'End With
     End Sub
 
     Private Sub BenefitDeductionTypeToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles BenefitDeductionTypeToolStripMenuItem.Click
@@ -25,6 +25,7 @@
             .Activate()
         End With
     End Sub
+<<<<<<< HEAD
 
     Private Sub toolAttendance_Click(sender As Object, e As EventArgs) Handles toolAttendance.Click
         With frmAttendance
@@ -44,4 +45,6 @@
             .Activate()
         End With
     End Sub
+=======
+>>>>>>> origin/payroll
 End Class

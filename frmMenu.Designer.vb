@@ -37,7 +37,13 @@ Partial Class frmMenu
         Me.ExitToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AddEmployeeToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.BenefitDeductionTypeToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+<<<<<<< HEAD
         Me.toolAttendance = New System.Windows.Forms.ToolStripMenuItem()
+=======
+        Me.AttendanceToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.TransactionToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.BonusToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+>>>>>>> origin/payroll
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -122,6 +128,16 @@ Partial Class frmMenu
         Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(171, 22)
         Me.ExitToolStripMenuItem.Text = "Exit"
         '
+<<<<<<< HEAD
+=======
+        'AdminToolStripMenuItem
+        '
+        Me.AdminToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AddEmployeeToolStripMenuItem, Me.BenefitDeductionTypeToolStripMenuItem})
+        Me.AdminToolStripMenuItem.Name = "AdminToolStripMenuItem"
+        Me.AdminToolStripMenuItem.Size = New System.Drawing.Size(71, 20)
+        Me.AdminToolStripMenuItem.Text = "Maintains"
+        '
+>>>>>>> origin/payroll
         'AddEmployeeToolStripMenuItem
         '
         Me.AddEmployeeToolStripMenuItem.Image = CType(resources.GetObject("AddEmployeeToolStripMenuItem.Image"), System.Drawing.Image)
@@ -136,12 +152,33 @@ Partial Class frmMenu
         Me.BenefitDeductionTypeToolStripMenuItem.Size = New System.Drawing.Size(200, 22)
         Me.BenefitDeductionTypeToolStripMenuItem.Text = "Benefit/Deduction Type"
         '
+<<<<<<< HEAD
         'toolAttendance
         '
         Me.toolAttendance.Image = CType(resources.GetObject("toolAttendance.Image"), System.Drawing.Image)
         Me.toolAttendance.Name = "toolAttendance"
         Me.toolAttendance.Size = New System.Drawing.Size(200, 22)
         Me.toolAttendance.Text = "Attendance"
+=======
+        'AttendanceToolStripMenuItem
+        '
+        Me.AttendanceToolStripMenuItem.Name = "AttendanceToolStripMenuItem"
+        Me.AttendanceToolStripMenuItem.Size = New System.Drawing.Size(80, 20)
+        Me.AttendanceToolStripMenuItem.Text = "Attendance"
+        '
+        'TransactionToolStripMenuItem
+        '
+        Me.TransactionToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.BonusToolStripMenuItem})
+        Me.TransactionToolStripMenuItem.Name = "TransactionToolStripMenuItem"
+        Me.TransactionToolStripMenuItem.Size = New System.Drawing.Size(81, 20)
+        Me.TransactionToolStripMenuItem.Text = "Transaction"
+        '
+        'BonusToolStripMenuItem
+        '
+        Me.BonusToolStripMenuItem.Name = "BonusToolStripMenuItem"
+        Me.BonusToolStripMenuItem.Size = New System.Drawing.Size(107, 22)
+        Me.BonusToolStripMenuItem.Text = "Bonus"
+>>>>>>> origin/payroll
         '
         'frmMenu
         '
@@ -173,11 +210,14 @@ Partial Class frmMenu
     Friend WithEvents AddEmployeeToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents AttendanceToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents TransactionToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents toolBonus As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents BonusToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents BenefitDeductionTypeToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+<<<<<<< HEAD
     Friend WithEvents toolAttendance As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents UserManagemantToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents WindowsToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents HelpToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents PHDayStatusToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+=======
+>>>>>>> origin/payroll
 End Class

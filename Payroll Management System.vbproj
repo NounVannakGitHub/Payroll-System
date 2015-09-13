@@ -6,7 +6,11 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{803F7BA2-A39D-453E-A850-61517CC78049}</ProjectGuid>
     <OutputType>WinExe</OutputType>
+<<<<<<< HEAD
     <StartupObject>Payroll_Management_System.frmMenu</StartupObject>
+=======
+    <StartupObject>Payroll_Management_System.frmConnect</StartupObject>
+>>>>>>> origin/payroll
     <RootNamespace>Payroll_Management_System</RootNamespace>
     <AssemblyName>Payroll Management System</AssemblyName>
     <FileAlignment>512</FileAlignment>
@@ -118,24 +122,6 @@
     <Compile Include="ContactEmployeeImpl.vb" />
     <Compile Include="ContactParentImpl.vb" />
     <Compile Include="ContactSpousesImpl.vb" />
-    <Compile Include="frmAddAttendance.Designer.vb">
-      <DependentUpon>frmAddAttendance.vb</DependentUpon>
-    </Compile>
-    <Compile Include="frmAddAttendance.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmAddbonus.Designer.vb">
-      <DependentUpon>frmAddbonus.vb</DependentUpon>
-    </Compile>
-    <Compile Include="frmAddbonus.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmAddDeductionType.Designer.vb">
-      <DependentUpon>frmAddDeductionType.vb</DependentUpon>
-    </Compile>
-    <Compile Include="frmAddDeductionType.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="frmAddEmployee.Designer.vb">
       <DependentUpon>frmAddEmployee.vb</DependentUpon>
     </Compile>
@@ -148,6 +134,7 @@
     <Compile Include="frmAttendance.vb">
       <SubType>Form</SubType>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="frmBenefitType.Designer.vb">
       <DependentUpon>frmBenefitType.vb</DependentUpon>
     </Compile>
@@ -182,6 +169,12 @@
       <DependentUpon>frmEditDeductionType.vb</DependentUpon>
     </Compile>
     <Compile Include="frmEditDeductionType.vb">
+=======
+    <Compile Include="frmBenefitAndDeductionType.Designer.vb">
+      <DependentUpon>frmBenefitAndDeductionType.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmBenefitAndDeductionType.vb">
+>>>>>>> origin/payroll
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmEditEmployee.Designer.vb">
@@ -265,21 +258,13 @@
     <Compile Include="University.vb" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="frmAddAttendance.resx">
-      <DependentUpon>frmAddAttendance.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmAddbonus.resx">
-      <DependentUpon>frmAddbonus.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmAddDeductionType.resx">
-      <DependentUpon>frmAddDeductionType.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="frmAddEmployee.resx">
       <DependentUpon>frmAddEmployee.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmAttendance.resx">
       <DependentUpon>frmAttendance.vb</DependentUpon>
     </EmbeddedResource>
+<<<<<<< HEAD
     <EmbeddedResource Include="frmBenefitType.resx">
       <DependentUpon>frmBenefitType.vb</DependentUpon>
     </EmbeddedResource>
@@ -297,6 +282,13 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmEditDeductionType.resx">
       <DependentUpon>frmEditDeductionType.vb</DependentUpon>
+=======
+    <EmbeddedResource Include="frmBenefitAndDeductionType.resx">
+      <DependentUpon>frmBenefitAndDeductionType.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConnect.resx">
+      <DependentUpon>frmConnect.vb</DependentUpon>
+>>>>>>> origin/payroll
     </EmbeddedResource>
     <EmbeddedResource Include="frmEditEmployee.resx">
       <DependentUpon>frmEditEmployee.vb</DependentUpon>
