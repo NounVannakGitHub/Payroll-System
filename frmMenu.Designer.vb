@@ -25,18 +25,19 @@ Partial Class frmMenu
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmMenu))
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.FileToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.AdminToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.TransactionToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.toolBonus = New System.Windows.Forms.ToolStripMenuItem()
+        Me.AttendanceToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.WindowsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.HelpToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.PHDayStatusToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.UserManagemantToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.LogoutToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ExitToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.AdminToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AddEmployeeToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.BenefitDeductionTypeToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.toolAttendance = New System.Windows.Forms.ToolStripMenuItem()
-        Me.AttendanceToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.TransactionToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.toolBonus = New System.Windows.Forms.ToolStripMenuItem()
-        Me.UserManagemantToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.WindowsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.HelpToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -56,6 +57,57 @@ Partial Class frmMenu
         Me.FileToolStripMenuItem.Size = New System.Drawing.Size(37, 20)
         Me.FileToolStripMenuItem.Text = "File"
         '
+        'AdminToolStripMenuItem
+        '
+        Me.AdminToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AddEmployeeToolStripMenuItem, Me.BenefitDeductionTypeToolStripMenuItem, Me.toolAttendance, Me.PHDayStatusToolStripMenuItem})
+        Me.AdminToolStripMenuItem.Name = "AdminToolStripMenuItem"
+        Me.AdminToolStripMenuItem.Size = New System.Drawing.Size(71, 20)
+        Me.AdminToolStripMenuItem.Text = "Maintains"
+        '
+        'TransactionToolStripMenuItem
+        '
+        Me.TransactionToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.toolBonus})
+        Me.TransactionToolStripMenuItem.Name = "TransactionToolStripMenuItem"
+        Me.TransactionToolStripMenuItem.Size = New System.Drawing.Size(81, 20)
+        Me.TransactionToolStripMenuItem.Text = "Transaction"
+        '
+        'toolBonus
+        '
+        Me.toolBonus.Name = "toolBonus"
+        Me.toolBonus.Size = New System.Drawing.Size(107, 22)
+        Me.toolBonus.Text = "Bonus"
+        '
+        'AttendanceToolStripMenuItem
+        '
+        Me.AttendanceToolStripMenuItem.Name = "AttendanceToolStripMenuItem"
+        Me.AttendanceToolStripMenuItem.Size = New System.Drawing.Size(54, 20)
+        Me.AttendanceToolStripMenuItem.Text = "Report"
+        '
+        'WindowsToolStripMenuItem
+        '
+        Me.WindowsToolStripMenuItem.Name = "WindowsToolStripMenuItem"
+        Me.WindowsToolStripMenuItem.Size = New System.Drawing.Size(68, 20)
+        Me.WindowsToolStripMenuItem.Text = "Windows"
+        '
+        'HelpToolStripMenuItem
+        '
+        Me.HelpToolStripMenuItem.Name = "HelpToolStripMenuItem"
+        Me.HelpToolStripMenuItem.Size = New System.Drawing.Size(44, 20)
+        Me.HelpToolStripMenuItem.Text = "Help"
+        '
+        'PHDayStatusToolStripMenuItem
+        '
+        Me.PHDayStatusToolStripMenuItem.Name = "PHDayStatusToolStripMenuItem"
+        Me.PHDayStatusToolStripMenuItem.Size = New System.Drawing.Size(200, 22)
+        Me.PHDayStatusToolStripMenuItem.Text = "PH && Day status"
+        '
+        'UserManagemantToolStripMenuItem
+        '
+        Me.UserManagemantToolStripMenuItem.Image = CType(resources.GetObject("UserManagemantToolStripMenuItem.Image"), System.Drawing.Image)
+        Me.UserManagemantToolStripMenuItem.Name = "UserManagemantToolStripMenuItem"
+        Me.UserManagemantToolStripMenuItem.Size = New System.Drawing.Size(171, 22)
+        Me.UserManagemantToolStripMenuItem.Text = "User Managemant"
+        '
         'LogoutToolStripMenuItem
         '
         Me.LogoutToolStripMenuItem.Image = CType(resources.GetObject("LogoutToolStripMenuItem.Image"), System.Drawing.Image)
@@ -69,13 +121,6 @@ Partial Class frmMenu
         Me.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem"
         Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(171, 22)
         Me.ExitToolStripMenuItem.Text = "Exit"
-        '
-        'AdminToolStripMenuItem
-        '
-        Me.AdminToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AddEmployeeToolStripMenuItem, Me.BenefitDeductionTypeToolStripMenuItem, Me.toolAttendance})
-        Me.AdminToolStripMenuItem.Name = "AdminToolStripMenuItem"
-        Me.AdminToolStripMenuItem.Size = New System.Drawing.Size(71, 20)
-        Me.AdminToolStripMenuItem.Text = "Maintains"
         '
         'AddEmployeeToolStripMenuItem
         '
@@ -97,44 +142,6 @@ Partial Class frmMenu
         Me.toolAttendance.Name = "toolAttendance"
         Me.toolAttendance.Size = New System.Drawing.Size(200, 22)
         Me.toolAttendance.Text = "Attendance"
-        '
-        'AttendanceToolStripMenuItem
-        '
-        Me.AttendanceToolStripMenuItem.Name = "AttendanceToolStripMenuItem"
-        Me.AttendanceToolStripMenuItem.Size = New System.Drawing.Size(54, 20)
-        Me.AttendanceToolStripMenuItem.Text = "Report"
-        '
-        'TransactionToolStripMenuItem
-        '
-        Me.TransactionToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.toolBonus})
-        Me.TransactionToolStripMenuItem.Name = "TransactionToolStripMenuItem"
-        Me.TransactionToolStripMenuItem.Size = New System.Drawing.Size(81, 20)
-        Me.TransactionToolStripMenuItem.Text = "Transaction"
-        '
-        'toolBonus
-        '
-        Me.toolBonus.Name = "toolBonus"
-        Me.toolBonus.Size = New System.Drawing.Size(152, 22)
-        Me.toolBonus.Text = "Bonus"
-        '
-        'UserManagemantToolStripMenuItem
-        '
-        Me.UserManagemantToolStripMenuItem.Image = CType(resources.GetObject("UserManagemantToolStripMenuItem.Image"), System.Drawing.Image)
-        Me.UserManagemantToolStripMenuItem.Name = "UserManagemantToolStripMenuItem"
-        Me.UserManagemantToolStripMenuItem.Size = New System.Drawing.Size(171, 22)
-        Me.UserManagemantToolStripMenuItem.Text = "User Managemant"
-        '
-        'WindowsToolStripMenuItem
-        '
-        Me.WindowsToolStripMenuItem.Name = "WindowsToolStripMenuItem"
-        Me.WindowsToolStripMenuItem.Size = New System.Drawing.Size(68, 20)
-        Me.WindowsToolStripMenuItem.Text = "Windows"
-        '
-        'HelpToolStripMenuItem
-        '
-        Me.HelpToolStripMenuItem.Name = "HelpToolStripMenuItem"
-        Me.HelpToolStripMenuItem.Size = New System.Drawing.Size(44, 20)
-        Me.HelpToolStripMenuItem.Text = "Help"
         '
         'frmMenu
         '
@@ -172,4 +179,5 @@ Partial Class frmMenu
     Friend WithEvents UserManagemantToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents WindowsToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents HelpToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents PHDayStatusToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
 End Class

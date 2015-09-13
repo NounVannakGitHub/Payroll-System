@@ -106,6 +106,12 @@
     <Compile Include="frmNewEmployee.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmPH.Designer.vb">
+      <DependentUpon>frmPH.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPH.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="SalaryTax.vb" />
     <Compile Include="AnnualLeave.vb" />
     <Compile Include="ConnectionSingleton.vb" />
@@ -303,6 +309,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmNewEmployee.resx">
       <DependentUpon>frmNewEmployee.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPH.resx">
+      <DependentUpon>frmPH.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmRegister.cy-GB.resx">
       <DependentUpon>frmRegister.vb</DependentUpon>

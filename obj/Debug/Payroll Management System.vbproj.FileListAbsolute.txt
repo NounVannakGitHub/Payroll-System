@@ -118,3 +118,4 @@ D:\My Project\GitHub\Payroll-System\obj\Debug\Payroll_Management_System.frmConne
 >>>>>>> origin/payroll
 D:\My Project\GitHub\Payroll-System\obj\Debug\Payroll_Management_System.frmNewEmployee.resources
 C:\Users\SOVON\Documents\GitHub\Payroll-System\obj\Debug\Payroll_Management_System.frmNewEmployee.resources
+C:\Users\SOVON\Documents\GitHub\Payroll-System\obj\Debug\Payroll_Management_System.frmPH.resources

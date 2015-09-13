@@ -35,4 +35,13 @@
         End With
 
     End Sub
+
+    Private Sub PHDayStatusToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles PHDayStatusToolStripMenuItem.Click
+        With frmPH
+            .MdiParent = Me
+            .Dock = DockStyle.Fill
+            .Show()
+            .Activate()
+        End With
+    End Sub
 End Class
