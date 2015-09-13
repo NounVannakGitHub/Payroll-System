@@ -19,6 +19,26 @@ PayrollManagementSystem
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
+</member><member name="P:Payroll_Management_System.My.Resources.Resources._1442135163_free_06">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Payroll_Management_System.My.Resources.Resources._1442135239_mobile_iphone_phone">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Payroll_Management_System.My.Resources.Resources._1442135434_Neon_Line_Social_Circles_50Icon_10px_grid_13">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Payroll_Management_System.My.Resources.Resources._1442135442_line">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Payroll_Management_System.My.Resources.Resources._1442135746_close_red">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
 </member><member name="P:Payroll_Management_System.My.Resources.Resources.avatar">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -36,6 +56,10 @@ PayrollManagementSystem
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member><member name="P:Payroll_Management_System.My.Resources.Resources.License">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Payroll_Management_System.My.Resources.Resources.mobile">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>

@@ -22,14 +22,17 @@ Partial Class frmBenefitAndDeductionType
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmBenefitAndDeductionType))
-        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.pnlBenefitAndDeduction = New DevComponents.DotNetBar.PanelEx()
+        Me.btnClosePanel = New System.Windows.Forms.Button()
         Me.TabControl1 = New System.Windows.Forms.TabControl()
         Me.TabPage1 = New System.Windows.Forms.TabPage()
         Me.SplitContainer1 = New System.Windows.Forms.SplitContainer()
+        Me.TreeView2 = New System.Windows.Forms.TreeView()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.DataGridViewX2 = New DevComponents.DotNetBar.Controls.DataGridViewX()
         Me.ToolStrip1 = New System.Windows.Forms.ToolStrip()
         Me.ToolStripButton1 = New System.Windows.Forms.ToolStripButton()
         Me.ToolStripButton2 = New System.Windows.Forms.ToolStripButton()
@@ -38,6 +41,8 @@ Partial Class frmBenefitAndDeductionType
         Me.xtSearch = New System.Windows.Forms.ToolStripTextBox()
         Me.TabPage2 = New System.Windows.Forms.TabPage()
         Me.SplitContainer2 = New System.Windows.Forms.SplitContainer()
+        Me.TreeView1 = New System.Windows.Forms.TreeView()
+        Me.Label2 = New System.Windows.Forms.Label()
         Me.ToolStrip2 = New System.Windows.Forms.ToolStrip()
         Me.ToolStripButton5 = New System.Windows.Forms.ToolStripButton()
         Me.ToolStripButton6 = New System.Windows.Forms.ToolStripButton()
@@ -45,11 +50,6 @@ Partial Class frmBenefitAndDeductionType
         Me.ToolStripButton8 = New System.Windows.Forms.ToolStripButton()
         Me.txtSearch = New System.Windows.Forms.ToolStripTextBox()
         Me.DataGridViewX1 = New DevComponents.DotNetBar.Controls.DataGridViewX()
-        Me.TreeView2 = New System.Windows.Forms.TreeView()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.TreeView1 = New System.Windows.Forms.TreeView()
-        Me.DataGridViewX2 = New DevComponents.DotNetBar.Controls.DataGridViewX()
-        Me.btnClosePanel = New System.Windows.Forms.Button()
         Me.pnlBenefitAndDeduction.SuspendLayout()
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
@@ -57,6 +57,7 @@ Partial Class frmBenefitAndDeductionType
         Me.SplitContainer1.Panel1.SuspendLayout()
         Me.SplitContainer1.Panel2.SuspendLayout()
         Me.SplitContainer1.SuspendLayout()
+        CType(Me.DataGridViewX2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.ToolStrip1.SuspendLayout()
         Me.TabPage2.SuspendLayout()
         CType(Me.SplitContainer2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -65,7 +66,6 @@ Partial Class frmBenefitAndDeductionType
         Me.SplitContainer2.SuspendLayout()
         Me.ToolStrip2.SuspendLayout()
         CType(Me.DataGridViewX1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.DataGridViewX2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'pnlBenefitAndDeduction
@@ -83,6 +83,17 @@ Partial Class frmBenefitAndDeductionType
         Me.pnlBenefitAndDeduction.Style.ForeColor.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.ItemText
         Me.pnlBenefitAndDeduction.Style.GradientAngle = 90
         Me.pnlBenefitAndDeduction.TabIndex = 1
+        '
+        'btnClosePanel
+        '
+        Me.btnClosePanel.Dock = System.Windows.Forms.DockStyle.Right
+        Me.btnClosePanel.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnClosePanel.Location = New System.Drawing.Point(966, 0)
+        Me.btnClosePanel.Name = "btnClosePanel"
+        Me.btnClosePanel.Size = New System.Drawing.Size(53, 40)
+        Me.btnClosePanel.TabIndex = 0
+        Me.btnClosePanel.Text = "x"
+        Me.btnClosePanel.UseVisualStyleBackColor = True
         '
         'TabControl1
         '
@@ -125,6 +136,14 @@ Partial Class frmBenefitAndDeductionType
         Me.SplitContainer1.SplitterDistance = 165
         Me.SplitContainer1.TabIndex = 0
         '
+        'TreeView2
+        '
+        Me.TreeView2.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.TreeView2.Location = New System.Drawing.Point(0, 23)
+        Me.TreeView2.Name = "TreeView2"
+        Me.TreeView2.Size = New System.Drawing.Size(165, 352)
+        Me.TreeView2.TabIndex = 1
+        '
         'Label1
         '
         Me.Label1.Dock = System.Windows.Forms.DockStyle.Top
@@ -134,6 +153,27 @@ Partial Class frmBenefitAndDeductionType
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "New Added"
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'DataGridViewX2
+        '
+        Me.DataGridViewX2.AllowUserToAddRows = False
+        Me.DataGridViewX2.AllowUserToDeleteRows = False
+        Me.DataGridViewX2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Window
+        DataGridViewCellStyle3.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.ControlText
+        DataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.ControlText
+        DataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.DataGridViewX2.DefaultCellStyle = DataGridViewCellStyle3
+        Me.DataGridViewX2.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.DataGridViewX2.GridColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(215, Byte), Integer), CType(CType(229, Byte), Integer))
+        Me.DataGridViewX2.Location = New System.Drawing.Point(0, 25)
+        Me.DataGridViewX2.Name = "DataGridViewX2"
+        Me.DataGridViewX2.ReadOnly = True
+        Me.DataGridViewX2.Size = New System.Drawing.Size(836, 350)
+        Me.DataGridViewX2.TabIndex = 1
         '
         'ToolStrip1
         '
@@ -215,6 +255,24 @@ Partial Class frmBenefitAndDeductionType
         Me.SplitContainer2.SplitterDistance = 181
         Me.SplitContainer2.TabIndex = 0
         '
+        'TreeView1
+        '
+        Me.TreeView1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.TreeView1.Location = New System.Drawing.Point(0, 23)
+        Me.TreeView1.Name = "TreeView1"
+        Me.TreeView1.Size = New System.Drawing.Size(181, 352)
+        Me.TreeView1.TabIndex = 2
+        '
+        'Label2
+        '
+        Me.Label2.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Label2.Location = New System.Drawing.Point(0, 0)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(181, 23)
+        Me.Label2.TabIndex = 1
+        Me.Label2.Text = "New Added"
+        Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
         'ToolStrip2
         '
         Me.ToolStrip2.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripButton5, Me.ToolStripButton6, Me.ToolStripButton7, Me.ToolStripButton8, Me.txtSearch})
@@ -269,14 +327,14 @@ Partial Class frmBenefitAndDeductionType
         Me.DataGridViewX1.AllowUserToAddRows = False
         Me.DataGridViewX1.AllowUserToDeleteRows = False
         Me.DataGridViewX1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window
-        DataGridViewCellStyle2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText
-        DataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.ControlText
-        DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.DataGridViewX1.DefaultCellStyle = DataGridViewCellStyle2
+        DataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Window
+        DataGridViewCellStyle4.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.ControlText
+        DataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.ControlText
+        DataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.DataGridViewX1.DefaultCellStyle = DataGridViewCellStyle4
         Me.DataGridViewX1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.DataGridViewX1.GridColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(215, Byte), Integer), CType(CType(229, Byte), Integer))
         Me.DataGridViewX1.Location = New System.Drawing.Point(0, 0)
@@ -284,64 +342,6 @@ Partial Class frmBenefitAndDeductionType
         Me.DataGridViewX1.ReadOnly = True
         Me.DataGridViewX1.Size = New System.Drawing.Size(820, 375)
         Me.DataGridViewX1.TabIndex = 0
-        '
-        'TreeView2
-        '
-        Me.TreeView2.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TreeView2.Location = New System.Drawing.Point(0, 23)
-        Me.TreeView2.Name = "TreeView2"
-        Me.TreeView2.Size = New System.Drawing.Size(165, 352)
-        Me.TreeView2.TabIndex = 1
-        '
-        'Label2
-        '
-        Me.Label2.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Label2.Location = New System.Drawing.Point(0, 0)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(181, 23)
-        Me.Label2.TabIndex = 1
-        Me.Label2.Text = "New Added"
-        Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'TreeView1
-        '
-        Me.TreeView1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TreeView1.Location = New System.Drawing.Point(0, 23)
-        Me.TreeView1.Name = "TreeView1"
-        Me.TreeView1.Size = New System.Drawing.Size(181, 352)
-        Me.TreeView1.TabIndex = 2
-        '
-        'DataGridViewX2
-        '
-        Me.DataGridViewX2.AllowUserToAddRows = False
-        Me.DataGridViewX2.AllowUserToDeleteRows = False
-        Me.DataGridViewX2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        DataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Window
-        DataGridViewCellStyle1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.ControlText
-        DataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.ControlText
-        DataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.DataGridViewX2.DefaultCellStyle = DataGridViewCellStyle1
-        Me.DataGridViewX2.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.DataGridViewX2.GridColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(215, Byte), Integer), CType(CType(229, Byte), Integer))
-        Me.DataGridViewX2.Location = New System.Drawing.Point(0, 25)
-        Me.DataGridViewX2.Name = "DataGridViewX2"
-        Me.DataGridViewX2.ReadOnly = True
-        Me.DataGridViewX2.Size = New System.Drawing.Size(836, 350)
-        Me.DataGridViewX2.TabIndex = 1
-        '
-        'btnClosePanel
-        '
-        Me.btnClosePanel.Dock = System.Windows.Forms.DockStyle.Right
-        Me.btnClosePanel.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnClosePanel.Location = New System.Drawing.Point(966, 0)
-        Me.btnClosePanel.Name = "btnClosePanel"
-        Me.btnClosePanel.Size = New System.Drawing.Size(53, 40)
-        Me.btnClosePanel.TabIndex = 0
-        Me.btnClosePanel.Text = "x"
-        Me.btnClosePanel.UseVisualStyleBackColor = True
         '
         'frmBenefitAndDeductionType
         '
@@ -352,7 +352,9 @@ Partial Class frmBenefitAndDeductionType
         Me.Controls.Add(Me.pnlBenefitAndDeduction)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "frmBenefitAndDeductionType"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "frmBenefitAndDeductionType"
+        Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Me.pnlBenefitAndDeduction.ResumeLayout(False)
         Me.TabControl1.ResumeLayout(False)
         Me.TabPage1.ResumeLayout(False)
@@ -361,6 +363,7 @@ Partial Class frmBenefitAndDeductionType
         Me.SplitContainer1.Panel2.PerformLayout()
         CType(Me.SplitContainer1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.SplitContainer1.ResumeLayout(False)
+        CType(Me.DataGridViewX2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ToolStrip1.ResumeLayout(False)
         Me.ToolStrip1.PerformLayout()
         Me.TabPage2.ResumeLayout(False)
@@ -372,7 +375,6 @@ Partial Class frmBenefitAndDeductionType
         Me.ToolStrip2.ResumeLayout(False)
         Me.ToolStrip2.PerformLayout()
         CType(Me.DataGridViewX1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.DataGridViewX2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub

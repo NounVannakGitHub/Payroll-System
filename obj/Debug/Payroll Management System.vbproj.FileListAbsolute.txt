@@ -104,3 +104,4 @@ D:\My Project\GitHub\Payroll-System\obj\Debug\Payroll_Management_System.frmBenef
 D:\My Project\GitHub\Payroll-System\obj\Debug\Payroll_Management_System.frmEditEmployee.resources
 D:\My Project\GitHub\Payroll-System\obj\Debug\Payroll_Management_System.frmEmployeeInformation.resources
 D:\My Project\GitHub\Payroll-System\obj\Debug\Payroll_Management_System.frmConnect.resources
+D:\My Project\GitHub\Payroll-System\obj\Debug\Payroll_Management_System.frmNewEmployee.resources
