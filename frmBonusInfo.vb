@@ -1,7 +1,7 @@
 ﻿Public Class frmBonusInfo
 
     Private Sub frmBonusInfo_Load(sender As Object, e As EventArgs) Handles Me.Load
-        pnlBonusInformation.Height = 40
+        pnlBonusInformation.Height = 35
         Label1.Height = 25
     End Sub
 

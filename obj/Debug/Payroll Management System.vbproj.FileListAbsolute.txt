@@ -104,10 +104,20 @@ D:\My Project\GitHub\Payroll-System\obj\Debug\Payroll_Management_System.frmBenef
 D:\My Project\GitHub\Payroll-System\obj\Debug\Payroll_Management_System.frmEditEmployee.resources
 D:\My Project\GitHub\Payroll-System\obj\Debug\Payroll_Management_System.frmEmployeeInformation.resources
 D:\My Project\GitHub\Payroll-System\obj\Debug\Payroll_Management_System.frmConnect.resources
+<<<<<<< HEAD
+>>>>>>> origin/payroll
+D:\My Project\GitHub\Payroll-System\obj\Debug\Payroll_Management_System.frmNewEmployee.resources
+C:\Users\SOVON\Documents\GitHub\Payroll-System\obj\Debug\Payroll_Management_System.frmNewEmployee.resources
+C:\Users\SOVON\Documents\GitHub\Payroll-System\obj\Debug\Payroll_Management_System.frmPH.resources
+=======
 D:\My Project\GitHub\Payroll-System\obj\Debug\Payroll_Management_System.frmNewEmployee.resources
 C:\Users\HP\Desktop\Payroll-System-722bfb0ee3d06aefaeff7138c22e6f972b70e4b8\bin\Debug\Payroll Management System.exe.config
 C:\Users\HP\Desktop\Payroll-System-722bfb0ee3d06aefaeff7138c22e6f972b70e4b8\obj\Debug\Payroll Management System.exe
 C:\Users\HP\Desktop\Payroll-System-722bfb0ee3d06aefaeff7138c22e6f972b70e4b8\obj\Debug\Payroll Management System.xml
 C:\Users\HP\Desktop\Payroll-System-722bfb0ee3d06aefaeff7138c22e6f972b70e4b8\obj\Debug\Payroll Management System.pdb
+<<<<<<< HEAD
 D:\My Project\GitHub\Payroll-System\obj\Debug\Payroll_Management_System.frmSchool.resources
 D:\My Project\GitHub\Payroll-System\obj\Debug\Payroll_Management_System.frmUniversity.resources
+=======
+>>>>>>> origin/payroll
+>>>>>>> origin/payroll
