@@ -22,15 +22,15 @@ Partial Class frmBenefitAndDeductionType
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-<<<<<<< HEAD
+        '<<<<<<< HEAD
         Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmBenefitAndDeductionType))
-=======
-        Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmBenefitAndDeductionType))
-        Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
->>>>>>> origin/payroll
+        '=======
+        '        Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        '        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmBenefitAndDeductionType))
+        '        Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        '>>>>>>> origin/payroll
         Me.pnlBenefitAndDeduction = New DevComponents.DotNetBar.PanelEx()
         Me.btnClosePanel = New System.Windows.Forms.Button()
         Me.TabControl1 = New System.Windows.Forms.TabControl()
@@ -48,7 +48,7 @@ Partial Class frmBenefitAndDeductionType
         Me.ToolStrip2 = New System.Windows.Forms.ToolStrip()
         Me.txtSearch = New System.Windows.Forms.ToolStripTextBox()
         Me.DataGridViewX1 = New DevComponents.DotNetBar.Controls.DataGridViewX()
-<<<<<<< HEAD
+        '<<<<<<< HEAD
         Me.tbtnNew = New System.Windows.Forms.ToolStripButton()
         Me.tbtnEdit = New System.Windows.Forms.ToolStripButton()
         Me.tbtnDelete = New System.Windows.Forms.ToolStripButton()
@@ -57,8 +57,8 @@ Partial Class frmBenefitAndDeductionType
         Me.tbtnEditDeductionType = New System.Windows.Forms.ToolStripButton()
         Me.tbtnDeleteDeductionType = New System.Windows.Forms.ToolStripButton()
         Me.btnSearchDeduction = New System.Windows.Forms.ToolStripButton()
-=======
->>>>>>> origin/payroll
+        '=======
+        '>>>>>>> origin/payroll
         Me.pnlBenefitAndDeduction.SuspendLayout()
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
@@ -149,11 +149,11 @@ Partial Class frmBenefitAndDeductionType
         'TreeView2
         '
         Me.TreeView2.Dock = System.Windows.Forms.DockStyle.Fill
-<<<<<<< HEAD
+        ''<<<<<<< HEAD
         Me.TreeView2.Location = New System.Drawing.Point(0, 25)
-=======
+        ''=======
         Me.TreeView2.Location = New System.Drawing.Point(0, 23)
->>>>>>> origin/payroll
+        ''>>>>>>> origin/payroll
         Me.TreeView2.Name = "TreeView2"
         Me.TreeView2.Size = New System.Drawing.Size(165, 352)
         Me.TreeView2.TabIndex = 1
@@ -172,7 +172,7 @@ Partial Class frmBenefitAndDeductionType
         Me.DataGridViewX2.AllowUserToAddRows = False
         Me.DataGridViewX2.AllowUserToDeleteRows = False
         Me.DataGridViewX2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-<<<<<<< HEAD
+        ''<<<<<<< HEAD
         DataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
         DataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Window
         DataGridViewCellStyle4.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -181,7 +181,7 @@ Partial Class frmBenefitAndDeductionType
         DataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.ControlText
         DataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
         Me.DataGridViewX2.DefaultCellStyle = DataGridViewCellStyle4
-=======
+        ''=======
         DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
         DataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Window
         DataGridViewCellStyle3.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -190,17 +190,17 @@ Partial Class frmBenefitAndDeductionType
         DataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.ControlText
         DataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
         Me.DataGridViewX2.DefaultCellStyle = DataGridViewCellStyle3
->>>>>>> origin/payroll
+        ''>>>>>>> origin/payroll
         Me.DataGridViewX2.Dock = System.Windows.Forms.DockStyle.Fill
         Me.DataGridViewX2.GridColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(215, Byte), Integer), CType(CType(229, Byte), Integer))
         Me.DataGridViewX2.Location = New System.Drawing.Point(0, 25)
         Me.DataGridViewX2.Name = "DataGridViewX2"
         Me.DataGridViewX2.ReadOnly = True
-<<<<<<< HEAD
+        ''<<<<<<< HEAD
         Me.DataGridViewX2.Size = New System.Drawing.Size(836, 352)
-=======
+        ''=======
         Me.DataGridViewX2.Size = New System.Drawing.Size(836, 350)
->>>>>>> origin/payroll
+        ''>>>>>>> origin/payroll
         Me.DataGridViewX2.TabIndex = 1
         '
         'ToolStrip1
@@ -253,11 +253,11 @@ Partial Class frmBenefitAndDeductionType
         Me.TreeView1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.TreeView1.Location = New System.Drawing.Point(0, 23)
         Me.TreeView1.Name = "TreeView1"
-<<<<<<< HEAD
+        ''<<<<<<< HEAD
         Me.TreeView1.Size = New System.Drawing.Size(181, 354)
-=======
+        ''=======
         Me.TreeView1.Size = New System.Drawing.Size(181, 352)
->>>>>>> origin/payroll
+        ''>>>>>>> origin/payroll
         Me.TreeView1.TabIndex = 2
         '
         'Label2
@@ -267,10 +267,10 @@ Partial Class frmBenefitAndDeductionType
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(181, 23)
         Me.Label2.TabIndex = 1
-<<<<<<< HEAD
-=======
+        ''<<<<<<< HEAD
+        ''=======
         Me.Label2.Text = "New Added"
->>>>>>> origin/payroll
+        ''>>>>>>> origin/payroll
         Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'ToolStrip2
@@ -293,7 +293,7 @@ Partial Class frmBenefitAndDeductionType
         Me.DataGridViewX1.AllowUserToAddRows = False
         Me.DataGridViewX1.AllowUserToDeleteRows = False
         Me.DataGridViewX1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-<<<<<<< HEAD
+        ''<<<<<<< HEAD
         DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
         DataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Window
         DataGridViewCellStyle3.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -302,7 +302,7 @@ Partial Class frmBenefitAndDeductionType
         DataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.ControlText
         DataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
         Me.DataGridViewX1.DefaultCellStyle = DataGridViewCellStyle3
-=======
+        ''=======
         DataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
         DataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Window
         DataGridViewCellStyle4.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -311,7 +311,7 @@ Partial Class frmBenefitAndDeductionType
         DataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.ControlText
         DataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
         Me.DataGridViewX1.DefaultCellStyle = DataGridViewCellStyle4
->>>>>>> origin/payroll
+        ''>>>>>>> origin/payroll
         Me.DataGridViewX1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.DataGridViewX1.GridColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(215, Byte), Integer), CType(CType(229, Byte), Integer))
         Me.DataGridViewX1.Location = New System.Drawing.Point(0, 0)
@@ -320,7 +320,7 @@ Partial Class frmBenefitAndDeductionType
         Me.DataGridViewX1.Size = New System.Drawing.Size(820, 377)
         Me.DataGridViewX1.TabIndex = 0
         '
-<<<<<<< HEAD
+        ''<<<<<<< HEAD
         'tbtnNew
         '
         Me.tbtnNew.Image = CType(resources.GetObject("tbtnNew.Image"), System.Drawing.Image)
@@ -390,8 +390,8 @@ Partial Class frmBenefitAndDeductionType
         Me.btnSearchDeduction.Size = New System.Drawing.Size(23, 22)
         Me.btnSearchDeduction.Text = "ToolStripButton8"
         '
-=======
->>>>>>> origin/payroll
+        '=======
+        '>>>>>>> origin/payroll
         'frmBenefitAndDeductionType
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)

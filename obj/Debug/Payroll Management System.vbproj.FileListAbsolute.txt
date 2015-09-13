@@ -115,8 +115,14 @@ D:\My Project\GitHub\Payroll-System\obj\Debug\Payroll_Management_System.frmBenef
 D:\My Project\GitHub\Payroll-System\obj\Debug\Payroll_Management_System.frmEditEmployee.resources
 D:\My Project\GitHub\Payroll-System\obj\Debug\Payroll_Management_System.frmEmployeeInformation.resources
 D:\My Project\GitHub\Payroll-System\obj\Debug\Payroll_Management_System.frmConnect.resources
-<<<<<<< HEAD
 >>>>>>> origin/payroll
-=======
 D:\My Project\GitHub\Payroll-System\obj\Debug\Payroll_Management_System.frmNewEmployee.resources
->>>>>>> origin/payroll
+D:\My Project\GitHub\Payroll-System\obj\Debug\Payroll_Management_System.frmAddAttendance.resources
+D:\My Project\GitHub\Payroll-System\obj\Debug\Payroll_Management_System.frmAddbonus.resources
+D:\My Project\GitHub\Payroll-System\obj\Debug\Payroll_Management_System.frmAddDeductionType.resources
+D:\My Project\GitHub\Payroll-System\obj\Debug\Payroll_Management_System.frmBenefitType.resources
+D:\My Project\GitHub\Payroll-System\obj\Debug\Payroll_Management_System.frmBonusInfo.resources
+D:\My Project\GitHub\Payroll-System\obj\Debug\Payroll_Management_System.frmEditAttendance.resources
+D:\My Project\GitHub\Payroll-System\obj\Debug\Payroll_Management_System.frmEditBenefitType.resources
+D:\My Project\GitHub\Payroll-System\obj\Debug\Payroll_Management_System.frmEditBonus.resources
+D:\My Project\GitHub\Payroll-System\obj\Debug\Payroll_Management_System.frmEditDeductionType.resources
