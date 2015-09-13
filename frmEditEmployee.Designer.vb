@@ -24,6 +24,7 @@ Partial Class frmEditEmployee
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmEditEmployee))
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.TextBoxX5 = New DevComponents.DotNetBar.Controls.TextBoxX()
         Me.btnCancel = New DevComponents.DotNetBar.ButtonX()
         Me.btnSave = New DevComponents.DotNetBar.ButtonX()
         Me.ButtonX1 = New DevComponents.DotNetBar.ButtonX()
@@ -51,7 +52,6 @@ Partial Class frmEditEmployee
         Me.LabelX1 = New DevComponents.DotNetBar.LabelX()
         Me.TextBoxX1 = New DevComponents.DotNetBar.Controls.TextBoxX()
         Me.PanelEx1 = New DevComponents.DotNetBar.PanelEx()
-        Me.TextBoxX5 = New DevComponents.DotNetBar.Controls.TextBoxX()
         Me.GroupBox1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.DateTimeInput1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -84,6 +84,15 @@ Partial Class frmEditEmployee
         resources.ApplyResources(Me.GroupBox1, "GroupBox1")
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.TabStop = False
+        '
+        'TextBoxX5
+        '
+        '
+        '
+        '
+        Me.TextBoxX5.Border.Class = "TextBoxBorder"
+        resources.ApplyResources(Me.TextBoxX5, "TextBoxX5")
+        Me.TextBoxX5.Name = "TextBoxX5"
         '
         'btnCancel
         '
@@ -305,16 +314,7 @@ Partial Class frmEditEmployee
         Me.PanelEx1.StyleMouseOver.BorderColor.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.ItemHotBorder
         Me.PanelEx1.StyleMouseOver.ForeColor.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.ItemHotText
         '
-        'TextBoxX5
-        '
-        '
-        '
-        '
-        Me.TextBoxX5.Border.Class = "TextBoxBorder"
-        resources.ApplyResources(Me.TextBoxX5, "TextBoxX5")
-        Me.TextBoxX5.Name = "TextBoxX5"
-        '
-        'editEmployee
+        'frmEditEmployee
         '
         resources.ApplyResources(Me, "$this")
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -324,7 +324,7 @@ Partial Class frmEditEmployee
         Me.HelpButton = True
         Me.MaximizeBox = False
         Me.MinimizeBox = False
-        Me.Name = "editEmployee"
+        Me.Name = "frmEditEmployee"
         Me.GroupBox1.ResumeLayout(False)
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.DateTimeInput1, System.ComponentModel.ISupportInitialize).EndInit()
