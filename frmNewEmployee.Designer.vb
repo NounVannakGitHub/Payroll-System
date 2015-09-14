@@ -24,7 +24,6 @@ Partial Class frmNewEmployee
     Private Sub InitializeComponent()
         Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.PanelEx1 = New DevComponents.DotNetBar.PanelEx()
-        Me.PictureBox5 = New System.Windows.Forms.PictureBox()
         Me.LabelX1 = New DevComponents.DotNetBar.LabelX()
         Me.txtId = New DevComponents.DotNetBar.Controls.TextBoxX()
         Me.cboGender = New DevComponents.DotNetBar.Controls.ComboBoxEx()
@@ -73,23 +72,10 @@ Partial Class frmNewEmployee
         Me.txtPOBStreet = New DevComponents.DotNetBar.Controls.TextBoxX()
         Me.LabelX18 = New DevComponents.DotNetBar.LabelX()
         Me.GroupPanel4 = New DevComponents.DotNetBar.Controls.GroupPanel()
-<<<<<<< HEAD
-=======
-        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-<<<<<<< HEAD
->>>>>>> origin/payroll
         Me.txtEmail = New DevComponents.DotNetBar.Controls.TextBoxX()
         Me.txtFacebook = New DevComponents.DotNetBar.Controls.TextBoxX()
         Me.txtLine = New DevComponents.DotNetBar.Controls.TextBoxX()
         Me.txtPhone = New DevComponents.DotNetBar.Controls.TextBoxX()
-<<<<<<< HEAD
-=======
-=======
-        Me.PictureBox5 = New System.Windows.Forms.PictureBox()
->>>>>>> origin/payroll
         Me.GroupPanel5 = New DevComponents.DotNetBar.Controls.GroupPanel()
         Me.chbPhD = New DevComponents.DotNetBar.Controls.CheckBoxX()
         Me.chbMaster = New DevComponents.DotNetBar.Controls.CheckBoxX()
@@ -105,7 +91,6 @@ Partial Class frmNewEmployee
         Me.gpChildAddress = New DevComponents.DotNetBar.Controls.GroupPanel()
         Me.GroupPanel9 = New DevComponents.DotNetBar.Controls.GroupPanel()
         Me.GroupPanel10 = New DevComponents.DotNetBar.Controls.GroupPanel()
-<<<<<<< HEAD
         Me.GroupPanel12 = New DevComponents.DotNetBar.Controls.GroupPanel()
         Me.cboEductionLevel = New DevComponents.DotNetBar.Controls.ComboBoxEx()
         Me.LabelX25 = New DevComponents.DotNetBar.LabelX()
@@ -122,11 +107,7 @@ Partial Class frmNewEmployee
         Me.ComboItem4 = New DevComponents.Editors.ComboItem()
         Me.ComboItem5 = New DevComponents.Editors.ComboItem()
         Me.ComboItem6 = New DevComponents.Editors.ComboItem()
-=======
->>>>>>> origin/payroll
->>>>>>> origin/payroll
         Me.PanelEx1.SuspendLayout()
-        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.dtDOB, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupPanel1.SuspendLayout()
         Me.GroupPanel2.SuspendLayout()
@@ -138,15 +119,8 @@ Partial Class frmNewEmployee
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
-<<<<<<< HEAD
-=======
         CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
-<<<<<<< HEAD
         CType(Me.dgvEducation, System.ComponentModel.ISupportInitialize).BeginInit()
-=======
-        Me.GroupPanel5.SuspendLayout()
->>>>>>> origin/payroll
->>>>>>> origin/payroll
         Me.SuspendLayout()
         '
         'PanelEx1
@@ -166,17 +140,6 @@ Partial Class frmNewEmployee
         Me.PanelEx1.Style.GradientAngle = 90
         Me.PanelEx1.TabIndex = 0
         Me.PanelEx1.Text = "Employee Personal Information"
-        '
-        'PictureBox5
-        '
-        Me.PictureBox5.BackColor = System.Drawing.Color.Transparent
-        Me.PictureBox5.Image = Global.Payroll_Management_System.My.Resources.Resources._1442135746_close_red
-        Me.PictureBox5.Location = New System.Drawing.Point(1219, 3)
-        Me.PictureBox5.Name = "PictureBox5"
-        Me.PictureBox5.Size = New System.Drawing.Size(42, 35)
-        Me.PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.PictureBox5.TabIndex = 22
-        Me.PictureBox5.TabStop = False
         '
         'LabelX1
         '
@@ -550,7 +513,6 @@ Partial Class frmNewEmployee
         Me.cboCity.TabIndex = 11
         '
         'LabelX9
-<<<<<<< HEAD
         '
         Me.LabelX9.BackColor = System.Drawing.Color.Transparent
         Me.LabelX9.Location = New System.Drawing.Point(3, 115)
@@ -592,49 +554,6 @@ Partial Class frmNewEmployee
         Me.txtHome.Size = New System.Drawing.Size(194, 35)
         Me.txtHome.TabIndex = 8
         '
-=======
-        '
-        Me.LabelX9.BackColor = System.Drawing.Color.Transparent
-        Me.LabelX9.Location = New System.Drawing.Point(3, 115)
-        Me.LabelX9.Margin = New System.Windows.Forms.Padding(3, 6, 3, 6)
-        Me.LabelX9.Name = "LabelX9"
-        Me.LabelX9.Size = New System.Drawing.Size(64, 35)
-        Me.LabelX9.TabIndex = 17
-        Me.LabelX9.Text = "Group:"
-        '
-        'txtStreet
-        '
-        '
-        '
-        '
-        Me.txtStreet.Border.Class = "TextBoxBorder"
-        Me.txtStreet.Font = New System.Drawing.Font("Khmer OS Metal Chrieng", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtStreet.Location = New System.Drawing.Point(73, 71)
-        Me.txtStreet.Margin = New System.Windows.Forms.Padding(3, 6, 3, 6)
-        Me.txtStreet.Name = "txtStreet"
-        Me.txtStreet.Size = New System.Drawing.Size(194, 35)
-        Me.txtStreet.TabIndex = 9
-        '
-        'LabelX8
-        '
-        Me.LabelX8.BackColor = System.Drawing.Color.Transparent
-        Me.LabelX8.Location = New System.Drawing.Point(3, 71)
-        Me.LabelX8.Margin = New System.Windows.Forms.Padding(3, 6, 3, 6)
-        Me.LabelX8.Name = "LabelX8"
-        Me.LabelX8.Size = New System.Drawing.Size(64, 35)
-        Me.LabelX8.TabIndex = 15
-        Me.LabelX8.Text = "Street:"
-        '
-        'txtHome
-        '
-        Me.txtHome.Font = New System.Drawing.Font("Khmer OS Metal Chrieng", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtHome.Location = New System.Drawing.Point(73, 27)
-        Me.txtHome.Margin = New System.Windows.Forms.Padding(3, 6, 3, 6)
-        Me.txtHome.Name = "txtHome"
-        Me.txtHome.Size = New System.Drawing.Size(194, 35)
-        Me.txtHome.TabIndex = 8
-        '
->>>>>>> origin/payroll
         'LabelX7
         '
         Me.LabelX7.BackColor = System.Drawing.Color.Transparent
@@ -912,26 +831,7 @@ Partial Class frmNewEmployee
         Me.GroupPanel4.TabIndex = 35
         Me.GroupPanel4.Text = "Contact"
         '
-<<<<<<< HEAD
         'txtEmail
-=======
-<<<<<<< HEAD
-=======
-        'txtPhone
-        '
-        '
-        '
-        '
-        Me.txtPhone.Border.Class = "TextBoxBorder"
-        Me.txtPhone.Font = New System.Drawing.Font("Khmer OS Metal Chrieng", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtPhone.Location = New System.Drawing.Point(88, 25)
-        Me.txtPhone.Margin = New System.Windows.Forms.Padding(3, 6, 3, 6)
-        Me.txtPhone.Name = "txtPhone"
-        Me.txtPhone.Size = New System.Drawing.Size(194, 35)
-        Me.txtPhone.TabIndex = 22
-        '
-        'txtLine
->>>>>>> origin/payroll
         '
         '
         '
@@ -957,25 +857,7 @@ Partial Class frmNewEmployee
         Me.txtFacebook.Size = New System.Drawing.Size(194, 35)
         Me.txtFacebook.TabIndex = 24
         '
-<<<<<<< HEAD
         'txtLine
-=======
-        'txtEmail
-        '
-        '
-        '
-        '
-        Me.txtEmail.Border.Class = "TextBoxBorder"
-        Me.txtEmail.Font = New System.Drawing.Font("Khmer OS Metal Chrieng", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtEmail.Location = New System.Drawing.Point(88, 69)
-        Me.txtEmail.Margin = New System.Windows.Forms.Padding(3, 6, 3, 6)
-        Me.txtEmail.Name = "txtEmail"
-        Me.txtEmail.Size = New System.Drawing.Size(194, 35)
-        Me.txtEmail.TabIndex = 23
-        '
->>>>>>> origin/payroll
-        'PictureBox4
->>>>>>> origin/payroll
         '
         '
         '
@@ -992,77 +874,14 @@ Partial Class frmNewEmployee
         '
         '
         '
-<<<<<<< HEAD
         '
-=======
-        'txtEmail
-        '
-<<<<<<< HEAD
-        '
-        '
-        '
-        Me.txtEmail.Border.Class = "TextBoxBorder"
-        Me.txtEmail.Font = New System.Drawing.Font("Khmer OS Metal Chrieng", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtEmail.Location = New System.Drawing.Point(88, 69)
-        Me.txtEmail.Margin = New System.Windows.Forms.Padding(3, 6, 3, 6)
-        Me.txtEmail.Name = "txtEmail"
-        Me.txtEmail.Size = New System.Drawing.Size(194, 35)
-        Me.txtEmail.TabIndex = 19
-        '
-        'txtFacebook
-        '
-        '
-        '
-        '
-        Me.txtFacebook.Border.Class = "TextBoxBorder"
-        Me.txtFacebook.Font = New System.Drawing.Font("Khmer OS Metal Chrieng", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtFacebook.Location = New System.Drawing.Point(88, 113)
-        Me.txtFacebook.Margin = New System.Windows.Forms.Padding(3, 6, 3, 6)
-        Me.txtFacebook.Name = "txtFacebook"
-        Me.txtFacebook.Size = New System.Drawing.Size(194, 35)
-        Me.txtFacebook.TabIndex = 18
-        '
-        'txtLine
-        '
-        '
-        '
-        '
-        Me.txtLine.Border.Class = "TextBoxBorder"
-        Me.txtLine.Font = New System.Drawing.Font("Khmer OS Metal Chrieng", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtLine.Location = New System.Drawing.Point(88, 156)
-        Me.txtLine.Margin = New System.Windows.Forms.Padding(3, 6, 3, 6)
-        Me.txtLine.Name = "txtLine"
-        Me.txtLine.Size = New System.Drawing.Size(194, 35)
-        Me.txtLine.TabIndex = 17
-        '
-        'txtPhone
-        '
-        '
-        '
-        '
->>>>>>> origin/payroll
         Me.txtPhone.Border.Class = "TextBoxBorder"
         Me.txtPhone.Font = New System.Drawing.Font("Khmer OS Metal Chrieng", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtPhone.Location = New System.Drawing.Point(88, 25)
         Me.txtPhone.Margin = New System.Windows.Forms.Padding(3, 6, 3, 6)
         Me.txtPhone.Name = "txtPhone"
         Me.txtPhone.Size = New System.Drawing.Size(194, 35)
-<<<<<<< HEAD
         Me.txtPhone.TabIndex = 22
-=======
-        Me.txtPhone.TabIndex = 16
-=======
-        Me.PictureBox5.BackColor = System.Drawing.Color.Transparent
-        Me.PictureBox5.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox5.Image = Global.Payroll_Management_System.My.Resources.Resources._1442135746_close_red
-        Me.PictureBox5.Location = New System.Drawing.Point(1219, 3)
-        Me.PictureBox5.Name = "PictureBox5"
-        Me.PictureBox5.Size = New System.Drawing.Size(42, 35)
-        Me.PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.PictureBox5.TabIndex = 22
-        Me.PictureBox5.TabStop = False
->>>>>>> origin/payroll
->>>>>>> origin/payroll
         '
         'GroupPanel5
         '
@@ -1586,9 +1405,6 @@ Partial Class frmNewEmployee
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 27.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-<<<<<<< HEAD
-        Me.ClientSize = New System.Drawing.Size(1284, 749)
-=======
         Me.AutoScroll = True
         Me.ClientSize = New System.Drawing.Size(1299, 779)
         Me.Controls.Add(Me.GroupPanel10)
@@ -1601,7 +1417,6 @@ Partial Class frmNewEmployee
         Me.Controls.Add(Me.GroupPanel6)
         Me.Controls.Add(Me.GroupPanel7)
         Me.Controls.Add(Me.GroupPanel5)
->>>>>>> origin/payroll
         Me.Controls.Add(Me.GroupPanel4)
         Me.Controls.Add(Me.GroupPanel3)
         Me.Controls.Add(Me.GroupPanel2)
@@ -1615,7 +1430,6 @@ Partial Class frmNewEmployee
         Me.Text = "Enter Information of Employee"
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Me.PanelEx1.ResumeLayout(False)
-        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.dtDOB, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupPanel1.ResumeLayout(False)
         Me.GroupPanel2.ResumeLayout(False)
@@ -1627,15 +1441,8 @@ Partial Class frmNewEmployee
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
-<<<<<<< HEAD
-=======
         CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
-<<<<<<< HEAD
         CType(Me.dgvEducation, System.ComponentModel.ISupportInitialize).EndInit()
-=======
-        Me.GroupPanel5.ResumeLayout(False)
->>>>>>> origin/payroll
->>>>>>> origin/payroll
         Me.ResumeLayout(False)
 
     End Sub

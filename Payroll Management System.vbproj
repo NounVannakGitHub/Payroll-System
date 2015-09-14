@@ -94,16 +94,74 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmAddAttendance.Designer.vb">
+      <DependentUpon>frmAddAttendance.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddAttendance.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddbonus.Designer.vb">
+      <DependentUpon>frmAddbonus.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddbonus.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBenefitType.Designer.vb">
+      <DependentUpon>frmBenefitType.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmBenefitType.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBonus.Designer.vb">
+      <DependentUpon>frmBonus.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmBonus.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBonusInfo.Designer.vb">
+      <DependentUpon>frmBonusInfo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmBonusInfo.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmConnect.Designer.vb">
       <DependentUpon>frmConnect.vb</DependentUpon>
     </Compile>
     <Compile Include="frmConnect.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmEditAttendance.Designer.vb">
+      <DependentUpon>frmEditAttendance.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmEditAttendance.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEditBenefitType.Designer.vb">
+      <DependentUpon>frmEditBenefitType.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmEditBenefitType.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEditBonus.Designer.vb">
+      <DependentUpon>frmEditBonus.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmEditBonus.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEditDeductionType.Designer.vb">
+      <DependentUpon>frmEditDeductionType.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmEditDeductionType.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmNewEmployee.Designer.vb">
       <DependentUpon>frmNewEmployee.vb</DependentUpon>
     </Compile>
     <Compile Include="frmNewEmployee.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPH.Designer.vb" />
+    <Compile Include="frmPH.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmSchool.Designer.vb">
@@ -223,6 +281,12 @@
     <Compile Include="University.vb" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="frmAddAttendance.resx">
+      <DependentUpon>frmAddAttendance.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddbonus.resx">
+      <DependentUpon>frmAddbonus.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmAddEmployee.resx">
       <DependentUpon>frmAddEmployee.vb</DependentUpon>
     </EmbeddedResource>
@@ -232,8 +296,29 @@
     <EmbeddedResource Include="frmBenefitAndDeductionType.resx">
       <DependentUpon>frmBenefitAndDeductionType.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmBenefitType.resx">
+      <DependentUpon>frmBenefitType.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBonus.resx">
+      <DependentUpon>frmBonus.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBonusInfo.resx">
+      <DependentUpon>frmBonusInfo.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmConnect.resx">
       <DependentUpon>frmConnect.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditAttendance.resx">
+      <DependentUpon>frmEditAttendance.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditBenefitType.resx">
+      <DependentUpon>frmEditBenefitType.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditBonus.resx">
+      <DependentUpon>frmEditBonus.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditDeductionType.resx">
+      <DependentUpon>frmEditDeductionType.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmEditEmployee.resx">
       <DependentUpon>frmEditEmployee.vb</DependentUpon>
@@ -247,6 +332,7 @@
     <EmbeddedResource Include="frmNewEmployee.resx">
       <DependentUpon>frmNewEmployee.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmPH.resx" />
     <EmbeddedResource Include="frmRegister.cy-GB.resx">
       <DependentUpon>frmRegister.vb</DependentUpon>
     </EmbeddedResource>
