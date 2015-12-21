@@ -21,7 +21,7 @@ Public Class License
             _licenseKey = value
         End Set
     End Property
-    Public Property LicenseDate As String
+    Public Property Token As String
         Get
             Return _licenseDate
         End Get

@@ -1,6 +1,5 @@
 ﻿Public Class SpousesAddress
     Implements IAddress
-
     Private _home As String
     Private _street As String
     Private _village As String
@@ -8,6 +7,7 @@
     Private _commune As String
     Private _district As String
     Private _city As String
+    Private _employeeID As String
 
     Public Property City As String Implements IAddress.City
         Get
@@ -64,6 +64,15 @@
         End Get
         Set(value As String)
             _village = value
+        End Set
+    End Property
+
+    Public Property EmployeeID As String Implements IAddress.EmployeeID
+        Get
+            Return _employeeID
+        End Get
+        Set(value As String)
+            _employeeID = value
         End Set
     End Property
 End Class

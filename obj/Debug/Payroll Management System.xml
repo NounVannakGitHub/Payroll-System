@@ -27,6 +27,14 @@ PayrollManagementSystem
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
+</member><member name="P:Payroll_Management_System.My.Resources.Resources._1442135245_mobile_iphone_phone">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Payroll_Management_System.My.Resources.Resources._1442135367_square_facebook">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
 </member><member name="P:Payroll_Management_System.My.Resources.Resources._1442135434_Neon_Line_Social_Circles_50Icon_10px_grid_13">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -39,6 +47,10 @@ PayrollManagementSystem
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
+</member><member name="P:Payroll_Management_System.My.Resources.Resources._1442135746_close_red1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
 </member><member name="P:Payroll_Management_System.My.Resources.Resources._1442163358_phone">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -47,7 +59,135 @@ PayrollManagementSystem
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
+</member><member name="P:Payroll_Management_System.My.Resources.Resources._1443263907_folder">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Payroll_Management_System.My.Resources.Resources._1443263937_camera">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Payroll_Management_System.My.Resources.Resources._1443380429_save">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Payroll_Management_System.My.Resources.Resources._1443380808_save">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Payroll_Management_System.My.Resources.Resources._1443380834_Delete">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Payroll_Management_System.My.Resources.Resources._1443388853_login">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Payroll_Management_System.My.Resources.Resources._1443388911_connect_to_database">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Payroll_Management_System.My.Resources.Resources._1443478611_edit_notes">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Payroll_Management_System.My.Resources.Resources._1443478652_save_all">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Payroll_Management_System.My.Resources.Resources._1443648407_add">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Payroll_Management_System.My.Resources.Resources._1444907035_print">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Payroll_Management_System.My.Resources.Resources._1444907193_calculator">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Payroll_Management_System.My.Resources.Resources._1445721383_Database_Upload">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Payroll_Management_System.My.Resources.Resources._1445721419_accept_database">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Payroll_Management_System.My.Resources.Resources._1445721438_download_database">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Payroll_Management_System.My.Resources.Resources._1445721741_home">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Payroll_Management_System.My.Resources.Resources._1445954419_application_pgp_signature">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Payroll_Management_System.My.Resources.Resources._1445954454_calendar_clock">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Payroll_Management_System.My.Resources.Resources._1445954494_office_building">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Payroll_Management_System.My.Resources.Resources._1445954529_vector_65_16">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Payroll_Management_System.My.Resources.Resources._1445954833_minimize">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Payroll_Management_System.My.Resources.Resources._1446147698_leave">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Payroll_Management_System.My.Resources.Resources._16">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Payroll_Management_System.My.Resources.Resources._exit">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Payroll_Management_System.My.Resources.Resources.add">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Payroll_Management_System.My.Resources.Resources.add_new">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Payroll_Management_System.My.Resources.Resources.attendance">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
 </member><member name="P:Payroll_Management_System.My.Resources.Resources.avatar">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Payroll_Management_System.My.Resources.Resources.avatar1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Payroll_Management_System.My.Resources.Resources.bonus">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Payroll_Management_System.My.Resources.Resources.Box">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Payroll_Management_System.My.Resources.Resources.calculator">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Payroll_Management_System.My.Resources.Resources.calculator1">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
@@ -55,7 +195,39 @@ PayrollManagementSystem
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
+</member><member name="P:Payroll_Management_System.My.Resources.Resources.camara1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
 </member><member name="P:Payroll_Management_System.My.Resources.Resources.camara2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Payroll_Management_System.My.Resources.Resources.camara21">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Payroll_Management_System.My.Resources.Resources.camera">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Payroll_Management_System.My.Resources.Resources.camera1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Payroll_Management_System.My.Resources.Resources.check_box">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Payroll_Management_System.My.Resources.Resources.CheckBox">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Payroll_Management_System.My.Resources.Resources.CheckBox1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Payroll_Management_System.My.Resources.Resources.close_red1">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
@@ -63,11 +235,171 @@ PayrollManagementSystem
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
+</member><member name="P:Payroll_Management_System.My.Resources.Resources.connectdatabase1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Payroll_Management_System.My.Resources.Resources.ddelete">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Payroll_Management_System.My.Resources.Resources.Delete">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Payroll_Management_System.My.Resources.Resources.Delete_24x24">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Payroll_Management_System.My.Resources.Resources.edit">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Payroll_Management_System.My.Resources.Resources.emergency">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Payroll_Management_System.My.Resources.Resources.emergency1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Payroll_Management_System.My.Resources.Resources.emergency2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Payroll_Management_System.My.Resources.Resources.employee">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Payroll_Management_System.My.Resources.Resources.excel">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Payroll_Management_System.My.Resources.Resources.explorer">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Payroll_Management_System.My.Resources.Resources.favicon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member><member name="P:Payroll_Management_System.My.Resources.Resources.Help">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Payroll_Management_System.My.Resources.Resources.info">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Payroll_Management_System.My.Resources.Resources.Information">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
 </member><member name="P:Payroll_Management_System.My.Resources.Resources.License">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
+</member><member name="P:Payroll_Management_System.My.Resources.Resources.License1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Payroll_Management_System.My.Resources.Resources.loan">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Payroll_Management_System.My.Resources.Resources.logout">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
 </member><member name="P:Payroll_Management_System.My.Resources.Resources.mobile">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Payroll_Management_System.My.Resources.Resources.mobile1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Payroll_Management_System.My.Resources.Resources.notification">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Payroll_Management_System.My.Resources.Resources.notification1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Payroll_Management_System.My.Resources.Resources.notification2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Payroll_Management_System.My.Resources.Resources.print">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Payroll_Management_System.My.Resources.Resources.red_cross_green_tick">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Payroll_Management_System.My.Resources.Resources.refresh">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Payroll_Management_System.My.Resources.Resources.salary">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Payroll_Management_System.My.Resources.Resources.save">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Payroll_Management_System.My.Resources.Resources.Save_32x32">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Payroll_Management_System.My.Resources.Resources.save1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Payroll_Management_System.My.Resources.Resources.search">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Payroll_Management_System.My.Resources.Resources.Seleted">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Payroll_Management_System.My.Resources.Resources.send">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Payroll_Management_System.My.Resources.Resources.send1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Payroll_Management_System.My.Resources.Resources.tax">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Payroll_Management_System.My.Resources.Resources.telephone">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Payroll_Management_System.My.Resources.Resources.Thumbs">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:Payroll_Management_System.My.Resources.Resources.tick">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Payroll_Management_System.My.Resources.Resources.tick1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Payroll_Management_System.My.Resources.Resources.Upload">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Payroll_Management_System.My.Resources.Resources.user">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>

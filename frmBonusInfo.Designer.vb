@@ -29,15 +29,15 @@ Partial Class frmBonusInfo
         Me.Label1 = New System.Windows.Forms.Label()
         Me.DataGridViewX1 = New DevComponents.DotNetBar.Controls.DataGridViewX()
         Me.ToolStrip1 = New System.Windows.Forms.ToolStrip()
-        Me.txtSearch = New System.Windows.Forms.ToolStripTextBox()
-        Me.pnlBonusInformation = New DevComponents.DotNetBar.PanelEx()
-        Me.btnClosePanel = New System.Windows.Forms.Button()
         Me.tbtnNew = New System.Windows.Forms.ToolStripButton()
         Me.tbtnEdit = New System.Windows.Forms.ToolStripButton()
         Me.tbtnDelete = New System.Windows.Forms.ToolStripButton()
         Me.tbtnExcel = New System.Windows.Forms.ToolStripButton()
         Me.tbtnRefresh = New System.Windows.Forms.ToolStripButton()
         Me.btnSearch = New System.Windows.Forms.ToolStripButton()
+        Me.txtSearch = New System.Windows.Forms.ToolStripTextBox()
+        Me.pnlBonusInformation = New DevComponents.DotNetBar.PanelEx()
+        Me.btnClosePanel = New System.Windows.Forms.Button()
         CType(Me.SplitContainer1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SplitContainer1.Panel1.SuspendLayout()
         Me.SplitContainer1.Panel2.SuspendLayout()
@@ -50,7 +50,7 @@ Partial Class frmBonusInfo
         'SplitContainer1
         '
         Me.SplitContainer1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.SplitContainer1.Location = New System.Drawing.Point(0, 40)
+        Me.SplitContainer1.Location = New System.Drawing.Point(0, 35)
         Me.SplitContainer1.Name = "SplitContainer1"
         '
         'SplitContainer1.Panel1
@@ -62,7 +62,7 @@ Partial Class frmBonusInfo
         '
         Me.SplitContainer1.Panel2.Controls.Add(Me.DataGridViewX1)
         Me.SplitContainer1.Panel2.Controls.Add(Me.ToolStrip1)
-        Me.SplitContainer1.Size = New System.Drawing.Size(987, 329)
+        Me.SplitContainer1.Size = New System.Drawing.Size(987, 334)
         Me.SplitContainer1.SplitterDistance = 208
         Me.SplitContainer1.TabIndex = 3
         '
@@ -71,7 +71,7 @@ Partial Class frmBonusInfo
         Me.TreeView1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.TreeView1.Location = New System.Drawing.Point(0, 25)
         Me.TreeView1.Name = "TreeView1"
-        Me.TreeView1.Size = New System.Drawing.Size(208, 304)
+        Me.TreeView1.Size = New System.Drawing.Size(208, 309)
         Me.TreeView1.TabIndex = 1
         '
         'Label1
@@ -102,7 +102,7 @@ Partial Class frmBonusInfo
         Me.DataGridViewX1.Location = New System.Drawing.Point(0, 25)
         Me.DataGridViewX1.Name = "DataGridViewX1"
         Me.DataGridViewX1.ReadOnly = True
-        Me.DataGridViewX1.Size = New System.Drawing.Size(775, 304)
+        Me.DataGridViewX1.Size = New System.Drawing.Size(775, 309)
         Me.DataGridViewX1.TabIndex = 1
         '
         'ToolStrip1
@@ -113,39 +113,6 @@ Partial Class frmBonusInfo
         Me.ToolStrip1.Size = New System.Drawing.Size(775, 25)
         Me.ToolStrip1.TabIndex = 0
         Me.ToolStrip1.Text = "ToolStrip1"
-        '
-        'txtSearch
-        '
-        Me.txtSearch.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right
-        Me.txtSearch.Name = "txtSearch"
-        Me.txtSearch.Size = New System.Drawing.Size(100, 25)
-        '
-        'pnlBonusInformation
-        '
-        Me.pnlBonusInformation.CanvasColor = System.Drawing.SystemColors.Control
-        Me.pnlBonusInformation.Controls.Add(Me.btnClosePanel)
-        Me.pnlBonusInformation.Dock = System.Windows.Forms.DockStyle.Top
-        Me.pnlBonusInformation.Location = New System.Drawing.Point(0, 0)
-        Me.pnlBonusInformation.Name = "pnlBonusInformation"
-        Me.pnlBonusInformation.Size = New System.Drawing.Size(987, 40)
-        Me.pnlBonusInformation.Style.Alignment = System.Drawing.StringAlignment.Center
-        Me.pnlBonusInformation.Style.BackColor1.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.BarBackground
-        Me.pnlBonusInformation.Style.BackColor2.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.BarBackground2
-        Me.pnlBonusInformation.Style.BorderColor.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.BarDockedBorder
-        Me.pnlBonusInformation.Style.ForeColor.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.ItemText
-        Me.pnlBonusInformation.Style.GradientAngle = 90
-        Me.pnlBonusInformation.TabIndex = 2
-        '
-        'btnClosePanel
-        '
-        Me.btnClosePanel.Dock = System.Windows.Forms.DockStyle.Right
-        Me.btnClosePanel.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnClosePanel.Location = New System.Drawing.Point(940, 0)
-        Me.btnClosePanel.Name = "btnClosePanel"
-        Me.btnClosePanel.Size = New System.Drawing.Size(47, 40)
-        Me.btnClosePanel.TabIndex = 0
-        Me.btnClosePanel.Text = "X"
-        Me.btnClosePanel.UseVisualStyleBackColor = True
         '
         'tbtnNew
         '
@@ -197,16 +164,54 @@ Partial Class frmBonusInfo
         Me.btnSearch.Size = New System.Drawing.Size(23, 22)
         Me.btnSearch.Text = "ToolStripButton1"
         '
+        'txtSearch
+        '
+        Me.txtSearch.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right
+        Me.txtSearch.Name = "txtSearch"
+        Me.txtSearch.Size = New System.Drawing.Size(100, 25)
+        '
+        'pnlBonusInformation
+        '
+        Me.pnlBonusInformation.CanvasColor = System.Drawing.SystemColors.Control
+        Me.pnlBonusInformation.Controls.Add(Me.btnClosePanel)
+        Me.pnlBonusInformation.Dock = System.Windows.Forms.DockStyle.Top
+        Me.pnlBonusInformation.Location = New System.Drawing.Point(0, 0)
+        Me.pnlBonusInformation.Name = "pnlBonusInformation"
+        Me.pnlBonusInformation.Size = New System.Drawing.Size(987, 35)
+        Me.pnlBonusInformation.Style.Alignment = System.Drawing.StringAlignment.Center
+        Me.pnlBonusInformation.Style.BackColor1.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.BarBackground
+        Me.pnlBonusInformation.Style.BackColor2.Color = System.Drawing.Color.PaleGreen
+        Me.pnlBonusInformation.Style.BorderColor.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.BarDockedBorder
+        Me.pnlBonusInformation.Style.ForeColor.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.ItemText
+        Me.pnlBonusInformation.Style.GradientAngle = 90
+        Me.pnlBonusInformation.TabIndex = 2
+        '
+        'btnClosePanel
+        '
+        Me.btnClosePanel.Dock = System.Windows.Forms.DockStyle.Right
+        Me.btnClosePanel.FlatAppearance.BorderSize = 0
+        Me.btnClosePanel.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red
+        Me.btnClosePanel.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnClosePanel.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnClosePanel.Location = New System.Drawing.Point(940, 0)
+        Me.btnClosePanel.Name = "btnClosePanel"
+        Me.btnClosePanel.Size = New System.Drawing.Size(47, 35)
+        Me.btnClosePanel.TabIndex = 0
+        Me.btnClosePanel.Text = "X"
+        Me.btnClosePanel.UseVisualStyleBackColor = True
+        '
         'frmBonusInfo
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(987, 369)
+        Me.ControlBox = False
         Me.Controls.Add(Me.SplitContainer1)
         Me.Controls.Add(Me.pnlBonusInformation)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.MaximizeBox = False
+        Me.MinimizeBox = False
         Me.Name = "frmBonusInfo"
-        Me.Text = "frmBonusInfo"
         Me.SplitContainer1.Panel1.ResumeLayout(False)
         Me.SplitContainer1.Panel2.ResumeLayout(False)
         Me.SplitContainer1.Panel2.PerformLayout()

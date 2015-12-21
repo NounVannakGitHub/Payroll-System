@@ -6,14 +6,6 @@
     Private Shadows Const TRANSPORT_ALLOWANCE As String = "Transport Allowance"
     Private Shadows Const OVERTIME As String = "Over Time"
     Private Shadows Const INCREDIBLE As String = "Incredible"
-    Function CreateNetBase(ByVal baseSalary As Double, ByVal bonus As Double) As Double
-        Dim netBase As Double = 0.0
-        If (baseSalary <= SalaryTax.EIGHTY) Then
-            netBase = baseSalary + bonus
-        End If
-
-        Return netBase
-    End Function
     Function CreateBonus(ByVal bonusType As String, ByVal bonusValue As Double) As Double
         Dim taxBonus As Double = 0.0
         If bonusType.Equals(TaxForSalary.RENT_MOTOR) Then
@@ -31,13 +23,68 @@
         End If
         Return taxBonus
     End Function
-    Function FindIncre(ByVal increValue As Double, ByVal increType As String) As Double
-        Dim incre As Double = 0.0
-        If increType.Equals(TaxForSalary.INCREDIBLE) Then
-            incre = increValue - (increValue * SalaryTax.INCREDIBLE)
-        Else
-            incre = increValue
-        End If
-        Return incre
+
+    Function CreateBasicSalary(basicSalary As String, taxSpouse As String, taxChild As String) As Double
+        Dim basic As Double = 0
+        Try
+            basic = CDbl(basicSalary) - (CDbl(taxSpouse) + CDbl(taxChild))
+        Catch ex As Exception
+            basic = 0
+        End Try
+        Return basic
+    End Function
+
+    Function CreateNetBase(basic As String, award As String, adjust As String, incre As String, decre As String, sal13 As String, sal14 As String, checkBoxIncre As CheckBox) As Double
+        Dim netBase As Double = 0
+        Try
+            If checkBoxIncre.Checked = True Then
+                netBase = CDbl(basic) + (CDbl(award) + CDbl(adjust) + CDbl(incre) + CDbl(sal13) + CDbl(sal14))
+            ElseIf checkBoxIncre.Checked = False Then
+                netBase = (CDbl(basic) + (CDbl(award) + CDbl(adjust) + CDbl(sal13) + CDbl(sal14))) - CDbl(decre)
+            Else
+                netBase = (CDbl(basic) + (CDbl(award) + CDbl(adjust) + CDbl(sal13) + CDbl(sal14)))
+            End If
+        Catch ex As Exception
+            netBase = 0
+        End Try
+        Return netBase
+    End Function
+
+    Function CreateSalaryBeforeTax(netbase As String, incentive As String, reginal As String, transport As String, overtime As String) As Double
+        Dim persent As Double = 0
+        Dim afPersent As Double = 0
+        Dim newNetBase As Double = 0
+        Try
+            afPersent = (CDbl(incentive) + CDbl(reginal) + CDbl(transport) + CDbl(overtime))
+            persent = afPersent * 0.2
+            newNetBase = CDbl(netbase) + (afPersent - persent)
+        Catch ex As Exception
+            newNetBase = 0
+        End Try
+        Return newNetBase
+    End Function
+
+    Function CreateSubTotal(beforeTax As String, taxPersent As String) As Double
+        Dim total As Double = 0
+        Try
+            If taxPersent.Equals("5%") Then
+                total = CDbl(beforeTax) - 40000
+            ElseIf taxPersent.Equals("10%") Then
+                total = CDbl(beforeTax) - 102500
+            ElseIf taxPersent.Equals("15%") Then
+                total = CDbl(beforeTax) - 527500
+            ElseIf taxPersent.Equals("20%") Then
+                total = CDbl(beforeTax) - 1152500
+            Else
+                total = CDbl(beforeTax)
+            End If
+        Catch ex As Exception
+            total = 0
+        End Try
+        Return total
+    End Function
+
+    Public Overrides Function ToString() As String
+        Return MyBase.ToString()
     End Function
 End Class

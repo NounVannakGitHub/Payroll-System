@@ -1,6 +1,15 @@
 ﻿Public Class Family
-    Private _parent As New Parent
-    Private _spouses As New Spouses
+    Private _parent As Parent
+    Private _spouses As Spouses
+    Private _employeeID As String
+    Public Property EmployeeID As String
+        Get
+            Return _employeeID
+        End Get
+        Set(value As String)
+            _employeeID = value
+        End Set
+    End Property
     Public Property Parent As Parent
         Get
             Return _parent

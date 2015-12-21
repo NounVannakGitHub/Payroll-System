@@ -6,7 +6,7 @@
     Private _loanStartDate As String
     Private _loanEndDate As String
     Private _loanType As String
-    Private _employee As New Employee
+    Private _employee As Employee
     Public Property LoanId As String
         Get
             Return _loanId

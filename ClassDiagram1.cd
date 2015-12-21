@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Module Name="Payroll_Management_System.PayrollUtils">
+    <Position X="2" Y="0.5" Width="6" />
+    <TypeIdentifier>
+      <HashCode>wgFBAAREtBAAFxGTE9ACigaAJAgwCgMCQRAwAUEDEAI=</HashCode>
+      <FileName>PayrollUtils.vb</FileName>
+    </TypeIdentifier>
+  </Module>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

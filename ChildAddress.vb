@@ -7,6 +7,20 @@
     Private _commune As String
     Private _district As String
     Private _city As String
+    Private _employeeID As String
+
+    Sub New(home As String, street As String, city As String, district As String, commune As String, village As String)
+        _home = home
+        _street = street
+        _village = Village
+        _commune = city
+        _district = district
+        _city = city
+    End Sub
+
+    Public Overrides Function ToString() As String
+        Return "Home=N'" & _home & "'Street=N'" & _street & "',City=N'" & _city & "',District=N'" & _district & "',Commune=N'" & _commune & "',Village=N'" & _village & "'"
+    End Function
 
     Public Property City As String Implements IAddress.City
         Get
@@ -63,6 +77,15 @@
         End Get
         Set(value As String)
             _village = value
+        End Set
+    End Property
+
+    Public Property EmployeeID As String Implements IAddress.EmployeeID
+        Get
+            Return _employeeID
+        End Get
+        Set(value As String)
+            _employeeID = value
         End Set
     End Property
 End Class

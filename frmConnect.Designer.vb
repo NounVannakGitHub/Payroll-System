@@ -147,7 +147,7 @@ Partial Class frmConnect
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(443, 179)
+        Me.ClientSize = New System.Drawing.Size(443, 168)
         Me.Controls.Add(Me.chbShowPassword)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.LabelX4)
@@ -159,8 +159,11 @@ Partial Class frmConnect
         Me.Controls.Add(Me.txtPassword)
         Me.Controls.Add(Me.LabelX1)
         Me.Controls.Add(Me.cboDatabase)
+        Me.HelpButton = True
         Me.MaximizeBox = False
+        Me.MinimizeBox = False
         Me.Name = "frmConnect"
+        Me.ShowIcon = False
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Connect to Server"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()

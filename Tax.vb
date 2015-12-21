@@ -7,7 +7,7 @@
     Private _dependent As String
     Private _dependentNo As String
     Private _taxType As String
-    Private _employee As New Employee
+    Private _employee As Employee
     Public Property TaxNo As String
         Get
             Return _taxNo

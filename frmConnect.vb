@@ -14,5 +14,15 @@
 
     Private Sub btnConnect_Click(sender As Object, e As EventArgs) Handles btnConnect.Click
         SetConnectionString(cboServer.Text, cboDatabase.Text, txtUser.Text, txtPassword.Text)
+        Connection()
+        frmMenu.LoToolStripMenuItem.Enabled = True
+        SetProcessStatus("Database are connected !")
+        Me.Close()
     End Sub
+
+    Private Function Connection() As OleDb.OleDbConnection
+        Dim singletonConnection As ConnectionSingleton
+        singletonConnection = ConnectionSingleton.GetInstance
+        Return singletonConnection.GetConnection
+    End Function
 End Class

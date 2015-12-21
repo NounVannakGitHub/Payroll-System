@@ -6,13 +6,14 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{803F7BA2-A39D-453E-A850-61517CC78049}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <StartupObject>Payroll_Management_System.frmNewEmployee</StartupObject>
+    <StartupObject>Payroll_Management_System.My.MyApplication</StartupObject>
     <RootNamespace>Payroll_Management_System</RootNamespace>
     <AssemblyName>Payroll Management System</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile />
+    <IsWebBootstrapper>false</IsWebBootstrapper>
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
@@ -25,7 +26,6 @@
     <MapFileExtensions>true</MapFileExtensions>
     <ApplicationRevision>0</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
-    <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
@@ -38,6 +38,7 @@
     <OutputPath>bin\Debug\</OutputPath>
     <DocumentationFile>Payroll Management System.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -48,6 +49,7 @@
     <OutputPath>bin\Release\</OutputPath>
     <DocumentationFile>Payroll Management System.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup>
     <OptionExplicit>On</OptionExplicit>
@@ -64,17 +66,36 @@
   <PropertyGroup>
     <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Resources\favicon.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Design, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Data.AdoDotNetInterop, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
     <Reference Include="DevComponents.DotNetBar2">
       <HintPath>D:\vady\Net-Souvenir System\Replease Exe\DevComponents.DotNetBar2.DLL</HintPath>
     </Reference>
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Data.Linq" />
     <Reference Include="System.Deployment" />
     <Reference Include="System.Design" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
     <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -94,16 +115,96 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="frmAddAttendance.Designer.vb">
-      <DependentUpon>frmAddAttendance.vb</DependentUpon>
+    <Compile Include="AttEmp.vb" />
+    <Compile Include="BonusImpl.vb" />
+    <Compile Include="ChildImpl.vb" />
+    <Compile Include="Department.vb" />
+    <Compile Include="EducationImpl.vb" />
+    <Compile Include="EmployeeImpl.vb" />
+    <Compile Include="Evaluation.vb" />
+    <Compile Include="Father.vb" />
+    <Compile Include="frmAbout.Designer.vb">
+      <DependentUpon>frmAbout.vb</DependentUpon>
     </Compile>
-    <Compile Include="frmAddAttendance.vb">
+    <Compile Include="frmAbout.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmAddbonus.Designer.vb">
       <DependentUpon>frmAddbonus.vb</DependentUpon>
     </Compile>
     <Compile Include="frmAddbonus.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddDepartment.Designer.vb">
+      <DependentUpon>frmAddDepartment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddDepartment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddEmployeeLoan.Designer.vb">
+      <DependentUpon>frmAddEmployeeLoan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddEmployeeLoan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddEvaluationStaff.Designer.vb">
+      <DependentUpon>frmAddEvaluationStaff.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddEvaluationStaff.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddHoliday.Designer.vb">
+      <DependentUpon>frmAddHoliday.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddHoliday.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddLeave.Designer.vb">
+      <DependentUpon>frmAddLeave.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddLeave.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddPosition.Designer.vb">
+      <DependentUpon>frmAddPosition.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddPosition.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddress.Designer.vb">
+      <DependentUpon>frmAddress.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddress.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddTax.Designer.vb">
+      <DependentUpon>frmAddTax.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddTax.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddUser.Designer.vb">
+      <DependentUpon>frmAddUser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddUser.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAttEmployee.Designer.vb">
+      <DependentUpon>frmAttEmployee.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAttEmployee.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAttendence.Designer.vb">
+      <DependentUpon>frmAttendence.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAttendence.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBackup.Designer.vb">
+      <DependentUpon>frmBackup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmBackup.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmBenefitType.Designer.vb">
@@ -124,10 +225,46 @@
     <Compile Include="frmBonusInfo.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmCapture.Designer.vb">
+      <DependentUpon>frmCapture.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCapture.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmChangePassword.Designer.vb">
+      <DependentUpon>frmChangePassword.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmChangePassword.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCity.Designer.vb">
+      <DependentUpon>frmCity.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCity.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCommune.Designer.vb">
+      <DependentUpon>frmCommune.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCommune.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmConnect.Designer.vb">
       <DependentUpon>frmConnect.vb</DependentUpon>
     </Compile>
     <Compile Include="frmConnect.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDepartment.Designer.vb">
+      <DependentUpon>frmDepartment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDepartment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDistrict.Designer.vb">
+      <DependentUpon>frmDistrict.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDistrict.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmEditAttendance.Designer.vb">
@@ -136,22 +273,52 @@
     <Compile Include="frmEditAttendance.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmEditBenefitType.Designer.vb">
-      <DependentUpon>frmEditBenefitType.vb</DependentUpon>
-    </Compile>
-    <Compile Include="frmEditBenefitType.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="frmEditBonus.Designer.vb">
       <DependentUpon>frmEditBonus.vb</DependentUpon>
     </Compile>
     <Compile Include="frmEditBonus.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmEditDeductionType.Designer.vb">
-      <DependentUpon>frmEditDeductionType.vb</DependentUpon>
+    <Compile Include="frmDeductionType.Designer.vb">
+      <DependentUpon>frmDeductionType.vb</DependentUpon>
     </Compile>
-    <Compile Include="frmEditDeductionType.vb">
+    <Compile Include="frmDeductionType.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEmployeeAddendance.Designer.vb">
+      <DependentUpon>frmEmployeeAddendance.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmEmployeeAddendance.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEmployeeLoan.Designer.vb">
+      <DependentUpon>frmEmployeeLoan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmEmployeeLoan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEvaluationStaff.Designer.vb">
+      <DependentUpon>frmEvaluationStaff.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmEvaluationStaff.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHoliday.Designer.vb">
+      <DependentUpon>frmHoliday.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmHoliday.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLeave.Designer.vb">
+      <DependentUpon>frmLeave.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLeave.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMyTest.Designer.vb">
+      <DependentUpon>frmMyTest.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMyTest.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmNewEmployee.Designer.vb">
@@ -160,8 +327,58 @@
     <Compile Include="frmNewEmployee.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmPH.Designer.vb" />
-    <Compile Include="frmPH.vb">
+    <Compile Include="frmPasswordEmergency.Designer.vb">
+      <DependentUpon>frmPasswordEmergency.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPasswordEmergency.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPermission.Designer.vb">
+      <DependentUpon>frmPermission.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPermission.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPhoto.Designer.vb">
+      <DependentUpon>frmPhoto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPhoto.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPosition.Designer.vb">
+      <DependentUpon>frmPosition.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPosition.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrintSalaryPaySlip.Designer.vb">
+      <DependentUpon>frmPrintSalaryPaySlip.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPrintSalaryPaySlip.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmReportLeaveOfEmployee.Designer.vb">
+      <DependentUpon>frmReportLeaveOfEmployee.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmReportLeaveOfEmployee.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRestore.Designer.vb">
+      <DependentUpon>frmRestore.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmRestore.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSalary.Designer.vb">
+      <DependentUpon>frmSalary.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSalary.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSalaryPaySlip.Designer.vb">
+      <DependentUpon>frmSalaryPaySlip.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSalaryPaySlip.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmSchool.Designer.vb">
@@ -170,12 +387,80 @@
     <Compile Include="frmSchool.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmStartup.Designer.vb">
+      <DependentUpon>frmStartup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmStartup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTax.Designer.vb">
+      <DependentUpon>frmTax.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmTax.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmUniversity.Designer.vb">
       <DependentUpon>frmUniversity.vb</DependentUpon>
     </Compile>
     <Compile Include="frmUniversity.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmUser.Designer.vb">
+      <DependentUpon>frmUser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmUser.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVillage.Designer.vb">
+      <DependentUpon>frmVillage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmVillage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="iCam.vb" />
+    <Compile Include="IChild.vb" />
+    <Compile Include="IDEnum.vb" />
+    <Compile Include="IEducation.vb" />
+    <Compile Include="IEmployee.vb" />
+    <Compile Include="IParent.vb" />
+    <Compile Include="ISalary.vb" />
+    <Compile Include="ISpouse.vb" />
+    <Compile Include="ITaxEmployee.vb" />
+    <Compile Include="IUser.vb" />
+    <Compile Include="IWorkInfomation.vb" />
+    <Compile Include="LeaveImpl.vb" />
+    <Compile Include="Login.Designer.vb">
+      <DependentUpon>Login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mother.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="ParentImpl.vb" />
+    <Compile Include="Permission.vb" />
+    <Compile Include="rptLeave.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptLeave.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptSalaryPaySlip.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptSalaryPaySlip.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Salary.vb" />
+    <Compile Include="SalaryImpl.vb" />
     <Compile Include="SalaryTax.vb" />
     <Compile Include="AnnualLeave.vb" />
     <Compile Include="ConnectionSingleton.vb" />
@@ -212,10 +497,10 @@
     <Compile Include="frmEmployeeInformation.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmMenu.Designer.vb">
-      <DependentUpon>frmMenu.vb</DependentUpon>
+    <Compile Include="MAIN.Designer.vb">
+      <DependentUpon>MAIN.vb</DependentUpon>
     </Compile>
-    <Compile Include="frmMenu.vb">
+    <Compile Include="MAIN.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmRegister.Designer.vb">
@@ -234,6 +519,7 @@
     <Compile Include="LicenseImpl.vb" />
     <Compile Include="PayrollUtils.vb" />
     <Compile Include="Settings.vb" />
+    <Compile Include="SpouseImpl.vb" />
     <Compile Include="SpousesAddress.vb" />
     <Compile Include="Attendance.vb" />
     <Compile Include="Bachelor.vb" />
@@ -245,7 +531,7 @@
     <Compile Include="Employee.vb" />
     <Compile Include="EmployeeAddress.vb" />
     <Compile Include="Family.vb" />
-    <Compile Include="FamilyAddress.vb" />
+    <Compile Include="Address.vb" />
     <Compile Include="HighSchool.vb" />
     <Compile Include="Holiday.vb" />
     <Compile Include="IAddress.vb" />
@@ -254,15 +540,6 @@
     <Compile Include="Loan.vb" />
     <Compile Include="MasterDegree.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
-    <Compile Include="My Project\Application.Designer.vb">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Application.myapp</DependentUpon>
-    </Compile>
-    <Compile Include="My Project\Resources.Designer.vb">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
     <Compile Include="My Project\Settings.Designer.vb">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -276,22 +553,74 @@
     <Compile Include="SecondarySchool.vb" />
     <Compile Include="Spouses.vb" />
     <Compile Include="Preattendance.vb" />
+    <Compile Include="SQL.vb" />
+    <Compile Include="SUPPLIER_FRM.Designer.vb">
+      <DependentUpon>SUPPLIER_FRM.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SUPPLIER_FRM.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Tax.vb" />
+    <Compile Include="TaxEmployee.vb" />
+    <Compile Include="TaxEmployeeImpl.vb" />
     <Compile Include="TaxForSalary.vb" />
     <Compile Include="University.vb" />
+    <Compile Include="User.vb" />
+    <Compile Include="UserImpl.vb" />
+    <Compile Include="WorkImpl.vb" />
+    <Compile Include="WorkInformation.vb" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="frmAddAttendance.resx">
-      <DependentUpon>frmAddAttendance.vb</DependentUpon>
+    <EmbeddedResource Include="frmAbout.resx">
+      <DependentUpon>frmAbout.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmAddbonus.resx">
       <DependentUpon>frmAddbonus.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmAddDepartment.resx">
+      <DependentUpon>frmAddDepartment.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddEmployee.ca.resx">
+      <DependentUpon>frmAddEmployee.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmAddEmployee.resx">
       <DependentUpon>frmAddEmployee.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmAddEmployeeLoan.resx">
+      <DependentUpon>frmAddEmployeeLoan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddEvaluationStaff.resx">
+      <DependentUpon>frmAddEvaluationStaff.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddHoliday.resx">
+      <DependentUpon>frmAddHoliday.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddLeave.resx">
+      <DependentUpon>frmAddLeave.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddPosition.resx">
+      <DependentUpon>frmAddPosition.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddress.resx">
+      <DependentUpon>frmAddress.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddTax.resx">
+      <DependentUpon>frmAddTax.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddUser.resx">
+      <DependentUpon>frmAddUser.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAttEmployee.resx">
+      <DependentUpon>frmAttEmployee.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmAttendance.resx">
       <DependentUpon>frmAttendance.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAttendence.resx">
+      <DependentUpon>frmAttendence.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBackup.resx">
+      <DependentUpon>frmBackup.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmBenefitAndDeductionType.resx">
       <DependentUpon>frmBenefitAndDeductionType.vb</DependentUpon>
@@ -305,34 +634,108 @@
     <EmbeddedResource Include="frmBonusInfo.resx">
       <DependentUpon>frmBonusInfo.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmCapture.resx">
+      <DependentUpon>frmCapture.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmChangePassword.resx">
+      <DependentUpon>frmChangePassword.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCity.resx">
+      <DependentUpon>frmCity.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCommune.resx">
+      <DependentUpon>frmCommune.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmConnect.resx">
       <DependentUpon>frmConnect.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDepartment.resx">
+      <DependentUpon>frmDepartment.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDistrict.resx">
+      <DependentUpon>frmDistrict.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmEditAttendance.resx">
       <DependentUpon>frmEditAttendance.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmEditBenefitType.resx">
-      <DependentUpon>frmEditBenefitType.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="frmEditBonus.resx">
       <DependentUpon>frmEditBonus.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmEditDeductionType.resx">
-      <DependentUpon>frmEditDeductionType.vb</DependentUpon>
+    <EmbeddedResource Include="frmDeductionType.resx">
+      <DependentUpon>frmDeductionType.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmEditEmployee.resx">
       <DependentUpon>frmEditEmployee.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmEmployeeAddendance.resx">
+      <DependentUpon>frmEmployeeAddendance.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmEmployeeInformation.resx">
       <DependentUpon>frmEmployeeInformation.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmMenu.resx">
-      <DependentUpon>frmMenu.vb</DependentUpon>
+    <EmbeddedResource Include="frmEmployeeLoan.resx">
+      <DependentUpon>frmEmployeeLoan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEvaluationStaff.resx">
+      <DependentUpon>frmEvaluationStaff.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHoliday.resx">
+      <DependentUpon>frmHoliday.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLeave.resx">
+      <DependentUpon>frmLeave.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMyTest.resx">
+      <DependentUpon>frmMyTest.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPasswordEmergency.resx">
+      <DependentUpon>frmPasswordEmergency.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPermission.resx">
+      <DependentUpon>frmPermission.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPhoto.resx">
+      <DependentUpon>frmPhoto.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPosition.resx">
+      <DependentUpon>frmPosition.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrintSalaryPaySlip.resx">
+      <DependentUpon>frmPrintSalaryPaySlip.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReportLeaveOfEmployee.resx">
+      <DependentUpon>frmReportLeaveOfEmployee.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRestore.resx">
+      <DependentUpon>frmRestore.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSalary.resx">
+      <DependentUpon>frmSalary.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSalaryPaySlip.resx">
+      <DependentUpon>frmSalaryPaySlip.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmStartup.resx">
+      <DependentUpon>frmStartup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTax.resx">
+      <DependentUpon>frmTax.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUser.resx">
+      <DependentUpon>frmUser.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVillage.resx">
+      <DependentUpon>frmVillage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MAIN.resx">
+      <DependentUpon>MAIN.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmNewEmployee.resx">
       <DependentUpon>frmNewEmployee.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmPH.resx" />
     <EmbeddedResource Include="frmRegister.cy-GB.resx">
       <DependentUpon>frmRegister.vb</DependentUpon>
     </EmbeddedResource>
@@ -351,14 +754,27 @@
     <EmbeddedResource Include="frmUniversity.resx">
       <DependentUpon>frmUniversity.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="My Project\licenses.licx" />
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptLeave.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptLeave.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptSalaryPaySlip.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptSalaryPaySlip.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SUPPLIER_FRM.resx">
+      <DependentUpon>SUPPLIER_FRM.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
     <None Include="My Project\app.manifest" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
@@ -370,6 +786,7 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="App.config" />
+    <None Include="Resources\Thumbs.db" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\avatar.png" />
@@ -434,6 +851,317 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="payroll picture\1442163442_email-envelope.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="payroll picture\1443263937_camera.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="payroll picture\1443263907_folder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="payroll picture\1443380429_save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="payroll picture\1443380808_save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="payroll picture\1443380834_Delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="payroll picture\1443388911_connect_to_database.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="payroll picture\1443388853_login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="payroll picture\notification.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="payroll picture\1443478611_edit-notes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="payroll picture\1443478652_save_all.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="payroll picture\1443648407_add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="payroll picture\camera.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Scripting">
+      <Guid>{420B2830-E718-11CF-893D-00A0C9054228}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="payroll picture\tick.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="payroll picture\emergency.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="payroll picture\1444907035_print.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="payroll picture\1444907193_calculator.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="payroll picture\calculator.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1442135163_free-06.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1442135239_mobile-iphone-phone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1442135245_mobile-iphone-phone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1442135367_square-facebook.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1442135434_Neon_Line_Social_Circles_50Icon_10px_grid-13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1442135442_line.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1442135746_close_red.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1442135746_close_red1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1442163358_phone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1442163442_email-envelope.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1443263907_folder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1443263937_camera.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1443380429_save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1443380808_save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1443380834_Delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1443388853_login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1443388911_connect_to_database.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1443478611_edit-notes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1443478652_save_all.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1443648407_add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1444907035_print.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1444907193_calculator.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_new.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\attendance.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bonus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Box.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calculator.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\camera.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\check box.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CheckBox.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CheckBox1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close_red1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\connectdatabase.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ddelete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Delete_24x24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\emergency.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\employee.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\excel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\explorer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\favicon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Help.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\info.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Information.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\License.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mobile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\notification.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\print.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\red-cross-green-tick.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\salary.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Save_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Seleted.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\send.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tax.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\telephone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tick.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Upload.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="payroll picture\1445721419_accept-database.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="payroll picture\1445721438_download-database.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="payroll picture\1445721383_Database-Upload.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="payroll picture\1445721741_home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="payroll picture\1445954454_calendar-clock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="payroll picture\1445954419_application-pgp-signature.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="payroll picture\1445954494_office-building.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="payroll picture\1445954529_vector_65_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="payroll picture\1445954833_minimize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="payroll picture\1446147698_leave.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="payroll picture\send.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

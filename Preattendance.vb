@@ -5,7 +5,7 @@
     Private _pAttendanceReason As String
     Private _pAttendanceType As String
     Private _pAttendanceTotal As Integer
-    Private _employee As New Employee
+    Private _employee As Employee
     Sub New()
     End Sub
     Sub New(ByVal preAttNo As String, ByVal preAttDateFrom As String, ByVal preAttDateTo As String, ByVal preAttReason As String, ByVal preAttType As String, ByVal preAttTotal As Integer)

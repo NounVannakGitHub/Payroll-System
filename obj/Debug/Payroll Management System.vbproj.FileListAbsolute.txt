@@ -115,3 +115,382 @@ C:\Users\HP\Desktop\Payroll-System-7bc6115502480c4b11179949f2e54ac8ad0a5a87\bin\
 C:\Users\HP\Desktop\Payroll-System-7bc6115502480c4b11179949f2e54ac8ad0a5a87\obj\Debug\Payroll Management System.exe
 C:\Users\HP\Desktop\Payroll-System-7bc6115502480c4b11179949f2e54ac8ad0a5a87\obj\Debug\Payroll Management System.xml
 C:\Users\HP\Desktop\Payroll-System-7bc6115502480c4b11179949f2e54ac8ad0a5a87\obj\Debug\Payroll Management System.pdb
+C:\Users\SOVON\Desktop\Payroll-System-payroll\bin\Debug\Payroll Management System.exe.config
+C:\Users\SOVON\Desktop\Payroll-System-payroll\obj\Debug\Payroll Management System.exe
+C:\Users\SOVON\Desktop\Payroll-System-payroll\obj\Debug\Payroll Management System.xml
+C:\Users\SOVON\Desktop\Payroll-System-payroll\obj\Debug\Payroll Management System.pdb
+C:\Users\SOVON\Desktop\Payroll-System-payroll\bin\Debug\Payroll Management System.exe
+C:\Users\SOVON\Desktop\Payroll-System-payroll\bin\Debug\Payroll Management System.pdb
+C:\Users\SOVON\Desktop\Payroll-System-payroll\bin\Debug\Payroll Management System.xml
+C:\Users\SOVON\Desktop\Payroll-System-payroll\bin\Debug\cy-GB\Payroll Management System.resources.dll
+C:\Users\SOVON\Desktop\Payroll-System-payroll\bin\Debug\km-KH\Payroll Management System.resources.dll
+C:\Users\SOVON\Desktop\Payroll-System-payroll\bin\Debug\km\Payroll Management System.resources.dll
+C:\Users\SOVON\Desktop\Payroll-System-payroll\obj\Debug\Payroll Management System.vbprojResolveAssemblyReference.cache
+C:\Users\SOVON\Desktop\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmAddAttendance.resources
+C:\Users\SOVON\Desktop\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmAddbonus.resources
+C:\Users\SOVON\Desktop\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmAddEmployee.resources
+C:\Users\SOVON\Desktop\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmAttendance.resources
+C:\Users\SOVON\Desktop\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmBenefitAndDeductionType.resources
+C:\Users\SOVON\Desktop\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmBenefitType.resources
+C:\Users\SOVON\Desktop\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmBonus.resources
+C:\Users\SOVON\Desktop\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmBonusInfo.resources
+C:\Users\SOVON\Desktop\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmConnect.resources
+C:\Users\SOVON\Desktop\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmEditAttendance.resources
+C:\Users\SOVON\Desktop\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmEditBenefitType.resources
+C:\Users\SOVON\Desktop\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmEditBonus.resources
+C:\Users\SOVON\Desktop\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmEditDeductionType.resources
+C:\Users\SOVON\Desktop\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmEditEmployee.resources
+C:\Users\SOVON\Desktop\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmEmployeeInformation.resources
+C:\Users\SOVON\Desktop\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmMenu.resources
+C:\Users\SOVON\Desktop\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmNewEmployee.resources
+C:\Users\SOVON\Desktop\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmPH.resources
+C:\Users\SOVON\Desktop\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmRegister.resources
+C:\Users\SOVON\Desktop\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmSchool.resources
+C:\Users\SOVON\Desktop\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmUniversity.resources
+C:\Users\SOVON\Desktop\Payroll-System-payroll\obj\Debug\Payroll_Management_System.Resources.resources
+C:\Users\SOVON\Desktop\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmRegister.cy-GB.resources
+C:\Users\SOVON\Desktop\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmRegister.km-KH.resources
+C:\Users\SOVON\Desktop\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmRegister.km.resources
+C:\Users\SOVON\Desktop\Payroll-System-payroll\obj\Debug\Payroll Management System.vbproj.GenerateResource.Cache
+C:\Users\SOVON\Desktop\Payroll-System-payroll\obj\Debug\cy-GB\Payroll Management System.resources.dll
+C:\Users\SOVON\Desktop\Payroll-System-payroll\obj\Debug\km-KH\Payroll Management System.resources.dll
+C:\Users\SOVON\Desktop\Payroll-System-payroll\obj\Debug\km\Payroll Management System.resources.dll
+D:\lesson\Year 4\ooad 2015 2016\Payroll-System-payroll\bin\Debug\Payroll Management System.exe.config
+D:\lesson\Year 4\ooad 2015 2016\Payroll-System-payroll\obj\Debug\Payroll Management System.exe
+D:\lesson\Year 4\ooad 2015 2016\Payroll-System-payroll\obj\Debug\Payroll Management System.xml
+D:\lesson\Year 4\ooad 2015 2016\Payroll-System-payroll\obj\Debug\Payroll Management System.pdb
+D:\lesson\Year 4\ooad 2015 2016\Payroll-System-payroll\bin\Debug\Payroll Management System.exe
+D:\lesson\Year 4\ooad 2015 2016\Payroll-System-payroll\bin\Debug\Payroll Management System.pdb
+D:\lesson\Year 4\ooad 2015 2016\Payroll-System-payroll\bin\Debug\Payroll Management System.xml
+D:\lesson\Year 4\ooad 2015 2016\Payroll-System-payroll\bin\Debug\cy-GB\Payroll Management System.resources.dll
+D:\lesson\Year 4\ooad 2015 2016\Payroll-System-payroll\bin\Debug\km-KH\Payroll Management System.resources.dll
+D:\lesson\Year 4\ooad 2015 2016\Payroll-System-payroll\bin\Debug\km\Payroll Management System.resources.dll
+D:\lesson\Year 4\ooad 2015 2016\Payroll-System-payroll\obj\Debug\Payroll Management System.vbprojResolveAssemblyReference.cache
+D:\lesson\Year 4\ooad 2015 2016\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmAddbonus.resources
+D:\lesson\Year 4\ooad 2015 2016\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmAddEmployee.resources
+D:\lesson\Year 4\ooad 2015 2016\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmAttendance.resources
+D:\lesson\Year 4\ooad 2015 2016\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmBenefitAndDeductionType.resources
+D:\lesson\Year 4\ooad 2015 2016\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmBenefitType.resources
+D:\lesson\Year 4\ooad 2015 2016\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmBonus.resources
+D:\lesson\Year 4\ooad 2015 2016\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmBonusInfo.resources
+D:\lesson\Year 4\ooad 2015 2016\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmConnect.resources
+D:\lesson\Year 4\ooad 2015 2016\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmEditAttendance.resources
+D:\lesson\Year 4\ooad 2015 2016\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmEditBonus.resources
+D:\lesson\Year 4\ooad 2015 2016\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmEditEmployee.resources
+D:\lesson\Year 4\ooad 2015 2016\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmEmployeeInformation.resources
+D:\lesson\Year 4\ooad 2015 2016\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmMenu.resources
+D:\lesson\Year 4\ooad 2015 2016\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmNewEmployee.resources
+D:\lesson\Year 4\ooad 2015 2016\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmPH.resources
+D:\lesson\Year 4\ooad 2015 2016\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmRegister.resources
+D:\lesson\Year 4\ooad 2015 2016\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmSchool.resources
+D:\lesson\Year 4\ooad 2015 2016\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmUniversity.resources
+D:\lesson\Year 4\ooad 2015 2016\Payroll-System-payroll\obj\Debug\Payroll_Management_System.Resources.resources
+D:\lesson\Year 4\ooad 2015 2016\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmRegister.cy-GB.resources
+D:\lesson\Year 4\ooad 2015 2016\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmRegister.km-KH.resources
+D:\lesson\Year 4\ooad 2015 2016\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmRegister.km.resources
+D:\lesson\Year 4\ooad 2015 2016\Payroll-System-payroll\obj\Debug\Payroll Management System.vbproj.GenerateResource.Cache
+D:\lesson\Year 4\ooad 2015 2016\Payroll-System-payroll\obj\Debug\cy-GB\Payroll Management System.resources.dll
+D:\lesson\Year 4\ooad 2015 2016\Payroll-System-payroll\obj\Debug\km-KH\Payroll Management System.resources.dll
+D:\lesson\Year 4\ooad 2015 2016\Payroll-System-payroll\obj\Debug\km\Payroll Management System.resources.dll
+D:\lesson\Year 4\ooad 2015 2016\Payroll-System-payroll\obj\Debug\Payroll_Management_System.ADD_CUSTOMER_FRM.resources
+D:\lesson\Year 4\ooad 2015 2016\Payroll-System-payroll\obj\Debug\Payroll_Management_System.SUPPLIER_FRM.resources
+D:\lesson\Year 4\ooad 2015 2016\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmDeductionType.resources
+D:\lesson\Year 4\ooad 2015 2016\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmEmployeeAddendance.resources
+D:\lesson\Year 4\ooad 2015 2016\Payroll-System-payroll\bin\Debug\ca\Payroll Management System.resources.dll
+D:\lesson\Year 4\ooad 2015 2016\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmAddEmployee.ca.resources
+D:\lesson\Year 4\ooad 2015 2016\Payroll-System-payroll\obj\Debug\ca\Payroll Management System.resources.dll
+D:\lesson\Year 4\ooad 2015 2016\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmDepartment.resources
+D:\lesson\Year 4\ooad 2015 2016\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmAddDepartment.resources
+D:\lesson\Year 4\ooad 2015 2016\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmPosition.resources
+D:\lesson\Year 4\ooad 2015 2016\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmAddPosition.resources
+D:\lesson\Year 4\ooad 2015 2016\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmHoliday.resources
+D:\lesson\Year 4\ooad 2015 2016\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmAddHoliday.resources
+D:\lesson\Year 4\ooad 2015 2016\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmAddEmployeeLoan.resources
+D:\lesson\Year 4\ooad 2015 2016\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmEmployeeLoan.resources
+D:\lesson\Year 4\ooad 2015 2016\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmAddTax.resources
+D:\lesson\Year 4\ooad 2015 2016\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmTax.resources
+D:\lesson\Year 4\ooad 2015 2016\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmUser.resources
+D:\lesson\Year 4\ooad 2015 2016\Payroll-System-payroll\obj\Debug\Payroll Management System.exe.licenses
+D:\lesson\Year 4\ooad 2015 2016\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmAddUser.resources
+D:\lesson\Year 4\ooad 2015 2016\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmChangePassword.resources
+D:\lesson\Year 4\ooad 2015 2016\Payroll-System-payroll\obj\Debug\Payroll_Management_System.Login.resources
+D:\lesson\Year 4\ooad 2015 2016\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmStartup.resources
+C:\Users\HP\Desktop\Payroll-System-payroll\bin\Debug\Payroll Management System.exe.config
+C:\Users\HP\Desktop\Payroll-System-payroll\obj\Debug\Payroll Management System.exe
+C:\Users\HP\Desktop\Payroll-System-payroll\obj\Debug\Payroll Management System.xml
+C:\Users\HP\Desktop\Payroll-System-payroll\obj\Debug\Payroll Management System.pdb
+C:\Users\HP\Desktop\Payroll-System-payroll\obj\Debug\Payroll Management System.vbprojResolveAssemblyReference.cache
+C:\Users\HP\Desktop\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmAddbonus.resources
+C:\Users\HP\Desktop\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmAddDepartment.resources
+C:\Users\HP\Desktop\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmAddEmployee.resources
+C:\Users\HP\Desktop\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmAddEmployeeLoan.resources
+C:\Users\HP\Desktop\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmAddHoliday.resources
+C:\Users\HP\Desktop\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmAddPosition.resources
+C:\Users\HP\Desktop\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmAddTax.resources
+C:\Users\HP\Desktop\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmAddUser.resources
+C:\Users\HP\Desktop\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmAttendance.resources
+C:\Users\HP\Desktop\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmBenefitAndDeductionType.resources
+C:\Users\HP\Desktop\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmBenefitType.resources
+C:\Users\HP\Desktop\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmBonus.resources
+C:\Users\HP\Desktop\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmBonusInfo.resources
+C:\Users\HP\Desktop\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmChangePassword.resources
+C:\Users\HP\Desktop\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmConnect.resources
+C:\Users\HP\Desktop\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmDepartment.resources
+C:\Users\HP\Desktop\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmEditAttendance.resources
+C:\Users\HP\Desktop\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmEditBonus.resources
+C:\Users\HP\Desktop\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmDeductionType.resources
+C:\Users\HP\Desktop\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmEditEmployee.resources
+C:\Users\HP\Desktop\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmEmployeeAddendance.resources
+C:\Users\HP\Desktop\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmEmployeeInformation.resources
+C:\Users\HP\Desktop\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmEmployeeLoan.resources
+C:\Users\HP\Desktop\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmHoliday.resources
+C:\Users\HP\Desktop\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmPosition.resources
+C:\Users\HP\Desktop\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmStartup.resources
+C:\Users\HP\Desktop\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmTax.resources
+C:\Users\HP\Desktop\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmUser.resources
+C:\Users\HP\Desktop\Payroll-System-payroll\obj\Debug\Payroll_Management_System.Login.resources
+C:\Users\HP\Desktop\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmMenu.resources
+C:\Users\HP\Desktop\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmNewEmployee.resources
+C:\Users\HP\Desktop\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmPH.resources
+C:\Users\HP\Desktop\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmRegister.resources
+C:\Users\HP\Desktop\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmSchool.resources
+C:\Users\HP\Desktop\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmUniversity.resources
+C:\Users\HP\Desktop\Payroll-System-payroll\obj\Debug\Payroll_Management_System.Resources.resources
+C:\Users\HP\Desktop\Payroll-System-payroll\obj\Debug\Payroll_Management_System.SUPPLIER_FRM.resources
+C:\Users\HP\Desktop\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmAddEmployee.ca.resources
+C:\Users\HP\Desktop\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmRegister.cy-GB.resources
+C:\Users\HP\Desktop\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmRegister.km-KH.resources
+C:\Users\HP\Desktop\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmRegister.km.resources
+C:\Users\HP\Desktop\Payroll-System-payroll\obj\Debug\Payroll Management System.vbproj.GenerateResource.Cache
+C:\Users\HP\Desktop\Payroll-System-payroll\obj\Debug\Payroll Management System.exe.licenses
+H:\Payroll-System-payroll\bin\Debug\Payroll Management System.exe.config
+H:\Payroll-System-payroll\obj\Debug\Payroll Management System.exe
+H:\Payroll-System-payroll\obj\Debug\Payroll Management System.xml
+H:\Payroll-System-payroll\obj\Debug\Payroll Management System.pdb
+H:\Payroll-System-payroll\bin\Debug\Payroll Management System.exe
+H:\Payroll-System-payroll\bin\Debug\Payroll Management System.pdb
+H:\Payroll-System-payroll\bin\Debug\Payroll Management System.xml
+H:\Payroll-System-payroll\bin\Debug\ca\Payroll Management System.resources.dll
+H:\Payroll-System-payroll\bin\Debug\cy-GB\Payroll Management System.resources.dll
+H:\Payroll-System-payroll\bin\Debug\km-KH\Payroll Management System.resources.dll
+H:\Payroll-System-payroll\bin\Debug\km\Payroll Management System.resources.dll
+H:\Payroll-System-payroll\obj\Debug\Payroll Management System.vbprojResolveAssemblyReference.cache
+H:\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmAddbonus.resources
+H:\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmAddDepartment.resources
+H:\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmAddEmployee.resources
+H:\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmAddEmployeeLoan.resources
+H:\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmAddHoliday.resources
+H:\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmAddPosition.resources
+H:\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmAddTax.resources
+H:\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmAddUser.resources
+H:\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmAttendance.resources
+H:\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmBenefitAndDeductionType.resources
+H:\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmBenefitType.resources
+H:\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmBonus.resources
+H:\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmBonusInfo.resources
+H:\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmChangePassword.resources
+H:\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmConnect.resources
+H:\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmDepartment.resources
+H:\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmEditAttendance.resources
+H:\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmEditBonus.resources
+H:\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmDeductionType.resources
+H:\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmEditEmployee.resources
+H:\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmEmployeeAddendance.resources
+H:\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmEmployeeInformation.resources
+H:\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmEmployeeLoan.resources
+H:\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmHoliday.resources
+H:\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmPosition.resources
+H:\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmStartup.resources
+H:\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmTax.resources
+H:\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmUser.resources
+H:\Payroll-System-payroll\obj\Debug\Payroll_Management_System.Login.resources
+H:\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmMenu.resources
+H:\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmNewEmployee.resources
+H:\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmPH.resources
+H:\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmRegister.resources
+H:\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmSchool.resources
+H:\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmUniversity.resources
+H:\Payroll-System-payroll\obj\Debug\Payroll_Management_System.Resources.resources
+H:\Payroll-System-payroll\obj\Debug\Payroll_Management_System.SUPPLIER_FRM.resources
+H:\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmAddEmployee.ca.resources
+H:\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmRegister.cy-GB.resources
+H:\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmRegister.km-KH.resources
+H:\Payroll-System-payroll\obj\Debug\Payroll_Management_System.frmRegister.km.resources
+H:\Payroll-System-payroll\obj\Debug\Payroll Management System.vbproj.GenerateResource.Cache
+H:\Payroll-System-payroll\obj\Debug\Payroll Management System.exe.licenses
+H:\Payroll-System-payroll\obj\Debug\ca\Payroll Management System.resources.dll
+H:\Payroll-System-payroll\obj\Debug\cy-GB\Payroll Management System.resources.dll
+H:\Payroll-System-payroll\obj\Debug\km-KH\Payroll Management System.resources.dll
+H:\Payroll-System-payroll\obj\Debug\km\Payroll Management System.resources.dll
+F:\Payroll-System-payroll - Copy\bin\Debug\Payroll Management System.exe.config
+F:\Payroll-System-payroll - Copy\obj\Debug\Payroll Management System.exe
+F:\Payroll-System-payroll - Copy\obj\Debug\Payroll Management System.xml
+F:\Payroll-System-payroll - Copy\obj\Debug\Payroll Management System.pdb
+F:\Payroll-System-payroll - Copy\obj\Debug\Payroll Management System.vbprojResolveAssemblyReference.cache
+F:\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmAddbonus.resources
+F:\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmAddDepartment.resources
+F:\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmAddEmployee.resources
+F:\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmAddEmployeeLoan.resources
+F:\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmAddHoliday.resources
+F:\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmAddPosition.resources
+F:\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmAddTax.resources
+F:\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmAddUser.resources
+F:\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmAttendance.resources
+F:\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmBenefitAndDeductionType.resources
+F:\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmBenefitType.resources
+F:\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmBonus.resources
+F:\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmBonusInfo.resources
+F:\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmChangePassword.resources
+F:\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmConnect.resources
+F:\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmDepartment.resources
+F:\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmEditAttendance.resources
+F:\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmEditBonus.resources
+F:\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmDeductionType.resources
+F:\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmEditEmployee.resources
+F:\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmEmployeeAddendance.resources
+F:\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmEmployeeInformation.resources
+F:\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmEmployeeLoan.resources
+F:\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmHoliday.resources
+F:\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmPosition.resources
+F:\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmStartup.resources
+F:\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmTax.resources
+F:\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmUser.resources
+F:\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.Login.resources
+F:\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmMenu.resources
+F:\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmNewEmployee.resources
+F:\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmPH.resources
+F:\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmRegister.resources
+F:\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmSchool.resources
+F:\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmUniversity.resources
+F:\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.Resources.resources
+F:\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.SUPPLIER_FRM.resources
+F:\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmAddEmployee.ca.resources
+F:\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmRegister.cy-GB.resources
+F:\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmRegister.km-KH.resources
+F:\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmRegister.km.resources
+F:\Payroll-System-payroll - Copy\obj\Debug\Payroll Management System.vbproj.GenerateResource.Cache
+F:\Payroll-System-payroll - Copy\obj\Debug\Payroll Management System.exe.licenses
+F:\Payroll-System-payroll - Copy\obj\Debug\ca\Payroll Management System.resources.dll
+F:\Payroll-System-payroll - Copy\obj\Debug\cy-GB\Payroll Management System.resources.dll
+F:\Payroll-System-payroll - Copy\obj\Debug\km-KH\Payroll Management System.resources.dll
+F:\Payroll-System-payroll - Copy\bin\Debug\Payroll Management System.exe
+F:\Payroll-System-payroll - Copy\bin\Debug\Payroll Management System.pdb
+F:\Payroll-System-payroll - Copy\bin\Debug\Payroll Management System.xml
+F:\Payroll-System-payroll - Copy\bin\Debug\ca\Payroll Management System.resources.dll
+F:\Payroll-System-payroll - Copy\bin\Debug\cy-GB\Payroll Management System.resources.dll
+F:\Payroll-System-payroll - Copy\bin\Debug\km-KH\Payroll Management System.resources.dll
+F:\Payroll-System-payroll - Copy\bin\Debug\km\Payroll Management System.resources.dll
+F:\Payroll-System-payroll - Copy\obj\Debug\km\Payroll Management System.resources.dll
+C:\Users\HP\Desktop\Payroll-System-payroll - Copy\bin\Debug\Payroll Management System.exe.config
+C:\Users\HP\Desktop\Payroll-System-payroll - Copy\obj\Debug\Payroll Management System.exe
+C:\Users\HP\Desktop\Payroll-System-payroll - Copy\obj\Debug\Payroll Management System.xml
+C:\Users\HP\Desktop\Payroll-System-payroll - Copy\obj\Debug\Payroll Management System.pdb
+C:\Users\HP\Desktop\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmAddbonus.resources
+C:\Users\HP\Desktop\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmAddDepartment.resources
+C:\Users\HP\Desktop\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmAddEmployee.resources
+C:\Users\HP\Desktop\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmAddEmployeeLoan.resources
+C:\Users\HP\Desktop\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmAddHoliday.resources
+C:\Users\HP\Desktop\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmAddPosition.resources
+C:\Users\HP\Desktop\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmAddTax.resources
+C:\Users\HP\Desktop\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmAddUser.resources
+C:\Users\HP\Desktop\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmAttendance.resources
+C:\Users\HP\Desktop\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmBenefitAndDeductionType.resources
+C:\Users\HP\Desktop\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmBenefitType.resources
+C:\Users\HP\Desktop\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmBonus.resources
+C:\Users\HP\Desktop\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmBonusInfo.resources
+C:\Users\HP\Desktop\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmChangePassword.resources
+C:\Users\HP\Desktop\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmConnect.resources
+C:\Users\HP\Desktop\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmDepartment.resources
+C:\Users\HP\Desktop\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmEditAttendance.resources
+C:\Users\HP\Desktop\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmEditBonus.resources
+C:\Users\HP\Desktop\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmDeductionType.resources
+C:\Users\HP\Desktop\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmEditEmployee.resources
+C:\Users\HP\Desktop\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmEmployeeAddendance.resources
+C:\Users\HP\Desktop\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmEmployeeInformation.resources
+C:\Users\HP\Desktop\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmEmployeeLoan.resources
+C:\Users\HP\Desktop\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmHoliday.resources
+C:\Users\HP\Desktop\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmPosition.resources
+C:\Users\HP\Desktop\Payroll-System-payroll - Cop
+D:\Payroll-System-payroll - Copy\bin\Debug\Payroll Management System.exe.config
+D:\Payroll-System-payroll - Copy\obj\Debug\Payroll Management System.exe
+D:\Payroll-System-payroll - Copy\obj\Debug\Payroll Management System.xml
+D:\Payroll-System-payroll - Copy\obj\Debug\Payroll Management System.pdb
+D:\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmAddbonus.resources
+D:\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmAddDepartment.resources
+D:\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmAddEmployee.resources
+D:\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmAddEmployeeLoan.resources
+D:\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmAddHoliday.resources
+D:\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmAddPosition.resources
+D:\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmAddress.resources
+D:\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmAddTax.resources
+D:\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmAddUser.resources
+D:\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmAttendance.resources
+D:\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmBenefitAndDeductionType.resources
+D:\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmBenefitType.resources
+D:\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmBonus.resources
+D:\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmBonusInfo.resources
+D:\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmChangePassword.resources
+D:\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmConnect.resources
+D:\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmDepartment.resources
+D:\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmEditAttendance.resources
+D:\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmEditBonus.resources
+D:\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmDeductionType.resources
+D:\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmEditEmployee.resources
+D:\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmEmployeeAddendance.resources
+D:\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmEmployeeInformation.resources
+D:\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmEmployeeLoan.resources
+D:\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmHoliday.resources
+D:\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmPosition.resources
+D:\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmStartup.resources
+D:\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmTax.resources
+D:\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmUser.resources
+D:\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.Login.resources
+D:\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmMenu.resources
+D:\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmNewEmployee.resources
+D:\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmRegister.resources
+D:\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmSchool.resources
+D:\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmUniversity.resources
+D:\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.Resources.resources
+D:\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.SUPPLIER_FRM.resources
+D:\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmAddEmployee.ca.resources
+D:\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmRegister.cy-GB.resources
+D:\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmRegister.km-KH.resources
+D:\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmRegister.km.resources
+D:\Payroll-System-payroll - Copy\obj\Debug\Payroll Management System.vbproj.GenerateResource.Cache
+D:\Payroll-System-payroll - Copy\obj\Debug\Payroll Management System.exe.licenses
+D:\Payroll-System-payroll - Copy\bin\Debug\Payroll Management System.exe
+D:\Payroll-System-payroll - Copy\bin\Debug\Payroll Management System.pdb
+D:\Payroll-System-payroll - Copy\bin\Debug\Payroll Management System.xml
+D:\Payroll-System-payroll - Copy\bin\Debug\ca\Payroll Management System.resources.dll
+D:\Payroll-System-payroll - Copy\bin\Debug\cy-GB\Payroll Management System.resources.dll
+D:\Payroll-System-payroll - Copy\bin\Debug\km-KH\Payroll Management System.resources.dll
+D:\Payroll-System-payroll - Copy\bin\Debug\km\Payroll Management System.resources.dll
+D:\Payroll-System-payroll - Copy\obj\Debug\ca\Payroll Management System.resources.dll
+D:\Payroll-System-payroll - Copy\obj\Debug\cy-GB\Payroll Management System.resources.dll
+D:\Payroll-System-payroll - Copy\obj\Debug\km-KH\Payroll Management System.resources.dll
+D:\Payroll-System-payroll - Copy\obj\Debug\km\Payroll Management System.resources.dll
+D:\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmCapture.resources
+D:\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmPhoto.resources
+D:\Payroll-System-payroll - Copy\obj\Debug\Payroll Management System.vbproj.ResolveComReference.cache
+D:\Payroll-System-payroll - Copy\obj\Debug\Interop.Scripting.dll
+D:\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmMyTest.resources
+D:\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmPasswordEmergency.resources
+D:\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmSalary.resources
+D:\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmSalaryPaySlip.resources
+D:\Payroll-System-payroll - Copy\obj\Debug\Payroll Management System.vbprojResolveAssemblyReference.cache
+D:\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmPrintSalaryPaySlip.resources
+D:\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmAttendence.resources
+D:\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmBackup.resources
+D:\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmCity.resources
+D:\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmCommune.resources
+D:\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmDistrict.resources
+D:\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmRestore.resources
+D:\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmVillage.resources
+D:\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmPermission.resources
+D:\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmAbout.resources
+D:\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmAddLeave.resources
+D:\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmLeave.resources
+D:\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmReportLeaveOfEmployee.resources
+D:\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmAttEmployee.resources
+D:\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmAddEvaluationStaff.resources
+D:\Payroll-System-payroll - Copy\obj\Debug\Payroll_Management_System.frmEvaluationStaff.resources

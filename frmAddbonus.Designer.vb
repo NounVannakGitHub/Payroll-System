@@ -22,209 +22,42 @@ Partial Class frmAddbonus
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.timeOut = New System.Windows.Forms.DateTimePicker()
-        Me.timeIn = New System.Windows.Forms.DateTimePicker()
-        Me.ButtonX1 = New DevComponents.DotNetBar.ButtonX()
-        Me.TextBoxX7 = New DevComponents.DotNetBar.Controls.TextBoxX()
-        Me.btnCancel = New DevComponents.DotNetBar.ButtonX()
-        Me.btnSave = New DevComponents.DotNetBar.ButtonX()
-        Me.LabelX9 = New DevComponents.DotNetBar.LabelX()
-        Me.LabelX5 = New DevComponents.DotNetBar.LabelX()
-        Me.LabelX2 = New DevComponents.DotNetBar.LabelX()
-        Me.LabelX1 = New DevComponents.DotNetBar.LabelX()
-        Me.TextBoxX1 = New DevComponents.DotNetBar.Controls.TextBoxX()
-        Me.LabelX4 = New DevComponents.DotNetBar.LabelX()
-        Me.TextBoxX2 = New DevComponents.DotNetBar.Controls.TextBoxX()
-        Me.LabelX3 = New DevComponents.DotNetBar.LabelX()
-        Me.cboBonusType = New System.Windows.Forms.ComboBox()
         Me.PanelEx1 = New DevComponents.DotNetBar.PanelEx()
+        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.cboEmpId = New System.Windows.Forms.ComboBox()
+        Me.dtpFrom = New System.Windows.Forms.DateTimePicker()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.dtpTo = New System.Windows.Forms.DateTimePicker()
+        Me.cboTypeBonus = New System.Windows.Forms.ComboBox()
+        Me.txtTime = New System.Windows.Forms.TextBox()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.txtCost = New System.Windows.Forms.TextBox()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.txtSubTotal = New System.Windows.Forms.TextBox()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.btnSave = New DevComponents.DotNetBar.ButtonX()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.btnEdit = New DevComponents.DotNetBar.ButtonX()
+        Me.PanelEx1.SuspendLayout()
         Me.GroupBox1.SuspendLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
-        '
-        'GroupBox1
-        '
-        Me.GroupBox1.Controls.Add(Me.cboBonusType)
-        Me.GroupBox1.Controls.Add(Me.TextBoxX2)
-        Me.GroupBox1.Controls.Add(Me.LabelX3)
-        Me.GroupBox1.Controls.Add(Me.TextBoxX1)
-        Me.GroupBox1.Controls.Add(Me.LabelX4)
-        Me.GroupBox1.Controls.Add(Me.timeOut)
-        Me.GroupBox1.Controls.Add(Me.timeIn)
-        Me.GroupBox1.Controls.Add(Me.ButtonX1)
-        Me.GroupBox1.Controls.Add(Me.TextBoxX7)
-        Me.GroupBox1.Controls.Add(Me.btnCancel)
-        Me.GroupBox1.Controls.Add(Me.btnSave)
-        Me.GroupBox1.Controls.Add(Me.LabelX9)
-        Me.GroupBox1.Controls.Add(Me.LabelX5)
-        Me.GroupBox1.Controls.Add(Me.LabelX2)
-        Me.GroupBox1.Controls.Add(Me.LabelX1)
-        Me.GroupBox1.Location = New System.Drawing.Point(20, 81)
-        Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(418, 417)
-        Me.GroupBox1.TabIndex = 19
-        Me.GroupBox1.TabStop = False
-        '
-        'timeOut
-        '
-        Me.timeOut.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.timeOut.Location = New System.Drawing.Point(157, 129)
-        Me.timeOut.Name = "timeOut"
-        Me.timeOut.Size = New System.Drawing.Size(215, 24)
-        Me.timeOut.TabIndex = 50
-        '
-        'timeIn
-        '
-        Me.timeIn.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.timeIn.Location = New System.Drawing.Point(157, 84)
-        Me.timeIn.Name = "timeIn"
-        Me.timeIn.Size = New System.Drawing.Size(215, 24)
-        Me.timeIn.TabIndex = 49
-        '
-        'ButtonX1
-        '
-        Me.ButtonX1.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton
-        Me.ButtonX1.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground
-        Me.ButtonX1.Font = New System.Drawing.Font("Khmer OS Metal Chrieng", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ButtonX1.Location = New System.Drawing.Point(224, 348)
-        Me.ButtonX1.Name = "ButtonX1"
-        Me.ButtonX1.Size = New System.Drawing.Size(91, 33)
-        Me.ButtonX1.TabIndex = 48
-        Me.ButtonX1.Text = "រក្សាទុក ថ្មី"
-        '
-        'TextBoxX7
-        '
-        '
-        '
-        '
-        Me.TextBoxX7.Border.Class = "TextBoxBorder"
-        Me.TextBoxX7.Font = New System.Drawing.Font("Khmer OS Metal Chrieng", 11.25!)
-        Me.TextBoxX7.Location = New System.Drawing.Point(157, 287)
-        Me.TextBoxX7.Name = "TextBoxX7"
-        Me.TextBoxX7.Size = New System.Drawing.Size(215, 41)
-        Me.TextBoxX7.TabIndex = 46
-        '
-        'btnCancel
-        '
-        Me.btnCancel.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton
-        Me.btnCancel.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground
-        Me.btnCancel.Font = New System.Drawing.Font("Khmer OS Metal Chrieng", 11.25!)
-        Me.btnCancel.Location = New System.Drawing.Point(321, 348)
-        Me.btnCancel.Name = "btnCancel"
-        Me.btnCancel.Size = New System.Drawing.Size(74, 33)
-        Me.btnCancel.TabIndex = 44
-        Me.btnCancel.Text = "បិទ"
-        '
-        'btnSave
-        '
-        Me.btnSave.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton
-        Me.btnSave.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground
-        Me.btnSave.Font = New System.Drawing.Font("Khmer OS Metal Chrieng", 11.25!)
-        Me.btnSave.Location = New System.Drawing.Point(135, 348)
-        Me.btnSave.Name = "btnSave"
-        Me.btnSave.Size = New System.Drawing.Size(83, 33)
-        Me.btnSave.TabIndex = 43
-        Me.btnSave.Text = "រក្សាទុក"
-        '
-        'LabelX9
-        '
-        Me.LabelX9.Font = New System.Drawing.Font("Khmer OS Metal Chrieng", 11.25!)
-        Me.LabelX9.Location = New System.Drawing.Point(17, 287)
-        Me.LabelX9.Name = "LabelX9"
-        Me.LabelX9.Size = New System.Drawing.Size(115, 41)
-        Me.LabelX9.TabIndex = 39
-        Me.LabelX9.Text = "ឈ្មោះបុគ្គលិក"
-        '
-        'LabelX5
-        '
-        Me.LabelX5.Font = New System.Drawing.Font("Khmer OS Metal Chrieng", 11.25!)
-        Me.LabelX5.Location = New System.Drawing.Point(17, 225)
-        Me.LabelX5.Name = "LabelX5"
-        Me.LabelX5.Size = New System.Drawing.Size(134, 41)
-        Me.LabelX5.TabIndex = 31
-        Me.LabelX5.Text = "ប្រភេទប្រាក់បន្ថែម"
-        '
-        'LabelX2
-        '
-        Me.LabelX2.Font = New System.Drawing.Font("Khmer OS Metal Chrieng", 11.25!)
-        Me.LabelX2.Location = New System.Drawing.Point(17, 121)
-        Me.LabelX2.Name = "LabelX2"
-        Me.LabelX2.Size = New System.Drawing.Size(115, 41)
-        Me.LabelX2.TabIndex = 25
-        Me.LabelX2.Text = "ដល់ថ្ងៃទី"
-        '
-        'LabelX1
-        '
-        Me.LabelX1.Font = New System.Drawing.Font("Khmer OS Metal Chrieng", 11.25!)
-        Me.LabelX1.Location = New System.Drawing.Point(17, 73)
-        Me.LabelX1.Name = "LabelX1"
-        Me.LabelX1.Size = New System.Drawing.Size(115, 41)
-        Me.LabelX1.TabIndex = 23
-        Me.LabelX1.Text = "ចាប់ពីថ្ងៃទី"
-        '
-        'TextBoxX1
-        '
-        '
-        '
-        '
-        Me.TextBoxX1.Border.Class = "TextBoxBorder"
-        Me.TextBoxX1.Font = New System.Drawing.Font("Khmer OS Metal Chrieng", 11.25!)
-        Me.TextBoxX1.Location = New System.Drawing.Point(157, 25)
-        Me.TextBoxX1.Name = "TextBoxX1"
-        Me.TextBoxX1.Size = New System.Drawing.Size(215, 41)
-        Me.TextBoxX1.TabIndex = 53
-        '
-        'LabelX4
-        '
-        Me.LabelX4.Font = New System.Drawing.Font("Khmer OS Metal Chrieng", 11.25!)
-        Me.LabelX4.Location = New System.Drawing.Point(17, 24)
-        Me.LabelX4.Name = "LabelX4"
-        Me.LabelX4.Size = New System.Drawing.Size(115, 41)
-        Me.LabelX4.TabIndex = 52
-        Me.LabelX4.Text = "លេខកូដ"
-        '
-        'TextBoxX2
-        '
-        '
-        '
-        '
-        Me.TextBoxX2.Border.Class = "TextBoxBorder"
-        Me.TextBoxX2.Font = New System.Drawing.Font("Khmer OS Metal Chrieng", 11.25!)
-        Me.TextBoxX2.Location = New System.Drawing.Point(157, 171)
-        Me.TextBoxX2.Name = "TextBoxX2"
-        Me.TextBoxX2.Size = New System.Drawing.Size(215, 41)
-        Me.TextBoxX2.TabIndex = 55
-        '
-        'LabelX3
-        '
-        Me.LabelX3.Font = New System.Drawing.Font("Khmer OS Metal Chrieng", 11.25!)
-        Me.LabelX3.Location = New System.Drawing.Point(17, 170)
-        Me.LabelX3.Name = "LabelX3"
-        Me.LabelX3.Size = New System.Drawing.Size(115, 41)
-        Me.LabelX3.TabIndex = 54
-        Me.LabelX3.Text = "ចំនួនប្រាក់បថ្ថែម"
-        '
-        'cboBonusType
-        '
-        Me.cboBonusType.Font = New System.Drawing.Font("Khmer OS Metal Chrieng", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cboBonusType.FormattingEnabled = True
-        Me.cboBonusType.Location = New System.Drawing.Point(157, 228)
-        Me.cboBonusType.Name = "cboBonusType"
-        Me.cboBonusType.Size = New System.Drawing.Size(215, 42)
-        Me.cboBonusType.TabIndex = 56
         '
         'PanelEx1
         '
         Me.PanelEx1.CanvasColor = System.Drawing.SystemColors.Control
+        Me.PanelEx1.Controls.Add(Me.PictureBox1)
         Me.PanelEx1.Dock = System.Windows.Forms.DockStyle.Top
-        Me.PanelEx1.Font = New System.Drawing.Font("Khmer OS Muol Light", 11.25!)
+        Me.PanelEx1.Font = New System.Drawing.Font("Khmer OS Muol", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.PanelEx1.Location = New System.Drawing.Point(0, 0)
         Me.PanelEx1.Name = "PanelEx1"
-        Me.PanelEx1.Size = New System.Drawing.Size(459, 68)
+        Me.PanelEx1.Size = New System.Drawing.Size(734, 44)
         Me.PanelEx1.Style.Alignment = System.Drawing.StringAlignment.Center
         Me.PanelEx1.Style.BackColor1.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.BarBackground
-        Me.PanelEx1.Style.BackColor2.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.BarBackground2
-        Me.PanelEx1.Style.Border = DevComponents.DotNetBar.eBorderType.SingleLine
+        Me.PanelEx1.Style.BackColor2.Color = System.Drawing.Color.PaleGreen
         Me.PanelEx1.Style.BorderColor.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.BarDockedBorder
         Me.PanelEx1.Style.ForeColor.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.ItemText
         Me.PanelEx1.Style.GradientAngle = 90
@@ -239,40 +72,223 @@ Partial Class frmAddbonus
         Me.PanelEx1.StyleMouseOver.BorderColor.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.ItemHotBorder
         Me.PanelEx1.StyleMouseOver.ForeColor.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.ItemHotText
         Me.PanelEx1.TabIndex = 20
-        Me.PanelEx1.Text = "បន្ថែមប្រាក់បន្ថែម"
+        Me.PanelEx1.Text = "Bonus"
+        '
+        'GroupBox1
+        '
+        Me.GroupBox1.Controls.Add(Me.dtpTo)
+        Me.GroupBox1.Controls.Add(Me.dtpFrom)
+        Me.GroupBox1.Controls.Add(Me.cboTypeBonus)
+        Me.GroupBox1.Controls.Add(Me.cboEmpId)
+        Me.GroupBox1.Controls.Add(Me.Label4)
+        Me.GroupBox1.Controls.Add(Me.Label8)
+        Me.GroupBox1.Controls.Add(Me.Label7)
+        Me.GroupBox1.Controls.Add(Me.Label6)
+        Me.GroupBox1.Controls.Add(Me.Label5)
+        Me.GroupBox1.Controls.Add(Me.Label3)
+        Me.GroupBox1.Controls.Add(Me.Label2)
+        Me.GroupBox1.Controls.Add(Me.txtSubTotal)
+        Me.GroupBox1.Controls.Add(Me.txtCost)
+        Me.GroupBox1.Controls.Add(Me.txtTime)
+        Me.GroupBox1.Font = New System.Drawing.Font("Khmer OS Metal Chrieng", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.GroupBox1.Location = New System.Drawing.Point(12, 50)
+        Me.GroupBox1.Name = "GroupBox1"
+        Me.GroupBox1.Size = New System.Drawing.Size(705, 205)
+        Me.GroupBox1.TabIndex = 21
+        Me.GroupBox1.TabStop = False
+        Me.GroupBox1.Text = "ព័ត៌មានប្រាក់បន្ថែម"
+        '
+        'cboEmpId
+        '
+        Me.cboEmpId.FormattingEnabled = True
+        Me.cboEmpId.Location = New System.Drawing.Point(121, 28)
+        Me.cboEmpId.Name = "cboEmpId"
+        Me.cboEmpId.Size = New System.Drawing.Size(230, 35)
+        Me.cboEmpId.TabIndex = 2
+        '
+        'dtpFrom
+        '
+        Me.dtpFrom.Format = System.Windows.Forms.DateTimePickerFormat.Custom
+        Me.dtpFrom.Location = New System.Drawing.Point(121, 69)
+        Me.dtpFrom.Name = "dtpFrom"
+        Me.dtpFrom.Size = New System.Drawing.Size(230, 35)
+        Me.dtpFrom.TabIndex = 3
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Location = New System.Drawing.Point(17, 31)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(71, 27)
+        Me.Label2.TabIndex = 0
+        Me.Label2.Text = "កូដបុគ្គលិក"
+        '
+        'dtpTo
+        '
+        Me.dtpTo.Format = System.Windows.Forms.DateTimePickerFormat.Custom
+        Me.dtpTo.Location = New System.Drawing.Point(121, 110)
+        Me.dtpTo.Name = "dtpTo"
+        Me.dtpTo.Size = New System.Drawing.Size(230, 35)
+        Me.dtpTo.TabIndex = 3
+        '
+        'cboTypeBonus
+        '
+        Me.cboTypeBonus.FormattingEnabled = True
+        Me.cboTypeBonus.Location = New System.Drawing.Point(121, 151)
+        Me.cboTypeBonus.Name = "cboTypeBonus"
+        Me.cboTypeBonus.Size = New System.Drawing.Size(230, 35)
+        Me.cboTypeBonus.TabIndex = 2
+        '
+        'txtTime
+        '
+        Me.txtTime.Location = New System.Drawing.Point(457, 28)
+        Me.txtTime.Name = "txtTime"
+        Me.txtTime.Size = New System.Drawing.Size(230, 35)
+        Me.txtTime.TabIndex = 1
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Location = New System.Drawing.Point(17, 116)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(58, 27)
+        Me.Label3.TabIndex = 0
+        Me.Label3.Text = "ដល់ថ្ងៃទី"
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Location = New System.Drawing.Point(17, 75)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(100, 27)
+        Me.Label4.TabIndex = 0
+        Me.Label4.Text = "បន្ថែមចាប់ពីថ្ងៃទី"
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Location = New System.Drawing.Point(19, 154)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(80, 27)
+        Me.Label5.TabIndex = 0
+        Me.Label5.Text = "ប្រភេទបន្ថែម"
+        '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.Location = New System.Drawing.Point(355, 31)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(67, 27)
+        Me.Label6.TabIndex = 0
+        Me.Label6.Text = "ចំនួនម៉ោង"
+        '
+        'txtCost
+        '
+        Me.txtCost.Location = New System.Drawing.Point(457, 69)
+        Me.txtCost.Name = "txtCost"
+        Me.txtCost.Size = New System.Drawing.Size(230, 35)
+        Me.txtCost.TabIndex = 1
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.Location = New System.Drawing.Point(355, 72)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(67, 27)
+        Me.Label7.TabIndex = 0
+        Me.Label7.Text = "ប្រាក់ម៉ោង"
+        '
+        'txtSubTotal
+        '
+        Me.txtSubTotal.Location = New System.Drawing.Point(457, 110)
+        Me.txtSubTotal.Name = "txtSubTotal"
+        Me.txtSubTotal.Size = New System.Drawing.Size(230, 35)
+        Me.txtSubTotal.TabIndex = 1
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.Location = New System.Drawing.Point(355, 113)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(39, 27)
+        Me.Label8.TabIndex = 0
+        Me.Label8.Text = "សរុប"
+        '
+        'btnSave
+        '
+        Me.btnSave.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton
+        Me.btnSave.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground
+        Me.btnSave.Enabled = False
+        Me.btnSave.Image = Global.Payroll_Management_System.My.Resources.Resources._1443380808_save
+        Me.btnSave.Location = New System.Drawing.Point(295, 270)
+        Me.btnSave.Name = "btnSave"
+        Me.btnSave.Size = New System.Drawing.Size(59, 47)
+        Me.btnSave.TabIndex = 22
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.PictureBox1.Image = Global.Payroll_Management_System.My.Resources.Resources._1442135746_close_red
+        Me.PictureBox1.Location = New System.Drawing.Point(683, 4)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(39, 37)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox1.TabIndex = 23
+        Me.PictureBox1.TabStop = False
+        '
+        'btnEdit
+        '
+        Me.btnEdit.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton
+        Me.btnEdit.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground
+        Me.btnEdit.Enabled = False
+        Me.btnEdit.Image = Global.Payroll_Management_System.My.Resources.Resources._1443478611_edit_notes
+        Me.btnEdit.Location = New System.Drawing.Point(373, 270)
+        Me.btnEdit.Name = "btnEdit"
+        Me.btnEdit.Size = New System.Drawing.Size(59, 47)
+        Me.btnEdit.TabIndex = 22
         '
         'frmAddbonus
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(459, 518)
-        Me.Controls.Add(Me.PanelEx1)
+        Me.AutoSize = True
+        Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.ClientSize = New System.Drawing.Size(734, 329)
+        Me.Controls.Add(Me.btnEdit)
+        Me.Controls.Add(Me.btnSave)
         Me.Controls.Add(Me.GroupBox1)
+        Me.Controls.Add(Me.PanelEx1)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.HelpButton = True
         Me.MaximizeBox = False
         Me.MinimizeBox = False
         Me.Name = "frmAddbonus"
         Me.ShowIcon = False
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
+        Me.PanelEx1.ResumeLayout(False)
         Me.GroupBox1.ResumeLayout(False)
+        Me.GroupBox1.PerformLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
-    Friend WithEvents GroupBox1 As System.Windows.Forms.GroupBox
-    Friend WithEvents timeOut As System.Windows.Forms.DateTimePicker
-    Friend WithEvents timeIn As System.Windows.Forms.DateTimePicker
-    Friend WithEvents ButtonX1 As DevComponents.DotNetBar.ButtonX
-    Friend WithEvents TextBoxX7 As DevComponents.DotNetBar.Controls.TextBoxX
-    Friend WithEvents btnCancel As DevComponents.DotNetBar.ButtonX
-    Friend WithEvents btnSave As DevComponents.DotNetBar.ButtonX
-    Friend WithEvents LabelX9 As DevComponents.DotNetBar.LabelX
-    Friend WithEvents LabelX5 As DevComponents.DotNetBar.LabelX
-    Friend WithEvents LabelX2 As DevComponents.DotNetBar.LabelX
-    Friend WithEvents LabelX1 As DevComponents.DotNetBar.LabelX
-    Friend WithEvents TextBoxX1 As DevComponents.DotNetBar.Controls.TextBoxX
-    Friend WithEvents LabelX4 As DevComponents.DotNetBar.LabelX
-    Friend WithEvents TextBoxX2 As DevComponents.DotNetBar.Controls.TextBoxX
-    Friend WithEvents LabelX3 As DevComponents.DotNetBar.LabelX
-    Friend WithEvents cboBonusType As System.Windows.Forms.ComboBox
     Friend WithEvents PanelEx1 As DevComponents.DotNetBar.PanelEx
+    Friend WithEvents GroupBox1 As System.Windows.Forms.GroupBox
+    Friend WithEvents cboEmpId As System.Windows.Forms.ComboBox
+    Friend WithEvents dtpFrom As System.Windows.Forms.DateTimePicker
+    Friend WithEvents Label2 As System.Windows.Forms.Label
+    Friend WithEvents dtpTo As System.Windows.Forms.DateTimePicker
+    Friend WithEvents cboTypeBonus As System.Windows.Forms.ComboBox
+    Friend WithEvents txtTime As System.Windows.Forms.TextBox
+    Friend WithEvents Label3 As System.Windows.Forms.Label
+    Friend WithEvents Label4 As System.Windows.Forms.Label
+    Friend WithEvents Label5 As System.Windows.Forms.Label
+    Friend WithEvents Label6 As System.Windows.Forms.Label
+    Friend WithEvents Label7 As System.Windows.Forms.Label
+    Friend WithEvents txtCost As System.Windows.Forms.TextBox
+    Friend WithEvents Label8 As System.Windows.Forms.Label
+    Friend WithEvents txtSubTotal As System.Windows.Forms.TextBox
+    Friend WithEvents btnSave As DevComponents.DotNetBar.ButtonX
+    Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
+    Friend WithEvents btnEdit As DevComponents.DotNetBar.ButtonX
 End Class

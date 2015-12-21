@@ -9,13 +9,63 @@
     Private _religion As String
     Private _hireDate As String
     Private _photo As String
-    Private _address As New EmployeeAddress
+    Private _address As EmployeeAddress
     Private _dob As String
-    Private _placeOfBirth As New PlaceOfBirth
-    Private _education As New Education
-    Private _family As New Family
-    Private _position As New Position
-    Private _contact As New Contact
+    Private _placeOfBirth As PlaceOfBirth
+    Private _education As Education
+    Private _family As Family
+    Private _position As Position
+    Private _contact As Contact
+    Private _workInfomation As WorkInformation
+    Private _phone As String
+    Private _idCard As String
+
+    Public Property WorkInformation As WorkInformation
+        Get
+            Return _workInfomation
+        End Get
+        Set(value As WorkInformation)
+            _workInfomation = value
+        End Set
+    End Property
+
+    Public Property Phone As String
+        Get
+            Return _phone
+        End Get
+        Set(value As String)
+            _phone = value
+        End Set
+    End Property
+
+    Public Property IDCard As String
+        Get
+            Return _idCard
+        End Get
+        Set(value As String)
+            _idCard = value
+        End Set
+    End Property
+
+    Sub New(employeeID As String, lastName As String, firstName As String, latinName As String, gender As String, age As String, nationality As String, dob As String, personalStatus As String, phone As String, peopelCard As String, photo As String)
+        _employeeId = employeeID
+        _lastName = lastName
+        _firstName = firstName
+        _latinFullName = latinName
+        _gender = gender
+        _age = age
+        _religion = nationality
+        _dob = dob
+        _personalStatus = personalStatus
+        _phone = phone
+        _idCard = peopelCard
+        _photo = photo
+    End Sub
+
+    Public Overrides Function ToString() As String
+        Return "LastName=N'" & _lastName & "',FirstName=N'" & _firstName & "',LatinName='" & _latinFullName & "',Gender=N'" & _gender & "',Age='" & _age & "',Nationality=N'" & _religion & "',DOB='" & _dob & "',PersonalStatus=N'" & _personalStatus & "',Phone='" & _phone & "',PeopleCard='" & _idCard & "',Photo='" & _photo & "'"
+    End Function
+
     Public Property FullName As String
         Get
             Return _latinFullName
@@ -56,11 +106,11 @@
             _gender = value
         End Set
     End Property
-    Public Property Age As Integer
+    Public Property Age As String
         Get
             Return _age
         End Get
-        Set(value As Integer)
+        Set(value As String)
             _age = value
         End Set
     End Property
@@ -72,7 +122,7 @@
             _personalStatus = value
         End Set
     End Property
-    Public Property Religion As String
+    Public Property Nationality As String
         Get
             Return _religion
         End Get

@@ -23,17 +23,17 @@ Partial Class frmUniversity
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.pnUniversityTitle = New DevComponents.DotNetBar.PanelEx()
+        Me.PictureBox5 = New System.Windows.Forms.PictureBox()
         Me.LabelX36 = New DevComponents.DotNetBar.LabelX()
         Me.LabelX28 = New DevComponents.DotNetBar.LabelX()
         Me.LabelX27 = New DevComponents.DotNetBar.LabelX()
         Me.LabelX26 = New DevComponents.DotNetBar.LabelX()
-        Me.txtUniStartYear = New DevComponents.DotNetBar.Controls.TextBoxX()
-        Me.txtUniEndYear = New DevComponents.DotNetBar.Controls.TextBoxX()
         Me.cboUniversity = New DevComponents.DotNetBar.Controls.ComboBoxEx()
         Me.LabelX1 = New DevComponents.DotNetBar.LabelX()
         Me.cboMajor = New DevComponents.DotNetBar.Controls.ComboBoxEx()
         Me.txtGPA = New DevComponents.DotNetBar.Controls.TextBoxX()
-        Me.PictureBox5 = New System.Windows.Forms.PictureBox()
+        Me.txtUniEndYear = New DevComponents.DotNetBar.Controls.TextBoxX()
+        Me.txtUniStartYear = New DevComponents.DotNetBar.Controls.TextBoxX()
         Me.pnUniversityTitle.SuspendLayout()
         CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -44,7 +44,7 @@ Partial Class frmUniversity
         Me.pnUniversityTitle.Controls.Add(Me.PictureBox5)
         Me.pnUniversityTitle.Location = New System.Drawing.Point(1, 1)
         Me.pnUniversityTitle.Name = "pnUniversityTitle"
-        Me.pnUniversityTitle.Size = New System.Drawing.Size(302, 41)
+        Me.pnUniversityTitle.Size = New System.Drawing.Size(387, 41)
         Me.pnUniversityTitle.Style.Alignment = System.Drawing.StringAlignment.Center
         Me.pnUniversityTitle.Style.BackColor1.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground
         Me.pnUniversityTitle.Style.BackColor2.ColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelBackground2
@@ -54,10 +54,22 @@ Partial Class frmUniversity
         Me.pnUniversityTitle.Style.GradientAngle = 90
         Me.pnUniversityTitle.TabIndex = 0
         '
+        'PictureBox5
+        '
+        Me.PictureBox5.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox5.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.PictureBox5.Image = Global.Payroll_Management_System.My.Resources.Resources._1442135746_close_red
+        Me.PictureBox5.Location = New System.Drawing.Point(342, 3)
+        Me.PictureBox5.Name = "PictureBox5"
+        Me.PictureBox5.Size = New System.Drawing.Size(42, 35)
+        Me.PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox5.TabIndex = 24
+        Me.PictureBox5.TabStop = False
+        '
         'LabelX36
         '
         Me.LabelX36.BackColor = System.Drawing.Color.Transparent
-        Me.LabelX36.Location = New System.Drawing.Point(12, 221)
+        Me.LabelX36.Location = New System.Drawing.Point(48, 221)
         Me.LabelX36.Name = "LabelX36"
         Me.LabelX36.Size = New System.Drawing.Size(75, 35)
         Me.LabelX36.TabIndex = 17
@@ -66,7 +78,7 @@ Partial Class frmUniversity
         'LabelX28
         '
         Me.LabelX28.BackColor = System.Drawing.Color.Transparent
-        Me.LabelX28.Location = New System.Drawing.Point(12, 180)
+        Me.LabelX28.Location = New System.Drawing.Point(48, 180)
         Me.LabelX28.Name = "LabelX28"
         Me.LabelX28.Size = New System.Drawing.Size(75, 35)
         Me.LabelX28.TabIndex = 18
@@ -75,7 +87,7 @@ Partial Class frmUniversity
         'LabelX27
         '
         Me.LabelX27.BackColor = System.Drawing.Color.Transparent
-        Me.LabelX27.Location = New System.Drawing.Point(12, 139)
+        Me.LabelX27.Location = New System.Drawing.Point(48, 139)
         Me.LabelX27.Name = "LabelX27"
         Me.LabelX27.Size = New System.Drawing.Size(75, 35)
         Me.LabelX27.TabIndex = 19
@@ -84,49 +96,29 @@ Partial Class frmUniversity
         'LabelX26
         '
         Me.LabelX26.BackColor = System.Drawing.Color.Transparent
-        Me.LabelX26.Location = New System.Drawing.Point(12, 98)
+        Me.LabelX26.Location = New System.Drawing.Point(48, 98)
         Me.LabelX26.Name = "LabelX26"
         Me.LabelX26.Size = New System.Drawing.Size(75, 35)
         Me.LabelX26.TabIndex = 20
         Me.LabelX26.Text = "Major:"
         '
-        'txtUniStartYear
-        '
-        '
-        '
-        '
-        Me.txtUniStartYear.Border.Class = "TextBoxBorder"
-        Me.txtUniStartYear.Location = New System.Drawing.Point(98, 139)
-        Me.txtUniStartYear.Name = "txtUniStartYear"
-        Me.txtUniStartYear.Size = New System.Drawing.Size(194, 35)
-        Me.txtUniStartYear.TabIndex = 14
-        '
-        'txtUniEndYear
-        '
-        '
-        '
-        '
-        Me.txtUniEndYear.Border.Class = "TextBoxBorder"
-        Me.txtUniEndYear.Location = New System.Drawing.Point(98, 180)
-        Me.txtUniEndYear.Name = "txtUniEndYear"
-        Me.txtUniEndYear.Size = New System.Drawing.Size(194, 35)
-        Me.txtUniEndYear.TabIndex = 15
-        '
         'cboUniversity
         '
         Me.cboUniversity.DisplayMember = "Text"
         Me.cboUniversity.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed
+        Me.cboUniversity.DropDownHeight = 100
         Me.cboUniversity.FormattingEnabled = True
-        Me.cboUniversity.ItemHeight = 29
-        Me.cboUniversity.Location = New System.Drawing.Point(97, 57)
+        Me.cboUniversity.IntegralHeight = False
+        Me.cboUniversity.ItemHeight = 14
+        Me.cboUniversity.Location = New System.Drawing.Point(133, 57)
         Me.cboUniversity.Name = "cboUniversity"
-        Me.cboUniversity.Size = New System.Drawing.Size(194, 35)
+        Me.cboUniversity.Size = New System.Drawing.Size(194, 20)
         Me.cboUniversity.TabIndex = 16
         '
         'LabelX1
         '
         Me.LabelX1.BackColor = System.Drawing.Color.Transparent
-        Me.LabelX1.Location = New System.Drawing.Point(12, 57)
+        Me.LabelX1.Location = New System.Drawing.Point(48, 57)
         Me.LabelX1.Name = "LabelX1"
         Me.LabelX1.Size = New System.Drawing.Size(75, 35)
         Me.LabelX1.TabIndex = 17
@@ -136,11 +128,13 @@ Partial Class frmUniversity
         '
         Me.cboMajor.DisplayMember = "Text"
         Me.cboMajor.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed
+        Me.cboMajor.DropDownHeight = 100
         Me.cboMajor.FormattingEnabled = True
-        Me.cboMajor.ItemHeight = 29
-        Me.cboMajor.Location = New System.Drawing.Point(97, 98)
+        Me.cboMajor.IntegralHeight = False
+        Me.cboMajor.ItemHeight = 14
+        Me.cboMajor.Location = New System.Drawing.Point(133, 98)
         Me.cboMajor.Name = "cboMajor"
-        Me.cboMajor.Size = New System.Drawing.Size(194, 35)
+        Me.cboMajor.Size = New System.Drawing.Size(194, 20)
         Me.cboMajor.TabIndex = 16
         '
         'txtGPA
@@ -149,28 +143,37 @@ Partial Class frmUniversity
         '
         '
         Me.txtGPA.Border.Class = "TextBoxBorder"
-        Me.txtGPA.Location = New System.Drawing.Point(98, 221)
+        Me.txtGPA.Location = New System.Drawing.Point(134, 221)
         Me.txtGPA.Name = "txtGPA"
-        Me.txtGPA.Size = New System.Drawing.Size(194, 35)
+        Me.txtGPA.Size = New System.Drawing.Size(194, 20)
         Me.txtGPA.TabIndex = 15
         '
-        'PictureBox5
+        'txtUniEndYear
         '
-        Me.PictureBox5.BackColor = System.Drawing.Color.Transparent
-        Me.PictureBox5.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox5.Image = Global.Payroll_Management_System.My.Resources.Resources._1442135746_close_red
-        Me.PictureBox5.Location = New System.Drawing.Point(260, 3)
-        Me.PictureBox5.Name = "PictureBox5"
-        Me.PictureBox5.Size = New System.Drawing.Size(42, 35)
-        Me.PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.PictureBox5.TabIndex = 24
-        Me.PictureBox5.TabStop = False
+        '
+        '
+        '
+        Me.txtUniEndYear.Border.Class = "TextBoxBorder"
+        Me.txtUniEndYear.Location = New System.Drawing.Point(134, 180)
+        Me.txtUniEndYear.Name = "txtUniEndYear"
+        Me.txtUniEndYear.Size = New System.Drawing.Size(194, 20)
+        Me.txtUniEndYear.TabIndex = 15
+        '
+        'txtUniStartYear
+        '
+        '
+        '
+        '
+        Me.txtUniStartYear.Border.Class = "TextBoxBorder"
+        Me.txtUniStartYear.Location = New System.Drawing.Point(134, 139)
+        Me.txtUniStartYear.Name = "txtUniStartYear"
+        Me.txtUniStartYear.Size = New System.Drawing.Size(194, 20)
+        Me.txtUniStartYear.TabIndex = 14
         '
         'frmUniversity
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
-        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(304, 271)
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None
+        Me.ClientSize = New System.Drawing.Size(389, 271)
         Me.Controls.Add(Me.LabelX1)
         Me.Controls.Add(Me.LabelX36)
         Me.Controls.Add(Me.LabelX28)
@@ -184,6 +187,7 @@ Partial Class frmUniversity
         Me.Controls.Add(Me.pnUniversityTitle)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "frmUniversity"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent
         Me.Text = "frmUniversity"
         Me.pnUniversityTitle.ResumeLayout(False)
         CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
@@ -195,11 +199,11 @@ Partial Class frmUniversity
     Friend WithEvents LabelX28 As DevComponents.DotNetBar.LabelX
     Friend WithEvents LabelX27 As DevComponents.DotNetBar.LabelX
     Friend WithEvents LabelX26 As DevComponents.DotNetBar.LabelX
-    Friend WithEvents txtUniStartYear As DevComponents.DotNetBar.Controls.TextBoxX
-    Friend WithEvents txtUniEndYear As DevComponents.DotNetBar.Controls.TextBoxX
     Friend WithEvents cboUniversity As DevComponents.DotNetBar.Controls.ComboBoxEx
     Friend WithEvents LabelX1 As DevComponents.DotNetBar.LabelX
     Friend WithEvents cboMajor As DevComponents.DotNetBar.Controls.ComboBoxEx
-    Friend WithEvents txtGPA As DevComponents.DotNetBar.Controls.TextBoxX
     Friend WithEvents PictureBox5 As System.Windows.Forms.PictureBox
+    Friend WithEvents txtGPA As DevComponents.DotNetBar.Controls.TextBoxX
+    Friend WithEvents txtUniEndYear As DevComponents.DotNetBar.Controls.TextBoxX
+    Friend WithEvents txtUniStartYear As DevComponents.DotNetBar.Controls.TextBoxX
 End Class

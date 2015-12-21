@@ -3,11 +3,13 @@
     Private Shared s_objConnection As OleDb.OleDbConnection
 
     Protected Sub New()
-
-        s_objConnection = New OleDb.OleDbConnection
-        s_objConnection.ConnectionString = My.Settings.MyConnectionString
-        s_objConnection.Open()
-
+        Try
+            s_objConnection = New OleDb.OleDbConnection
+            s_objConnection.ConnectionString = My.Settings.MyConnectionString
+            s_objConnection.Open()
+        Catch ex As Exception
+            MessageBox.Show("Not connect")
+        End Try
     End Sub
 
     Public Shared Function GetInstance() As ConnectionSingleton

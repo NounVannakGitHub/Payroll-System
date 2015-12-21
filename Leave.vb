@@ -2,7 +2,7 @@
     Private _leaveNo As String
     Private _leaveDate As String
     Private _leaveReason As String
-    Private _employee As New Employee
+    Private _employee As Employee
     Public Property LeaveNo As String
         Get
             Return _leaveNo

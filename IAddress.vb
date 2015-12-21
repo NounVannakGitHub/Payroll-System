@@ -6,4 +6,5 @@
     Property Commune As String
     Property District As String
     Property City As String
+    Property EmployeeID As String
 End Interface

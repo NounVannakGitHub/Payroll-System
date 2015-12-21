@@ -2,7 +2,7 @@
     Private _insuranceNo As String
     Private _insuranceType As String
     Private _insuranceAmount As Double
-    Private _employee As New Employee
+    Private _employee As Employee
     Public Property InsuranceNo As String
         Get
             Return _insuranceNo
